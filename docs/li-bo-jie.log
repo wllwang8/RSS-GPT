@@ -24,3 +24,9 @@ Summarized using GPT-3.5-turbo
 Append: [李博杰发布了想法: <a href="https://mp.weixin.qq.com/s/ChbwjrKRWeU2Gdo_qiyVJA" data-insert-way="paste" data-draft-node="inline" data-draft-type="text-l...](https://www.zhihu.com/pin/1771659377529049088)
 append_entries: 1
 Finish: 2024-05-08 14:02:30.945338
+------------------------------------------------------
+Started: 2024-05-08 16:02:44.417345
+Existing_entries: 8
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+append_entries: 0
+Finish: 2024-05-08 16:02:46.116899
