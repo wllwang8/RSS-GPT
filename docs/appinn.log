@@ -24148,3 +24148,15 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-05-06 04:03:37.913719
+------------------------------------------------------
+Started: 2024-05-08 11:32:50.259608
+Existing_entries: 381
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [Chromium 内核浏览器通过链接定位页面文本且高亮的小技巧](https://meta.appinn.net/t/topic/56058)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [【自荐】🍃 「休息日」 iOS上的节假日闹钟App，没有内购，限时免费](https://meta.appinn.net/t/topic/56064)
+Append: [今天过生日， 33 了。没啥成就，有几个自己开发的 App，每个送 1000 个年会员吧](https://meta.appinn.net/t/topic/56086)
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [Android图标生成器(PC工具) 开源,免费](https://meta.appinn.net/t/topic/56163)
+append_entries: 4
+Finish: 2024-05-08 11:32:53.652733
