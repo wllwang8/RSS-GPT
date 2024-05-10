@@ -138,3 +138,9 @@ Summarized using GPT-3.5-turbo
 Append: [李博杰赞同了文章: 网传Ilya Sutskever的推荐清单火了，掌握当前AI 90%](https://zhuanlan.zhihu.com/p/696834182)
 append_entries: 2
 Finish: 2024-05-10 02:14:47.310381
+------------------------------------------------------
+Started: 2024-05-10 04:02:44.041888
+Existing_entries: 10
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+append_entries: 0
+Finish: 2024-05-10 04:02:45.370317
