@@ -163,3 +163,12 @@ Existing_entries: 13
 Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
 append_entries: 0
 Finish: 2024-05-10 08:03:14.819988
+------------------------------------------------------
+Started: 2024-05-10 10:02:54.547118
+Existing_entries: 13
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+Token length: 218
+Summarized using GPT-3.5-turbo
+Append: [李博杰发布了想法: 今天中科大被列入实体清单了，前几天Chatbot Arena作为一个学术界的大模型评测系统也被墙了 😂 经常有人问我，6年前为什么要搞METI，要去做...](https://www.zhihu.com/pin/1772316558054227968)
+append_entries: 1
+Finish: 2024-05-10 10:03:00.165867
