@@ -4,6 +4,33 @@
 <title>李博杰的知乎动态</title>
 <link>https://www.zhihu.com/people/li-bo-jie/activities</link>
 
+<item>
+<title>李博杰赞同了回答: 如果有人自称中央特派员，手持中央密令，到看守所要求提走一个犯人，看守所会交人吗？</title>
+<link>https://www.zhihu.com/question/654259075/answer/3480557855</link>
+<guid>https://www.zhihu.com/question/654259075/answer/3480557855</guid>
+<content:encoded><![CDATA[
+<div> 提审出所 医疗释放 羁押改造 法律文书 密令<br>
+<br>
+提审出所后，可根据情况医疗释放或转移到其他羁押场所，每种情况都需要相应的法律文书，但并不存在所谓的密令。已被提审出所的人员正在接受改造，这些情况在知乎爽文中被讨论，不必深信其中信息。 <div>
+<p>这事有人干过了。</p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic3.zhimg.com/v2-ad3f8e3022f482073c77b1b76b836af2_1440w.jpg" /></figure><p>来看看具体咋操作的。</p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic1.zhimg.com/v2-abc72c1137df99ea89d82317a1c19bac_1440w.jpg" /></figure><p>你看看，这事闹的。后面这些人别担心，都进去了，现在正在接受改造呢。</p><p>知乎爽文看看就得了，别当真。</p><p>从看守所提人出来，大概是以下状况:</p><ol><li>提审</li><li>出所就医</li><li>释放</li><li>换个羁押场所</li></ol><p>每种情况都有相应的法律文书。</p><p>但都没有这个密令。</p>
+]]></content:encoded>
+<pubDate>Fri, 10 May 2024 01:13:24 GMT</pubDate>
+<pubDate>Fri, 10 May 2024 01:13:24 GMT</pubDate>
+</item>
+<item>
+<title>李博杰赞同了文章: 网传Ilya Sutskever的推荐清单火了，掌握当前AI 90%</title>
+<link>https://zhuanlan.zhihu.com/p/696834182</link>
+<guid>https://zhuanlan.zhihu.com/p/696834182</guid>
+<content:encoded><![CDATA[
+<div> transformer、循环神经网络、LSTM、复杂度、推荐清单
+<br>
+总结:<br>
+本文介绍了一份由OpenAI联合创始人Ilya Sutskever整理的机器学习研究文章清单。推荐清单涵盖了重点关注的技术主题，包括transformer架构、循环神经网络、LSTM等。推荐内容包括经典论文、博客文章和学术研究成果，旨在帮助行业从业者和科研人员了解AI领域的最新发展和必要知识。推荐清单涵盖了著名研究者的作品、重要论文以及相关课程，以及与算法统计和复杂度相关的内容。这些推荐内容涵盖了当前人工智能领域90%的重要内容，对于想要深入学习机器学习领域的读者具有重要参考价值。 <div>
+<p>机器之心报道，<b>编辑：小舟。</b></p><p>随着生成式 AI 模型掀起新一轮 AI 浪潮，越来越多的行业迎来技术变革。许多行业从业者、基础科学研究者需要快速了解 AI 领域发展现状、掌握必要的基础知识。</p><p>如果有一份「机器学习精炼秘笈」，你认为应该涵盖哪些知识？</p><p>近日，一份网传 OpenAI 联合创始人兼首席科学家 Ilya Sutskever 整理的一份机器学习研究文章清单火了。网友称「Ilya 认为掌握了这些内容，你就了解了当前（人工智能领域） 90% 的重要内容。」</p><figure><img class="origin_image zh-lightbox-thumb" src="https://pic1.zhimg.com/v2-6a25bf2a973a551d928e4aec0a53f250_1440w.jpg" /></figure><p>推荐清单：<a class=" external" href="https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE" rel="nofollow noreferrer" target="_blank"><span class="invisible">https://</span><span class="visible">arc.net/folder/D0472A20</span><span class="invisible">-9C20-4D3F-B145-D2865C0A9FEE</span><span class="ellipsis"></span></a></p><p>从研究主题上看，Ilya Sutskever 重点关注 transformer 架构、循环神经网络（RNN）、长短期记忆网络（LSTM）、神经网络的复杂度等。</p><figure><img class="origin_image zh-lightbox-thumb" src="https://pic1.zhimg.com/v2-ca328500ebae6db26da270a3e63f32a4_1440w.jpg" /></figure><p><i>推荐清单部分截图。</i></p><p>例如，Ilya 推荐谷歌在 2017 年发表的经典论文《Attention Is All You Need》，这是 transformer 架构的问世之作。transformer 架构今天已经成为人工智能领域的主流基础架构，特别是它是生成式 AI 模型的核心架构。</p><p>Ilya 不仅推荐原论文，还推荐一篇由康奈尔大学副教授 Alexander Rush 等研究者在 2018 年撰写的博客文章 ——《The Annotated Transformer》。这篇文章以逐行实现的形式呈现了论文的注释版本，它重新排序梳理了原论文的内容，并删除了一些部分，最终展现的是一个完全可用的实现。2022 年 Austin Huang 等研究者又在其基础上编辑整理出一份采用 PyTorch 实现的更新版博客。</p><figure><img class="origin_image zh-lightbox-thumb" src="https://pic4.zhimg.com/v2-de6c6d098c898cd5f3414243b8ff0163_1440w.jpg" /></figure><p>在 RNN 方面，Ilya 首先推荐阅读 AI 大牛 Andrej Karpathy2015 年撰写的一篇博客，强调「RNN 惊人的有效性」。</p><figure><img class="origin_image zh-lightbox-thumb" src="https://pic2.zhimg.com/v2-61db19bd93a2defc0def1af993e9a811_1440w.jpg" /></figure><p>Ilya 还推荐了由纽约大学 Wojciech Zaremba（OpenAI创始团队成员）和 Ilya Sutskever 本人 2015 年发表的论文《Recurrent Neural Network Regularization》。当时，Ilya 还是谷歌大脑的研究科学家。</p><figure><img class="origin_image zh-lightbox-thumb" src="https://pic3.zhimg.com/v2-ec925ddf7f005b4c3cac62b0d68b9492_1440w.jpg" /></figure><p>这篇论文为 RNN 提出了一种简单的正则化技术，阐述了如何正确地将 dropout 应用于 LSTM，大大减少了各种任务的过拟合，包括语言建模、语音识别、图像字幕生成、机器翻译等等。</p><p>此外，Ilya 还推荐了 DeepMind、伦敦大学学院 2018 年联合发表的论文《Relational recurrent neural networks》。</p><figure><img class="origin_image zh-lightbox-thumb" src="https://pic3.zhimg.com/v2-7d7a8799a5d7231f6584c30dafa43026_1440w.jpg" /></figure><p>在 LSTM 方面，Ilya 推荐了 Anthropic 联合创始人、前 OpenAI 可解释性团队技术负责人 Christopher Olah 2015 年撰写的博客文章《Understanding LSTM Networks》，这篇文章全面细致地讲解了 LSTM 的基本知识，并阐明 RNN 取得的显著成果本质上是依靠 LSTM 实现的。</p><figure><img class="origin_image zh-lightbox-thumb" src="https://pic2.zhimg.com/v2-8c93d45a245b5edcb09959dde797f755_1440w.jpg" /></figure><p>在「复杂度」方面，Ilya 重点推荐了《Kolmogorov Complexity and Algorithmic Randomness》一书中讲解「算法统计」的部分。柯尔莫哥洛夫复杂度为计算理论提供了一个用于探索问题固有复杂度的框架，可帮助研究人员更好地设计和评估 AI 模型。</p><figure><img class="origin_image zh-lightbox-thumb" src="https://pic1.zhimg.com/v2-bb66425d54d39d76d3f6d77ceedb005c_1440w.jpg" /></figure><p>在这份推荐清单中，我们还看到了一些著名 AI 学者的经典论文。例如，2012 年 ImageNet 图像识别大赛中图灵奖得主 Geoffrey Hinton 组的论文《ImageNet Classification with Deep Convolutional Neural Networks》，这篇论文提出了 AlexNet，引入了全新的深层结构和 dropout 方法，颠覆了图像识别领域，甚至被认为开启了深度学习革命。Ilya 也是这篇论文的三位作者之一。</p><figure><img class="origin_image zh-lightbox-thumb" src="https://pic1.zhimg.com/v2-7b8d1dbfd5328494e9e69a3798ecd140_1440w.jpg" /></figure><p>还有 2014 年，DeepMind Alex Graves 等人提出的神经图灵机（NTM）。NTM 将神经网络的模糊模式匹配能力与可编程计算机的算法能力相结合，具有 LSTM 网络控制器的 NTM 可以从输入和输出示例中推断出简单的算法，例如复制，排序等。</p><figure><img class="origin_image zh-lightbox-thumb" src="https://pic2.zhimg.com/v2-b07b482242cede996d1f5680cb132269_1440w.jpg" /></figure><p>此外，Ilya 还推荐了神经网络应用于基础科学（化学）的研究论文、扩展定律相关文章等等，并推荐了斯坦福大学计算机科学课程 CS231n：用于视觉识别的卷积神经网络。</p><figure><img class="origin_image zh-lightbox-thumb" src="https://pic2.zhimg.com/v2-7125f4072ba68897e332510cf874b0dd_1440w.jpg" /></figure><p>感兴趣的读者可以查看原推荐清单，了解更多内容。</p><p><i>参考链接：<a class=" external" href="https://twitter.com/keshavchan/status/1787861946173186062" rel="nofollow noreferrer" target="_blank"><span class="invisible">https://</span><span class="visible">twitter.com/keshavchan/</span><span class="invisible">status/1787861946173186062</span><span class="ellipsis"></span></a></i></p>
+]]></content:encoded>
+<pubDate>Fri, 10 May 2024 01:01:05 GMT</pubDate>
+<pubDate>Fri, 10 May 2024 01:01:05 GMT</pubDate>
+</item>
 
 <item>
 <title>李博杰发布了想法: <a href="https://mp.weixin.qq.com/s/ChbwjrKRWeU2Gdo_qiyVJA"></title>
