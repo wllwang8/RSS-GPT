@@ -260,3 +260,16 @@ Existing_entries: 20
 Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
 append_entries: 0
 Finish: 2024-05-11 10:02:38.414678
+------------------------------------------------------
+Started: 2024-05-11 12:02:57.232970
+Existing_entries: 20
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+Token length: 744
+Summarized using GPT-3.5-turbo
+Append: [李博杰赞同了回答: 如何看待 DeepSeek 发布的 MoE 大模型 DeepSeek-V2？](https://www.zhihu.com/question/655172528/answer/3490846800)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [李博杰关注了问题: 如何看待 DeepSeek 发布的 MoE 大模型 DeepSeek-V2？](https://www.zhihu.com/question/655172528)
+Append: [李博杰关注了圆桌: 科技创业者的 2024](https://www.zhihu.com/roundtable/techentre2024)
+append_entries: 3
+Finish: 2024-05-11 12:03:06.638070

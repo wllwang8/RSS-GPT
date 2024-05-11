@@ -4,6 +4,46 @@
 <title>李博杰的知乎动态</title>
 <link>https://www.zhihu.com/people/li-bo-jie/activities</link>
 
+<item>
+<title>李博杰赞同了回答: 如何看待 DeepSeek 发布的 MoE 大模型 DeepSeek-V2？</title>
+<link>https://www.zhihu.com/question/655172528/answer/3490846800</link>
+<guid>https://www.zhihu.com/question/655172528/answer/3490846800</guid>
+<content:encoded><![CDATA[
+<div> 关键词: DeepSeek-V2模型, 模型效果与成本, 开源风格, 团队优秀, 招聘信息
+
+总结:<br><br>总结:
+DeepSeek-V2模型在中文水平上处于国内外闭源模型的第一梯队，价格只有GPT4的1/100，性价比高。通过创新模型结构和超强Infra，兼顾了效果和成本。团队奉行朴实无华的开源风格，希望聚集开源社区智力。团队每个成员优秀，创始人技术驱动型创业。未来将持续带来更惊艳模型，并招募对AGI充满好奇心和创新力的人加入。对于招聘信息，可将简历投递至 talent@deepseek.com 或添加HR微信：DDYWY05。 <div>
+<p>今天忙飞，深夜，简单写几点：</p><p class="ztext-empty-paragraph"><br /></p><p>1. 单论DeepSeek-V2模型的中文水平（来自20多个微信群用户反馈），是真实处在国内外闭源模型的第一梯队（GPT4、文心4.0等），因为没做RAG（检索增强）等功能，所以实际在官网（<a class=" external" href="http://www.deepseek.com/" rel="nofollow noreferrer" target="_blank"><span class="invisible">http://www.</span><span class="visible">deepseek.com</span><span class="invisible"></span></a>）的体感可能略微没那么惊艳，但这不妨碍API效果呐！外加1元/百万输入Tokens的价格，只有GPT4价格的1/100，性价比之王！</p><p class="ztext-empty-paragraph"><br /></p><p>2. 怎么兼顾模型效果和成本的？基本纯靠：模型结构创新（MLA+DeepSeekMoE）+ 超强Infra。MLA妙就妙在，它既是 training efficient MQA，也是 inference efficient MHA。从今天起，放弃MHA/GQA，全面拥抱MLA吧。同时，不严谨来说，DeepSeekMoE也算是开启了“共享expert+细粒度expert分割”的sparse框架风 -- 完全不同于Mixtral MoE的做法。简而言之：创新力就是第一生产力！</p><p class="ztext-empty-paragraph"><br /></p><p>3. 我们坚持了一贯朴实无华、真诚直接的开源风格，技术报告、模型权重、vllm推理代码都开源了: <a class=" wrap external" href="https://github.com/deepseek-ai/DeepSeek-V2" rel="nofollow noreferrer" target="_blank">GitHub - deepseek-ai/DeepSeek-V2</a> 希望聚集开源社区智力，加速AGI时代到来。</p><p class="ztext-empty-paragraph"><br /></p><p>4. 未来还会持续给大家带来更惊艳的开源模型（希望有机会可以“明目张胆”的说超过了GPT4-Turbo），所以大家不用担心模型断更，也不用担心API涨价（目前就是大规模服务的价格，不亏本，利润率超50%）。</p><p class="ztext-empty-paragraph"><br /></p><p>5. DeepSeek团队的每一个人都非常优秀，DeepSeek-V2是群体智慧的结晶，创始人也是我坚信的国内最适合技术驱动型创业的！以及，最重要的，非常期待同样对AGI充满好奇心和创新力的各类人加入（技术&amp;非技术都需要），简历投递邮箱： talent@deepseek.com 或者 加HR微信：DDYWY05。<br /><br /></p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic2.zhimg.com/v2-949ee7cb778ba2901fd23caff271f115_1440w.jpg" /></figure><p></p>
+]]></content:encoded>
+<pubDate>Sat, 11 May 2024 10:43:34 GMT</pubDate>
+<pubDate>Sat, 11 May 2024 10:43:34 GMT</pubDate>
+</item>
+<item>
+<title>李博杰关注了问题: 如何看待 DeepSeek 发布的 MoE 大模型 DeepSeek-V2？</title>
+<link>https://www.zhihu.com/question/655172528</link>
+<guid>https://www.zhihu.com/question/655172528</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章 汇总 总结 关键词 中文
+
+总结：<br><br>
+本文是关于如何用中文总结一篇文章的指南。首先，需要提取出关键词，这些关键词可以帮助我们快速理解文章的重点。然后，将这些关键词整合在一行内，以便后续总结时参考。在总结文章时，可以根据提取的关键词依次遵循文章的主要内容，以确保不遗漏任何重要信息。最后，用简洁清晰的语言，概括全文的主旨，以达到对文章内容的深入理解和准确汇总。 <div>
+<p><a class=" wrap external" href="https://github.com/deepseek-ai/DeepSeek-V2" rel="nofollow noreferrer" target="_blank">GitHub 链接</a></p>
+]]></content:encoded>
+<pubDate>Sat, 11 May 2024 10:43:22 GMT</pubDate>
+<pubDate>Sat, 11 May 2024 10:43:22 GMT</pubDate>
+</item>
+<item>
+<title>李博杰关注了圆桌: 科技创业者的 2024</title>
+<link>https://www.zhihu.com/roundtable/techentre2024</link>
+<guid>https://www.zhihu.com/roundtable/techentre2024</guid>
+<content:encoded><![CDATA[
+
+2024 年，大模型带动的 AI 热潮逐渐回归冷静，投融资市场环境也发生显著变化。当下节点，创业者将面临怎样的新挑战和机会？
+知乎科技联合知乎财经，邀请众多创业者、投资人、资深从业者共同探讨创业生态，通过他们的宝贵经验和洞察分享，为读者提供启发性的视角，从而在变局中发现更多发展机遇。
+]]></content:encoded>
+<pubDate>Sat, 11 May 2024 10:42:29 GMT</pubDate>
+<pubDate>Sat, 11 May 2024 10:42:29 GMT</pubDate>
+</item>
 
 <item>
 <title>李博杰赞同了回答: 见过哪些离大谱的翻译？</title>
