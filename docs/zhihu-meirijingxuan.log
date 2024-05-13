@@ -26,3 +26,9 @@ Append: [TikTok精选](https://www.zhihu.com/zvideo/1762444976250806272)
 Append: [TikTok精选](https://www.zhihu.com/zvideo/1762444973298028544)
 append_entries: 20
 Finish: 2024-05-13 06:03:23.044386
+------------------------------------------------------
+Started: 2024-05-13 08:02:59.560405
+Existing_entries: 20
+Fetching from http://tw.wleilei.com:1200/zhihu/topic/19758322
+append_entries: 0
+Finish: 2024-05-13 08:03:12.002244

@@ -16,3 +16,12 @@ Append: [强化学徒发表了文章: 学术版gpt已经支持自带术语库翻
 Append: [强化学徒发表了文章: 2024年AI领域最值得关注的博主和一手信息源盘点](https://zhuanlan.zhihu.com/p/682110383)
 append_entries: 8
 Finish: 2024-05-13 06:05:24.695965
+------------------------------------------------------
+Started: 2024-05-13 08:03:48.419844
+Existing_entries: 8
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/heda-he-28
+Token length: 1676
+Summarized using GPT-3.5-turbo
+Append: [强化学徒赞同了文章: 强化学习reward shaping推导和理解](https://zhuanlan.zhihu.com/p/42518767)
+append_entries: 1
+Finish: 2024-05-13 08:03:58.902904
