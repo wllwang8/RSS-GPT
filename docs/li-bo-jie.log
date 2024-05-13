@@ -449,3 +449,15 @@ Summarized using GPT-3.5-turbo
 Append: [李博杰赞同了回答: 会议名称里「暨」可以用 cum 翻译吗？](https://www.zhihu.com/question/35700671/answer/2536369612)
 append_entries: 1
 Finish: 2024-05-13 10:03:35.311549
+------------------------------------------------------
+Started: 2024-05-13 12:03:46.515286
+Existing_entries: 39
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+Token length: 294
+Summarized using GPT-3.5-turbo
+Append: [李博杰赞同了回答: 你遇到过哪些因翻译水平不足而闹出的笑话？](https://www.zhihu.com/question/547547857/answer/3057060276)
+Token length: 305
+Summarized using GPT-3.5-turbo
+Append: [李博杰赞同了回答: 1万米深的马里亚纳海沟，最深处的“水”还是液态吗？水温多少？](https://www.zhihu.com/question/601404211/answer/3034737446)
+append_entries: 2
+Finish: 2024-05-13 12:03:56.423088
