@@ -54,5 +54,16 @@ These feeds on hosted in the [`docs/` subdirectory](https://github.com/yinan-c/R
 
 I will consider hosting more feeds in the future. Email me or submit an issue if there are any questions using the script or any suggestions.
 
-- http://tw.wleilei.com:1200/zhihu/people/activities/66-12-24-89#force_feed -> https://wllwang8.github.io/RSS-GPT/qiaoqiaozaichengzhang.xml
+- http://tw.wleilei.com:1200/zhihu/topic/19758322 -> https://wllwang8.github.io/RSS-GPT/zhihu-meirijingxuan.xml
+- http://tw.wleilei.com:1200/zhihu/daily -> https://wllwang8.github.io/RSS-GPT/zhihu-daily.xml
+- http://tw.wleilei.com:1200/zhihu/people/activities/vaxin -> https://wllwang8.github.io/RSS-GPT/fanxin.xml
 - http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie -> https://wllwang8.github.io/RSS-GPT/li-bo-jie.xml
+- http://tw.wleilei.com:1200/zhihu/people/activities/datalearner -> https://wllwang8.github.io/RSS-GPT/datalearner.xml
+- https://www.zhihu.com/people/mli65 -> https://wllwang8.github.io/RSS-GPT/limu.xml
+- http://tw.wleilei.com:1200/zhihu/posts/org/xin-zhi-yuan-88-3 -> https://wllwang8.github.io/RSS-GPT/xin-zhi-yuan.xml
+- http://tw.wleilei.com:1200/zhihu/posts/org/liang-zi-wei-48 -> https://wllwang8.github.io/RSS-GPT/liang-zi-wei.xml
+- http://tw.wleilei.com:1200/zhihu/posts/org/ji-qi-zhi-xin-65 -> https://wllwang8.github.io/RSS-GPT/ji-qi-zhi-xin.xml
+- http://tw.wleilei.com:1200/zhihu/people/activities/wu-en-da-89 -> https://wllwang8.github.io/RSS-GPT/wu-en-da.xml
+- http://tw.wleilei.com:1200/zhihu/people/activities/chen-feng-40-67-10 -> https://wllwang8.github.io/RSS-GPT/chen-feng.xml
+- http://tw.wleilei.com:1200/zhihu/people/activities/yu-yun-angelia -> https://wllwang8.github.io/RSS-GPT/yu-yun-angelia.xml
+- http://tw.wleilei.com:1200/zhihu/people/activities/heda-he-28 -> https://wllwang8.github.io/RSS-GPT/qiang-hua-xue-tu.xml

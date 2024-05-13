@@ -1,0 +1,17 @@
+------------------------------------------------------
+Started: 2024-05-13 06:04:17.662856
+Existing_entries: 0
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/datalearner
+Token length: 452
+Summarized using GPT-3.5-turbo
+Append: [数据学习赞同了回答: 为什么互联网公司很少用oppovivo的手机呢？](https://www.zhihu.com/question/475086611/answer/2033570791)
+Token length: 330
+Summarized using GPT-3.5-turbo
+Append: [数据学习赞同了回答: 如何看待美国商务部将一批中国量子研究机构如中科大、物理所等加入「实体清单」？](https://www.zhihu.com/question/655547056/answer/3494661796)
+Append: [数据学习发表了文章: 阿里开源截止目前为止参数规模最大的Qwen1.5-110B模型：MMLU评测接近Llama-3-70B，略超Mixtral-8×22B！](https://zhuanlan.zhihu.com/p/694895756)
+Append: [数据学习赞同了回答: 体制内越级汇报的危害有哪些？](https://www.zhihu.com/question/359501955/answer/2017343834)
+Append: [数据学习发表了文章: 使用Gradio配合transformers的text streamer实现Llama3-8B-Instruct的网页聊天机器人，流式输出](https://zhuanlan.zhihu.com/p/693990819)
+Append: [数据学习发表了文章: Llama3相比较前两代的模型（Llama1和Llama2）有哪些升级？几张图简单总结Llama3的训练成本、训练时间、模型架构升级等情况](https://zhuanlan.zhihu.com/p/693742469)
+Append: [数据学习回答了问题: 如何看待 Meta 发布 Llama3，并将推出 400B+ 版本？](https://www.zhihu.com/question/653373334/answer/3470986557)
+append_entries: 7
+Finish: 2024-05-13 06:04:26.038738
