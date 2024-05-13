@@ -18,3 +18,9 @@ Append: [ACL2023 Findings | FACTUAL: A Benchmark for Faithful and Consistent Tex
 Append: [​EMNLP 2023 findings | 生成式框架下解决输入扰动槽填充任务](https://zhuanlan.zhihu.com/p/667932267)
 append_entries: 10
 Finish: 2024-05-13 08:04:27.965519
+------------------------------------------------------
+Started: 2024-05-13 10:03:50.962830
+Existing_entries: 10
+Fetching from http://tw.wleilei.com:1200/zhihu/zhuanlan/paperweekly
+append_entries: 0
+Finish: 2024-05-13 10:03:53.118954

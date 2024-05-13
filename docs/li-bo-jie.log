@@ -440,3 +440,12 @@ Existing_entries: 38
 Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
 append_entries: 0
 Finish: 2024-05-13 08:03:25.500637
+------------------------------------------------------
+Started: 2024-05-13 10:03:31.805546
+Existing_entries: 38
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+Token length: 98
+Summarized using GPT-3.5-turbo
+Append: [李博杰赞同了回答: 会议名称里「暨」可以用 cum 翻译吗？](https://www.zhihu.com/question/35700671/answer/2536369612)
+append_entries: 1
+Finish: 2024-05-13 10:03:35.311549
