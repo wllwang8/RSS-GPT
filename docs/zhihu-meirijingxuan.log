@@ -98,3 +98,9 @@ Existing_entries: 20
 Fetching from http://tw.wleilei.com:1200/zhihu/topic/19758322
 append_entries: 0
 Finish: 2024-05-14 06:04:19.270136
+------------------------------------------------------
+Started: 2024-05-14 08:02:55.520715
+Existing_entries: 20
+Fetching from http://tw.wleilei.com:1200/zhihu/topic/19758322
+append_entries: 0
+Finish: 2024-05-14 08:03:06.012847
