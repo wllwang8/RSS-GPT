@@ -557,3 +557,12 @@ Existing_entries: 47
 Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
 append_entries: 0
 Finish: 2024-05-14 14:03:21.077989
+------------------------------------------------------
+Started: 2024-05-14 16:03:27.547762
+Existing_entries: 47
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+Token length: 269
+Summarized using GPT-3.5-turbo
+Append: [李博杰赞同了回答: OpenAI 发完 GPT-4o，国内大模型行业还有哪些机会？](https://www.zhihu.com/question/655916551/answer/3497498418)
+append_entries: 1
+Finish: 2024-05-14 16:03:35.757517
