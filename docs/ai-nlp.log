@@ -90,3 +90,18 @@ Existing_entries: 10
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
 append_entries: 0
 Finish: 2024-05-14 08:04:28.726021
+------------------------------------------------------
+Started: 2024-05-14 10:03:47.838125
+Existing_entries: 10
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
+Token length: 12
+Summarized using GPT-3.5-turbo
+Append: [太强了！深度学习融合魔改](https://mp.weixin.qq.com/s/HwJPnEdtYyPWuao-he6d1Q)
+Token length: 29
+Summarized using GPT-3.5-turbo
+Append: [LLM落地淘宝电商搜索场景，显著提升长尾query改写效果](https://mp.weixin.qq.com/s/VYiSkPwYz2UJGHyu36H0zg)
+Append: [StarCoder2-Instruct: 完全透明和可自我对齐的代码生成](https://mp.weixin.qq.com/s/jcTpFWeW18Dkc19jhesGag)
+Append: [零一万物开源Yi-1.5系列大模型](https://mp.weixin.qq.com/s/ltUsEHFAOCJ56YW9devhPg)
+Append: [COLING24 ｜无需标注即可增强模型 COT 能力](https://mp.weixin.qq.com/s/hrOo_42qmWsPawMYZOQ7eg)
+append_entries: 5
+Finish: 2024-05-14 10:03:57.631034

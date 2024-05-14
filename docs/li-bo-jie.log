@@ -536,3 +536,12 @@ Summarized using GPT-3.5-turbo
 Append: [李博杰赞同了回答: 如何评价 OpenAI 2024 Spring 发布的支持实时语音对话的模型 GPT-4O?](https://www.zhihu.com/question/655916303/answer/3497511799)
 append_entries: 1
 Finish: 2024-05-14 08:03:30.033137
+------------------------------------------------------
+Started: 2024-05-14 10:02:55.601774
+Existing_entries: 46
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+Token length: 2888
+Summarized using GPT-3.5-turbo
+Append: [李博杰赞同了文章: OpenAI的光环出现裂痕：谈GPT4o的token词表更新问题【2024.5】](https://zhuanlan.zhihu.com/p/697675593)
+append_entries: 1
+Finish: 2024-05-14 10:03:01.211408

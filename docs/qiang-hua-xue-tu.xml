@@ -4,19 +4,18 @@
 <title>强化学徒的知乎动态</title>
 <link>https://www.zhihu.com/people/heda-he-28/activities</link>
 
+
 <item>
 <title>强化学徒赞同了回答: 如何评价 OpenAI 2024 Spring 发布的支持实时语音对话的模型 GPT-4O?</title>
 <link>https://www.zhihu.com/question/655916303/answer/3497513569</link>
 <guid>https://www.zhihu.com/question/655916303/answer/3497513569</guid>
 <content:encoded><![CDATA[
 <div> CVPR、VideoLLM、GPT-4o、调优、online streaming
-总结:<br><br>文章提到作者在 CVPR 中提出了一个 VideoLLM 模型，并对其进行了调优以实现 online streaming 和低延迟。作者表示在 GPT-4o 模型出现后可能不再需要进行调优。此外，文章还提到了模型的难点在于 interleaved 到 streaming 的转变，需要在训练损失和推断上进行详细考虑。GPT-4o 在 chatbot 领域取得了成功，并且作者对 openai 的技术实力表示钦佩，认为其在各个领域都处于领先地位。 <div>
+总结:<br /><br />文章提到作者在 CVPR 中提出了一个 VideoLLM 模型，并对其进行了调优以实现 online streaming 和低延迟。作者表示在 GPT-4o 模型出现后可能不再需要进行调优。此外，文章还提到了模型的难点在于 interleaved 到 streaming 的转变，需要在训练损失和推断上进行详细考虑。GPT-4o 在 chatbot 领域取得了成功，并且作者对 openai 的技术实力表示钦佩，认为其在各个领域都处于领先地位。 <div>
 <p>emo 了，今年 CVPR 中了一个 VideoLLM 怎么变成 online streaming + 低延迟的工作，因为调优 demo 的缘故现在还没 release arxiv。GPT-4o 一出来我觉得我可以不用继续调优了 = =，就这样放出来吧。<br />因为做过这个问题，所以基本上了解这样 modeling 的难点在哪里，简单来说就是 interleaved -&gt; streaming，training loss 和 inference 上都需要详细考量。从 GPT-4o 模型的表现来看这绝对是一个端到端的模型，过几天 release 了 paper，code，demo 后可以来讨论一下我的方案以及对于 GPT-4o 的一些猜想 = =<br />另外 GPT-4o 在我的 chatbot arena 测试中成功取得开门红，对手也是 openai 的 im-also-a-good-gpt2-chatbot。不得不感慨，openai 还是你大爷，因为之前 im-also-a-good-gpt2-chatbot 在我的测试中（主要是论文 rephrase 以及一些 coding 问题）从来没输过其他模型，并且能显著看出优于其他模型，之前大家觉得 openai 很牛逼但是不难追赶，但是追赶到现在应该真正明白了人家真的是一骑绝尘，llm/video diffusion/omni 全面开花（以及可能还藏了诸多秘密武器）<br /></p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic2.zhimg.com/v2-052113e221663f0e79c6afe9de592725_1440w.jpg" /></figure><p></p><p></p>
 ]]></content:encoded>
 <pubDate>Tue, 14 May 2024 06:12:51 GMT</pubDate>
-<pubDate>Tue, 14 May 2024 06:12:51 GMT</pubDate>
 </item>
-
 <item>
 <title>强化学徒回答了问题: OpenAI发布了最新的旗舰模型GPT-4o,如何评价GPT-4o?</title>
 <link>https://www.zhihu.com/question/655916007/answer/3497499593</link>
