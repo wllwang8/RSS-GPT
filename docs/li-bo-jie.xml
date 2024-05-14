@@ -4,12 +4,13 @@
 <title>李博杰的知乎动态</title>
 <link>https://www.zhihu.com/people/li-bo-jie/activities</link>
 
+
 <item>
 <title>李博杰赞同了文章: OpenAI的光环出现裂痕：谈GPT4o的token词表更新问题【2024.5】</title>
 <link>https://zhuanlan.zhihu.com/p/697675593</link>
 <guid>https://zhuanlan.zhihu.com/p/697675593</guid>
 <content:encoded><![CDATA[
-<div> OpenAI, GPT-4o, tokenizer词表, 低级错误, 内部流程<br><br>总结:本文讨论了GPT-4o发布的新tokenizer词表中出现的问题，指出其中包含垃圾语料常见词的情况以及训练不足的特殊token导致的输出错误。分析了OpenAI内部流程存在的问题，包括训练阶段选择、词表优化和对训练不足token效果的关注不足。文章指出了OpenAI模型的低级错误增多，对其细节质量控制存在疏漏。最后展望OpenAI可能面临的问题修复和改进方向。 <div>
+<div> OpenAI, GPT-4o, tokenizer词表, 低级错误, 内部流程<br /><br />总结:本文讨论了GPT-4o发布的新tokenizer词表中出现的问题，指出其中包含垃圾语料常见词的情况以及训练不足的特殊token导致的输出错误。分析了OpenAI内部流程存在的问题，包括训练阶段选择、词表优化和对训练不足token效果的关注不足。文章指出了OpenAI模型的低级错误增多，对其细节质量控制存在疏漏。最后展望OpenAI可能面临的问题修复和改进方向。 <div>
 <p>本文不是本次OpenAI发布会的评价，只是从这次发布的一个小问题来讨论。</p><h2>1、GPT4o的token新词表的问题</h2><h3>1.1、问题描述</h3><p>GPT4o难得的更新了tokenizer的词表，内部代号从cl100k_base变成了o200k_base，看名字就知道是扩大了词表大小，官方发布说明也把增加了tokenizer的压缩率作为新feature发布。这个事情并不难，对终端用户的文字生成速度和费用都有一个不大不小的改善。</p><p>如果认真看过新词表，就会发现其中有很多垃圾语料的常见词，例如各种博彩、色情广告的常见文本片段。到这里还可以说是大丈夫不拘小节，但下面这个case就让人觉得有些不妥了：</p><div class="highlight"><pre><code class="language-text">“给主人留下些什么吧”这句话翻译成英文</code></pre></div><p>这个输入的特殊之处在于【给主人留下些什么吧】恰好是词表的一个token，id是177431。而它的输出是：</p><div class="highlight"><pre><code class="language-text">以下是gpt-4o-2024-05-13模型在temperature=1下的10次独立输出：
 （有些字符知乎上无法显示）
 ---------------
@@ -64,9 +65,7 @@ Sure! "老时时彩"翻译成英文是"Like a lot" 或 "Give a lot of likes"。
 </code></pre></div><h3>1.2、问题原因分析</h3><p>对这个问题原因的最自然猜测是：这个token的训练明显不足，导致模型对此几乎等同于随机输出。</p><p>但问题来了，tokenizer的词表本就是选择预料中常见的片段，为什么会出现出现在词表中，而且是在全球所有语言中前20w的词表中的词，却会出现训练不足的情况？</p><p>对此的一个自然猜测是：OpenAI先基于原始语料训练的tokenizer词表，然后再进行的语料过滤，使得低质量语料中大量使用但普通语料中很少出现的词被留在词表中，且出现了训练不足的情况。</p><p>这个问题不是什么很难理解的问题，在国内炼基座LLM的团队中，大概实习生犯了这样的错误都会被狂喷。正式员工肯定得影响绩效。</p><h2>2、OpenAI的低级错误正在变多</h2><p>在公司如此重视的模型中犯下这样低级的错误，并且到模型发布都没有被发现，也没有被任何形式修补。这说明OpenAI对于模型细节质量的把控早就不是很多人想象的高质量了。</p><p>从中推测内部至少有以下流程环节上的问题：</p><ul><li>tokenizer词表训练的阶段选择有问题</li><li>没有人检查tokenizer训练的词表是否需要优化</li><li>没有人关注是否有训练不足的token，以及这些训练不足的token的效果</li></ul><p>前两点我相信在国内也是一般正经炼丹的团队会关注一下的问题，这次问题之后，估计可能第三点也会开始被关注。</p><p>而OpenAI呢？</p><p>目前来看，o200k_base这版词表在追求完美的角度下已经不能用了，而全链路换词表的成本又不低。也许OpenAI有一些低成本修复的手段，也许也没有。让我们坐等未来1个月OpenAI是否能发现和修正这个问题吧。</p><h2>交流与合作</h2><p>如果希望和我交流讨论，或参与相关的讨论群，或者建立合作，可以从我知乎的签名或 <a class="internal" href="https://zhuanlan.zhihu.com/p/643735199">交流及合作方式</a> 中的方式联系我。</p><h2>附录、系列文章索引</h2><p><a class="internal" href="https://zhuanlan.zhihu.com/p/54724887">【索引】专栏文章索引</a></p><h3>LLM-native应用/Agent策略架构设计 系列</h3><p><a class="internal" href="https://zhuanlan.zhihu.com/p/671618601">谈复杂Agent策略框架的设计（2）【2023Q4】</a></p><p><a class="internal" href="https://zhuanlan.zhihu.com/p/686241906">2024Q1对自主探索能力Agent设计的思考</a></p><p><a class="internal" href="https://zhuanlan.zhihu.com/p/688676344">2024Q1再谈商用LLM的输出随机性 V2</a></p><p><a class="internal" href="https://zhuanlan.zhihu.com/p/675820896">谈LLM与Agent是否有学习能力【2023Q4】</a></p><p><a class="internal" href="https://zhuanlan.zhihu.com/p/696605356">从算法视角谈Prompt的优化【2024Q2】</a></p><h3>产品/商业 视角看LLM 系列</h3><p><a class="internal" href="https://zhuanlan.zhihu.com/p/642322064">【2023Q3】LLM-native应用的算法壁垒在哪里</a></p><p><a class="internal" href="https://zhuanlan.zhihu.com/p/665646253">用户虚拟Agent代理 的实现思路，及反思传统个性化系统【2023Q4】</a></p><p><a class="internal" href="https://zhuanlan.zhihu.com/p/672460687">谈Agent构建平台的设计【2023H2】</a></p><p><a class="internal" href="https://zhuanlan.zhihu.com/p/680109029">轻娱乐性GPTs内容平台的一种设想【2024.1】</a></p><p><a class="internal" href="https://zhuanlan.zhihu.com/p/682546586">谈为什么效率场景LLM应用没有爆发【2024Q1】</a></p><p><a class="internal" href="https://zhuanlan.zhihu.com/p/695922619">为什么我不建议去指望找一个AI产品经理【2024Q2】</a></p><p><a class="internal" href="https://zhuanlan.zhihu.com/p/696025421">2024Q2再谈Agent构建平台的产品设计</a></p><p><a class="internal" href="https://zhuanlan.zhihu.com/p/696230879">反思GenAI时代的复杂度应对方式【2024Q2】</a></p><h3>LLM炼丹Trick与模型架构</h3><p><a class="internal" href="https://zhuanlan.zhihu.com/p/680743630">展望LLM增量输入模式 在降低应用延迟上的应用【2024Q1】</a></p><p><a class="internal" href="https://zhuanlan.zhihu.com/p/689394945">LLM Decoder DSL 的设想【2024Q1】</a></p><p class="ztext-empty-paragraph"><br /></p><p>本文成文于2024.5.14</p>
 ]]></content:encoded>
 <pubDate>Tue, 14 May 2024 09:45:13 GMT</pubDate>
-<pubDate>Tue, 14 May 2024 09:45:13 GMT</pubDate>
 </item>
-
 <item>
 <title>李博杰赞同了回答: 如何评价 OpenAI 2024 Spring 发布的支持实时语音对话的模型 GPT-4O?</title>
 <link>https://www.zhihu.com/question/655916303/answer/3497511799</link>
