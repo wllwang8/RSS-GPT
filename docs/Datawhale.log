@@ -129,3 +129,12 @@ Existing_entries: 11
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3226363426
 append_entries: 0
 Finish: 2024-05-14 20:03:13.931689
+------------------------------------------------------
+Started: 2024-05-14 22:03:47.102262
+Existing_entries: 11
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3226363426
+Token length: 54
+Summarized using GPT-3.5-turbo
+Append: [IJCAI 2024｜第九届“信也科技杯”全球AI算法大赛正式开赛！聚焦AI尖端赛题，31万奖金池等你挑战！](https://mp.weixin.qq.com/s/8TeRAcmodl0oolawNQ-NgA)
+append_entries: 1
+Finish: 2024-05-14 22:03:53.221166
