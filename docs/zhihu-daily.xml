@@ -4,6 +4,487 @@
 <title>知乎日报</title>
 <link>https://daily.zhihu.com</link>
 
+<item>
+<title>【科普】一张图了解物理学</title>
+<link>https://daily.zhihu.com/story/9772276</link>
+<guid>https://daily.zhihu.com/story/9772276</guid>
+<content:encoded><![CDATA[
+<div> 物理学、经典力学、电磁学、流体力学、热力学
+<br>
+物理学地图作者Dominic Walliman介绍了物理学的历史和发展。经典物理学包括牛顿的三定律和微积分，光学中有几何光学和波动光学，电磁学涉及电场和磁场，流体力学研究流体的运动行为，热力学解释了能量转换和热传导。各学科在理论和实践中大大推动了科学技术的发展。经典物理学虽有限，但在低速低能量范围内仍适用。混沌理论揭示了非线性系统复杂的行为，热力学定律描述了能量转化和系统稳定。经典物理学的完善成为量子力学和相对论的基础，挑战了经典物理学的局限性。整体而言，物理学是一门研究自然规律的科学，包括不同层面的研究，为人类认识自然界提供了重要的工具和方法。<br><br>总结: 物理学历史发展、经典物理学、电磁学、流体力学、热力学，各学科推动科技发展，经典物理学适用范围有限，混沌理论揭示复杂系统行为，热力学定律描述能量转化，经典物理学基础挑战。 <div>
+<div class="main-wrap content-wrap">
+<div class="headline">
+
+<div class="img-place-holder"></div>
+
+
+
+</div>
+
+<div class="content-inner">
+
+
+
+<div class="question">
+
+<div class="answer">
+
+<strong>
+<img class="avatar" src="https://pic1.zhimg.com/v2-d2c0f6399672b8579348e66cfcc99f5b_l.jpg?source=8673f162" />
+<span class="author">杂然赋流形丶</span>
+</strong>
+
+<div class="content">
+<figure><img alt="" class="content-image" src="https://pic4.zhimg.com/v2-b5d4fc5d9b32f8fdaa7d0b31b3e0ff27_1440w.jpg" /><figcaption>物理学地图，from Dominic Walliman</figcaption></figure>
+<p>相信有不少同学此前已经看过这张物理学地图（the map of physics），没看过也没事，现在你看到了┓( ´∀` )┏。</p>
+<p>这张图的作者是油管博主 Dominic Walliman，同时他也是一位科普作家&amp;物理学博士（量子计算领域），不仅仅是这张物理学地图， Dominic Walliman 后续也创作了一系列学科地图（几十张）。可以在此访问他的个人主页：<a class=" wrap external" href="https://dominicwalliman.com/" rel="nofollow noreferrer" target="_blank">Dominic Walliman</a>。</p>
+<blockquote>Dominic Walliman 表示：<br />当你在学习一门新的学科时，我认为最有用的就是一张罗列了所有学科领域的思维导图，通过它可以方便知道你所正在学习的知识属于哪个部分。我记得很多次在讲座里，教授在上面侃侃而谈，而我坐在下面却完全不知道教授在说什么，以及他们所说的与其他学科领域有什么关系。<br />我觉得当我向别人解释物理学时，他们也可能经常遇到像我一样的情况。我对物理学非常了解（毕竟在这一行混了这么久），所以我决定制作一张现代物理学地图，把我们所知道的和我们所不知道的都包括进去。我对这项成果感到非常满意，也对反响感到非常满意——它甚至被列入了 vox. com。</blockquote>
+<p>作为向大众科普的一个媒介形式，生动形象的图片往往比枯燥无聊的公式和呆板僵硬的文字更具吸引力。我在简中媒体上尚未看到像 Dominic Walliman 绘制的思维导图类似形式的优秀科普内容，不将它搬运过来实在太过可惜，因此我决定开一个巨大无比的深坑（随时都可能会鸽(„ಡωಡ„) ），选择 Dominic Walliman 创作的部分地图（毕竟他画了几十张），来科普介绍一些基础的物理知识（未来也可能包括一些数学、计算机科学等我所知的内容，如果我有空的话）。</p>
+<p>限于我个人学识以及文笔水平，文中难免会出现一些错漏，行文也无法做到轻松自然。还请各位读者大佬不吝赐教、多多包涵。</p>
+<p><strong>一、什么是物理学？</strong></p>
+<p>物理学是一门研究自然界中物质、能量、运动和相互作用的科学。作为自然科学领域里的大哥大，它的研究范围上至整个宇宙（</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%3E10%5E%7B26%7D%5Cmathrm%7Bm%7D" /></p>
+<p>），下至微观粒子（</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%3C10%5E%7B-15%7D%5Cmathrm%7Bm%7D" /></p>
+<p>）。物理学的基本任务就是理解整个自然界的运行规律，再回过头来利用这些物理规律改造我们的生活。</p>
+<p>愿望是美好的，但现实往往不是如此，发现规律可不是那么容易的事，大自然可不像一位合作愉快的铁哥们，而更像是一位喜欢捉弄人的魔术师。尤其是在现代，受牛顿经典力学影响的机械决定论也已一去不复返，就像你永远不知道下一个实验会给你带来什么惊喜：或许是一只猫既死又活，又或许是一些粒子在不看它们的时候决定采取奇怪的行为。</p>
+<p>但是，正因为这些复杂和未知，物理学才会变得如此有趣。它就像是一场充满了惊喜和谜题的解密游戏，你永远不知道下一个发现会带来什么样的“啊哈”时刻。所以，如果你曾经在思考为什么苹果会掉落，或者为什么天空是蓝色的，那么物理学就是你可以找到答案的地方。只是要记得，对于物理学家来说，有时候一切都变得比看起来更加疯狂和有趣，跨越时空的爱因斯坦 - 罗森桥、惠勒的单电子假说……，物理学家的脑洞永远比你想的要大！</p>
+<p>在 Dominic Walliman 的地图中，现代物理学被划分为三个主要模块：经典物理、量子物理、相对论。接下来我将分别科普介绍地图中每幅图画的背后含义（既然是科普，那就势必要牺牲一点严谨性啦┓( ´∀` )┏，不过我也懒得敲太多公式）。</p>
+<figure><img alt="" class="content-image" src="https://pic2.zhimg.com/v2-4f55c15f2e425e19a6765b27cac20abd_1440w.jpg" /><figcaption>物理学被划分为经典物理学、量子物理学、相对论</figcaption></figure>
+<p><strong>二、经典物理学</strong></p>
+<p>经典物理学的历史可以追溯到古代希腊时期，但真正的发展和成熟发生在近代科学革命之后的几个世纪里。在欧洲文艺复兴时期，科学研究重新受到重视。伽利略、开普勒等科学家通过实验和观察，奠定了现代物理学的基础，而伽利略也被称为“现代物理学之父”、“科学之父”。</p>
+<figure><img alt="" class="content-image" src="https://pic3.zhimg.com/v2-fbdf84fb2175a8baccbdf2a6d1b466c2_1440w.jpg" /><figcaption>伽利略：所有的真理一旦被发现就很容易理解，但关键在于发现它们，from AZ Quotes</figcaption></figure>
+<p><strong>2.1. 牛顿三定律、万有引力定律、微积分</strong></p>
+<p>17 世纪末，牛顿发表了《自然哲学的数学原理》，提出了经典力学的基本原理，包括牛顿三定律和万有引力定律。这些理论描述了物体在力的作用下的运动规律。</p>
+<p>经典力学适用于相对较低的速度（与光速相比），和相对较大的尺度范围内的物体运动（与原子、分子尺度相比），对于我们绝大部分日常生活和工程应用来说都是适用的。</p>
+<figure><img alt="" class="content-image" src="https://pic2.zhimg.com/v2-5c7760bb2601bea48ca06a05f6e55ccd_1440w.jpg" /><figcaption>2.1. 牛顿三定律、万有引力定律、微积分</figcaption></figure>
+<p>在图 2.1. 中，牛顿运动定律（惯性定律、加速度定律、作用力与反作用力定律）由左上角两幅示意图体现。</p>
+<ul>
+<li>惯性定律表明，如果施加于某物体的外力为零，则该物体的运动速度不变（静止的仍旧静止、运动的仍保持原速度运动）。</li>
+<li>但倘若我们施加给物体的外力不为零，则物体的运动状态就会发生改变，加速度定律告诉我们，外力等于物体的质量和加速度的乘积（即 <img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Cmathbf%7BF%7D+%3D+m+%5Cmathbf%7Ba%7D" /> ）。</li>
+<li>作用力与反作用力定律告诉我们，两个物体相互作用与对方时，彼此施加给对方的力，大小相等，方向相反。</li>
+</ul>
+<figure><img alt="" class="content-image" src="https://pic2.zhimg.com/v2-2e1b2a819c4647b95433eac45ae4bda1_1440w.jpg" /><figcaption>牛顿：我们所知道的仅仅只是一滴水，我们所未知的却是一整片海洋，from AZ Quotes</figcaption></figure>
+<p>其中炮弹出膛是一个典型的抛体运动，它的运动轨迹就可以牛顿运动定律给出，炮弹受到的外力正是地球带来的地心引力（以及空气阻力），</p>
+<figure><img alt="" class="content-image" src="https://pic3.zhimg.com/v2-90313c4c31a45cbdac80ad3c9f8f5526_1440w.jpg" /><figcaption>水的抛物线运动轨迹，from Wikipedia</figcaption></figure>
+<p>而右上角表示的是万有引力定律（Law of universal gravitation），对于有质量的两个质点来说，它们之间存在连心线方向的吸引力，其大小为</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=F+%3D+%5Cdfrac%7BGm_1m_2%7D%7Br%5E2%7D" /></p>
+<p>。这一吸引力是普遍存在于自然界中，苹果为何落地？地球为何环绕太阳运动？它们本质上是同一种力，遵循的是相同的规律。当然后面我们会了解到，万有引力定律在 200 多年后被爱因斯坦扩展到了广义相对论，其描述的引力正是自然界存在的四种基本相互作用之一。</p>
+<p>同一时期物理规律的发现以及实际生产的需要极大程度上催生了新的数学工具。</p>
+<p>图 2.1. 中左下角指的是微积分（calculus），微积分主要由英国数学家牛顿和德国数学家莱布尼茨独立发展而来，我们现在所用的符号大都是沿用莱布尼茨的那一套（牛顿那一套实在太过反人类），比如</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Cdfrac%7B%5Cmathrm%7Bd%7D%7D%7B%5Cmathrm%7Bd%7Dx%7Df%28x%29%2C+%5Cdisplaystyle%7B%5Cint_a%5E%7Bb%7D+f%28x%29%5C%2C+%5Cmathrm%7Bd%7Dx%7D" /></p>
+<p>分别表示对函数</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=f%28x%29" /></p>
+<p>的微分和积分。历史上，微积分曾经指无穷小的运算，但在现今数学界里，微积分一般被归为分析学里的内容。</p>
+<p>当我们要计算如下左图阴影部分区域的面积</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=S_A" /></p>
+<p>时，我们就可以借助微积分的思想，通过将阴影部分划分为一个个小矩形，计算各自矩形面积之后再相加，便可以得到</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=S_A" /></p>
+<p>的一个近似值。当划分的足够多时，我们得到的矩形面积之和就足以代替</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=S_A" /></p>
+<p>的大小了。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-ad5fb8100f04cae7b816743e85639c2c_1440w.jpg" /><figcaption>from the Story of Mathematics</figcaption></figure>
+<p><strong>2.2. 光学</strong></p>
+<figure><img alt="" class="content-image" src="https://pic2.zhimg.com/v2-3efecd143e85120c2edecc32a483743d_1440w.jpg" /><figcaption>2.2. 光学</figcaption></figure>
+<p>光学主要研究光的现象、性质与应用，包括光与物质之间的相互作用、光学仪器的制作。</p>
+<p>在经典物理学里，光的微粒说和波动说一直争论不休，这个话题一直持续到量子力学的建立以及波粒二象性的提出（光究竟是粒子还是波，这个问题从提出就没有摆脱旧有经典物理的观念，按照现代量子物理的理解，光既不是“粒子”也不是“波”）。</p>
+<p>在经典物理时期，光学可以分成两个主要分支：几何光学、波动光学（又称物理光学）。</p>
+<p>几何光学以费马原理为基础，光被称作是射线（光线），可以用来说明反射、折射等现象（当然几何光学简化了光学理论，衍射、偏振等现象是不能解释的）。图 2.2. 中的 prism 指的是棱镜，这是一种光学器件，可以用来对光进行折射和反射。下图展示了自然光（由不同波长的光复合而成）入射等边棱镜后的现象，由于不同波长的光对同一介质的折射率不同，所以造成的折射后偏离角度不同，形成了色散现象，也就是最右侧的七彩光。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-6d9550e71e479200946fae8e30980e30_1440w.jpg" /><figcaption>一束光入射等边棱镜，产生了反射、折射、透射、色散，from Wikipedia</figcaption></figure>
+<p>而波动光学建立在惠更斯原理之上，可以用来描述衍射、干涉、散射、偏振、像差等各种复杂光学现象。</p>
+<figure><img alt="" class="content-image" src="https://pic4.zhimg.com/v2-7c569bcab77069511fb500e76d5639d7_1440w.jpg" /><figcaption>双缝干涉实验，from Wikipedia</figcaption></figure>
+<p>上图双缝干涉实验是波动光学里非常有名的实验（经常被营销号拿来扯皮┓( ´∀` )┏，什么意识流、恐怖流、灵异流……各路牛鬼蛇神层出不穷），可以展示光波的干涉行为。当然它背后的一些观察者效应和波粒二象性需要由量子力学来解释，这就是后话了。</p>
+<figure><img alt="" class="content-image" src="https://pic4.zhimg.com/v2-fd9b550ab22a7722fb162f246d27c533_1440w.jpg" /><figcaption>泊松光斑，from Wikipedia</figcaption></figure>
+<p>还有一个老生常谈的衍射现象——泊松光斑。当一束光照射一个圆形障碍物时，会发生衍射现象，形成一系列明暗相间的环形条纹。而这些环形条纹的中央位置，却出现了一个明亮的中心斑点，称为泊松光斑。这一现象最早由泊松计算得出，但泊松认为中心出现光斑与常识相反，圆板已经挡住了光线，中心咋可能出现一个光斑嘛！于是他企图借此推翻菲涅尔的理论，但菲涅尔和阿拉果通过实验狠狠打了泊松的脸，这一现象被命名为泊松光斑也算得上是某种程度的讽刺了┓( ´∀` )┏。</p>
+<p>图 2.2. 最下方分别是显微镜和望远镜，它们都是光学仪器，用来观察不同尺度的物体。显微镜能够放大物体的细节，观察肉眼无法看到的微观结构；望远镜能够放大远处物体的图像，观测远距离物体。</p>
+<p>人类目前最牛逼的太空望远镜是詹姆斯·韦伯望远镜（计划耗费 5 亿美元，于 2007 年发射升空；但实际因各种原因严重超支，最新预估总耗费高达 100 亿美元，发射时间最终推迟到了 2021 年 12 月 25 日，堪称“鸽王”）。它可以提供比哈勃望远镜更高的红外分辨率和灵敏度，可探测仅为哈勃望远镜探测到的最微弱物体的亮度百分之一的物体。</p>
+<figure><img alt="" class="content-image" src="https://pic3.zhimg.com/v2-67eb29df037a608928ff03a06f40d1ea_1440w.jpg" /><figcaption>哈勃望远镜在可见光波段（左）和韦伯望远镜在红外波段（右）拍摄木星图像对比，from NASA</figcaption></figure>
+<figure><img alt="" class="content-image" src="https://pic4.zhimg.com/v2-f9d1208cde75167d6f550d456cc33ad3_1440w.jpg" /><figcaption>哈勃在可见光波段（左）和韦伯在红外波段（右）拍摄船底座星云图像对比，from NASA</figcaption></figure>
+<figure><img alt="" class="content-image" src="https://pic2.zhimg.com/v2-3948188776908f8001f88b6806cbdf01_1440w.jpg" /><figcaption>詹姆斯·韦伯太空望远镜用近红外光和中红外光观测了 19 个附近的面状旋涡星系，2024 年 1 月 29 日 from NASA</figcaption></figure>
+<figure><img alt="" class="content-image" src="https://pic3.zhimg.com/v2-cba72709eee422c79c4d9dbc63117c76_1440w.jpg" /><figcaption>超新星遗迹仙后座 A 的合成观测图像，包含来自钱德拉 X 射线天文台的数据（蓝色）、韦伯望远镜的红外数据（红、绿、蓝）以及哈勃望远镜的光学数据（红和白），from NASA</figcaption></figure>
+<p>发展太空望远镜可以帮助科学家研究宇宙大尺度结构、宇宙背景辐射、星系形成与演化等天体物理和宇宙学问题。好的望远镜可以获得更加精确的数据，发现此前未知的新现象，毕竟自然科学终究还是要以观察和实验为基础。</p>
+<p><strong>2.3. 波、电磁学</strong></p>
+<figure><img alt="" class="content-image" src="https://pic2.zhimg.com/v2-b7980ba2972d690b6a0e99f5c0b4a5f5_1440w.jpg" /><figcaption>2.3. 波、电磁学</figcaption></figure>
+<p>波是一种能量传播的方式，它通过介质或空间传递能量而不传递物质，我们熟知的声波、水波等都是以波的形式在传递能量。</p>
+<figure><img alt="" class="content-image" src="https://pic2.zhimg.com/v2-040faf5ca1ff919774e7b3281324fc41_1440w.jpg" /><figcaption>水波，from Wikipedia</figcaption></figure>
+<p>而横波和纵波是描述播传播时波动方向的两种类型。</p>
+<ul>
+<li>在横波中，波的振动方向与播的传播方向垂直；</li>
+<li>在纵波中，波的振动方向与播的传播方向平行。</li>
+</ul>
+<p>声波通常是纵波，比如当我们发出声音，空气（介质）发生膨胀和收缩（也就是振动）是沿着声音传播方向的。这里需要注意一点，水波一般不是单纯的纵波和横波。图 2.3. 右上角两幅图表示的正是横波（transverse wave）和纵波（longitudinal wave）。</p>
+<figure><img alt="" class="content-image" src="https://pic4.zhimg.com/v2-b3f40d0b6fda81e643a4ac2bd46dcda7_1440w.jpg" /><figcaption>横波和纵波，from Jack Westin</figcaption></figure>
+<p>在经典物理中，研究最多的是机械波和电磁波。提到电磁波，我们就得介绍一下电磁学这个领域。电和磁是自然界中两种基本的物理现象，电磁学用来研究电磁现象的规律和应用。</p>
+<p>历史上很长一段时间，电和磁是作为两个独立的现象进行研究的。18 世纪，库伦定律被提出，用来描述两个带电体之间相互作用</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=F%3D%5Cdfrac%7B1%7D%7B4%5Cpi%5Cepsilon_0%7D+%5Cdfrac%7BQ_1Q_2%7D%7Br%5E2%7D" /></p>
+<p>（电磁相互作用也是四大基本相互作用之一）。19 世纪，奥斯特发现了电流的磁效应，即电流也能产生磁场；之后法拉第发现了电磁感应现象，反过来将磁和电联系在一起。这两个发现似乎在暗示，电和磁有着更加深刻密切的联系。直到 19 世纪中期，麦克斯韦整合了关于电场和磁场的理论，提出了麦克斯韦方程组，这也是经典电动力学的理论基础。麦克斯韦方程组也预言了电磁波的存在，并在 19 世纪末由赫兹实验验证。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-a53eee3da72d6a1eef74b3b8b85242b4_1440w.jpg" /><figcaption>麦克斯韦，from Wikipedia</figcaption></figure>
+<p>为人所熟知的麦克斯韦方程组（真空中）是：</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Cbegin%7Balign%7D+%5Cnabla%5Ccdot+%5Cmathbf%7BE%7D+%26%3D+%5Cfrac%7B%5Crho%7D%7B%5Cepsilon_0%7D%5C%5C%5B.2cm%5D+%5Cnabla%5Ccdot+%5Cmathbf%7BB%7D%26%3D0%5C%5C%5B.2cm%5D+%5Cnabla%5Ctimes+%5Cmathbf%7BE%7D%26+%3D+-%5Cfrac%7B%5Cpartial+%5Cmathbf%7BB%7D%7D%7B%5Cpartial+t%7D%5C%5C%5B.2cm%5D+%5Cnabla%5Ctimes+%5Cmathbf%7BB%7D%26+%3D+%5Cmu_0+%5Cmathbf%7BJ%7D+%2B+%5Cmu_0%5Cepsilon_0+%5Cfrac%7B%5Cpartial+%5Cmathbf%7BE%7D%7D%7B%5Cpartial+t%7D+%5Cend%7Balign%7D%5C%5C" /></p>
+<p>当然你也可以引入电磁场张量</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=F_%7B%5Cmu%5Cnu%7D" /></p>
+<p>把它写成协变形式，将 4 个方程缩减至 2 个。</p>
+<p>图 2.3. 左上角分别代表了两个异种电荷（一个带正电、一个带负电）形成的电场、条形磁铁周围的磁场。</p>
+<figure><img alt="" class="content-image" src="https://pic2.zhimg.com/v2-5c76e157daffeb0b75f74b45017436e1_1440w.jpg" /><figcaption>电场线和磁场线，from Science Facts</figcaption></figure>
+<p>电磁波是一种非机械波，由电场和磁场在空间中以波的形式传递能量和动量，电磁波的传播不需要依靠介质（真空中也能传播），光本质上也是一种电磁波。电磁波的传播方向垂直于电场和磁场的振动方向，如下图所示，也是图 2.3. 中右下角的部分。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-0e7d8926715cbe9b4eb9fd6b5ca3abcc_1440w.jpg" /><figcaption>电磁波的传播，from TikZ.net</figcaption></figure>
+<p>电磁学的一个重要应用就是电路学。工程师利用电子组件来设计电子电路，并应用到实际生产生活中。图 2.3. 左下角就是一个简单的 RLC 串联电路（R 代表电阻，L 代表电感，C 代表电容）。</p>
+<p><strong>2.4. 经典力学</strong></p>
+<figure><img alt="" class="content-image" src="https://pic3.zhimg.com/v2-c4f17bc3747b2fcd6b155bccfe79e85e_1440w.jpg" /><figcaption>2.4. 经典力学</figcaption></figure>
+<p>经典力学用来研究宏观物体的运动和力学规律（前文 2.1 节也有所介绍），在牛顿时代首次发展起来，后续由哈密顿、拉格朗日等人提供了不同的数学形式和理论框架进行重构。</p>
+<p>经典力学的主要内容可以分为静力学（描述静止物体）、运动学（描述物体位置、速度和加速度等运动参数的变化规律）和动力学（研究物体收到的力和运动参数之间的关系）三个部分。</p>
+<p>图 2.4 里其实就是三个简单的力学模型，相信大多数人在高中时期都有被各种滑块、铰链反复折磨的痛苦经历（初中就是各种动滑轮、定滑轮了）。</p>
+<p>(￣▽￣)~*</p>
+<p><strong>2.5. 流体力学</strong></p>
+<figure><img alt="" class="content-image" src="https://pic2.zhimg.com/v2-49e4b0fb28451dfd704320ba5e22c371_1440w.jpg" /><figcaption>2.5. 流体力学</figcaption></figure>
+<p>流体力学是研究流体（包含气体、液体、等离子体等）运动和力学行为的科学分支。流体力学的研究历史至少可以追溯到古希腊时期，但真正的科学体系在近代才被建立起来。</p>
+<p>19 世纪，纳维和斯托克斯等科学家提出了纳维斯托克斯方程组，这是描述流体运动的基本方程之一，它一个非常复杂的非线性偏微分方程组（具体公式就没必要拿出来吓人了），只有在极少数极其简化的情况下才有解析解，大部分时候只能寻求数值解。</p>
+<p>值得一提的是，纳维 - 斯托克斯方程组解的存在性和光滑性还是千禧年七大问题之一，目前仍未解决。克雷数学研究所为每个问题设立了一百万美元奖金，只要你能成功解决，它就是你的了。（别发给我，你说你证明了，那你便证明了）。</p>
+<p>1883 年，雷诺发现粘性流体存在两种不同的流动形态——层流和湍流，开辟了后续湍流运动理论的研究。我此前也有回答介绍了几个流体失稳形成湍流的现象（瑞利 - 泰勒不稳定性、开尔文 - 亥姆霍兹不稳定性、里克特迈耶 - 梅什科夫不稳定性），可以参见以下回答：</p>
+<p><a class="internal" href="https://www.zhihu.com/question/510563906/answer/3026792751">你见过的最美的方程是哪一个？</a></p>
+<p>图 2.5. 左上角就是外界环境改变（管道截面变大）对流体引起的扰动形成了湍流。右上角是升力的示意图，当流体在物体周围流动时，流体会对物体施加力。广为人知的例子就是飞机了，当飞机在大气中移动时，空气流经飞机的机翼截面被分离成两个区域，空气在机翼的上表面流过时速度会增加，而在下表面则相对较慢。根据伯努利定律，流速增加的区域压力较小，因此产生了向上的升力。</p>
+<p>图 2.5. 下方展示的是空气动力学，所有的交通工具在设计时都要考虑空气的影响，此外大型建筑设计、航空航天领域、军事领域等，空气动力学都是一个极为重要的因素（我国著名物理学家钱学森就是这一行的专家）。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-a07425976d91a3db9cd5fc42fc8ae724_1440w.jpg" /><figcaption>计算机模拟的以 84% 音速飞行的波音 747 喷气式客机上的气压变化图，from NASA</figcaption></figure>
+<p><strong>2.6. 混沌理论</strong></p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-f2a7d9350a26add8231dd5f8f2e29aa8_1440w.jpg" /><figcaption>2.5. 混沌理论</figcaption></figure>
+<p>混沌理论是一种研究非线性动力系统行为的理论。早在 19 世纪，庞加莱研究三体运动时就已发现了混沌现象，但混沌理论要到 20 世纪中期才开始逐渐成立。</p>
+<p>20 世纪 70 年代，美国的气象学家和数学家洛伦兹偶然发现了混沌现象，他使用计算机来模拟运行大气中的空气流动，在第二次计算验证时，他只保留了小数点后三位的数据，结果却和第一次的计算结果天差地别。这种巨大变化仅仅是初始条件的微小差异造成的，洛伦兹本人也形象地称其为“蝴蝶效应”，此后他深入研究这一现象，并提出了混沌理论的基本概念，他发现即使是简单的非线性系统也可能表现出复杂的行为。像我们前文提到的湍流，其实也可以被认为是混沌现象在流体力学中的一种表现。</p>
+<p>一个著名的例子是洛伦兹吸引子，它是由洛伦兹方程解出的一个复杂三维轨迹，下面这张图展示了洛伦兹吸引子在三个坐标平面投影的相图。尽管形态看上去随机，但它却具有稳定的结构，系统的状态在一定条件下能够围绕着吸引子运动。</p>
+<figure><img alt="" class="content-image" src="https://pic2.zhimg.com/v2-f27dd05ad30842caa4c2a5d4e4e9206d_1440w.jpg" /><figcaption>洛伦兹吸引子，from Geoff Boeing</figcaption></figure>
+<p>另一个例子是逻辑斯蒂映射，它是一个常见的混沌动力系统模型，其差分方程的数学表达式为：</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=x_%7Bn%2B1%7D+%3D+rx_n%281-x_n%29%5C%5C" /></p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=x_n" /></p>
+<p>可以理解为当前时刻的系统状态，</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=x_%7Bn%2B1%7D" /></p>
+<p>是下一时刻的系统状态，</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=r" /></p>
+<p>是一个参数，用来控制系统的非线性和复杂性。当参数</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=r" /></p>
+<p>在某个范围内变化时，系统的行为会发生明显的变化，包括周期性、混沌、稳定等状态的出现。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-7c537c37b31a89175577f133b24524d0_1440w.jpg" /><figcaption>逻辑斯蒂映射的分枝图，横轴是参数 r 的取值大小，纵轴 x 表示系统在相应参数 r 下的稳定点或周期解，from Wikipedia</figcaption></figure>
+<p><strong>2.7. 热力学</strong></p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-f5b8a79cdede63f413ab71731b8ec904_1440w.jpg" /><figcaption>2.7. 热力学</figcaption></figure>
+<p>Thermodynamics 指的是热力学，用于研究热现象中的物态转变和能量转换规律，它和统计物理学分别构成了热学理论的宏观和微观两个方面。现代热力学的诞生可以追溯到 17 世纪和 18 世纪，此后的卡诺、开尔文、克劳修斯、玻尔兹曼、吉布斯等人都做出了卓越的贡献。</p>
+<p>热力学研究对象是热力学系统，即能够与外界发生能量交换的物体或物质。热力学的主要概念包括能量、热、功、熵等，它们之间的相互转换和平衡关系构成了热力学定律，这也是热力学理论体系的核心。</p>
+<ul>
+<li><span class="nolink">热力学第零定律</span>：如果两个系统分别与第三个系统处于热平衡状态，那么这两个系统也必定处于热平衡状态。这一定律确定了温度的概念，使得我们可以在没有直接接触的情况下比较物体的热状态。</li>
+<li><span class="nolink">热力学第一定律</span>：能量不能被创造或销毁，只能从一种形式转换为另一种形式。这一定律反映了能量的守恒原理，否定了第一类永动机的存在。</li>
+<li><span class="nolink">热力学第二定律</span>：不可能把热量从低温物体传递到高温物体而不产生其他影响。热力学第二定律引入了熵的概念，用于描述系统的有序程度。自然过程总是趋向于使系统的熵增加，即系统的混乱程度增加。这一定律否定了第二类永动机的存在。</li>
+<li><span class="nolink">热力学第三定律</span>：不可能通过有限过程使系统冷却到<span class="nolink">绝对零度</span>。</li>
+</ul>
+<p>热力学的发展在很大程度上促进了第一次工业革命的进展（当然两者也是互相促进、互相成长的）。1769 年，瓦特改良蒸汽机大大提高了工作效率，这也是第一次工业革命的标志性事件。据说瓦特是观察到生活中烧开水的水壶，壶盖在上下跳动，发现是水蒸气将壶盖顶开，见图 2.7. 下方，由此瓦特萌发了改良蒸汽机的想法（当个鸡汤故事听听就好了）。热力学的定律和原理为工程师和科学家提供了指导，而实际生产的需要又反馈回理论研究，促使发现新的物理规律。</p>
+<p>图 2.7. 上方代表的是物理学四大神兽之一——麦克斯韦妖。这是麦克斯韦为了说明违反热力学第二定律的可能性而假想出来的一个思想实验。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-029fd680e03dbb0dec8162f2591542bc_1440w.jpg" /><figcaption>麦克斯韦妖，from Charles MacInerney</figcaption></figure>
+<p>想象存在一个可以操作两个气体容器之间阀门的麦克斯韦妖，它可以观察气体容器中分子的运动情况。当分子接近阀门时，麦克斯韦妖可以迅速的打开和关闭阀门，让速度较快的分子进入其中的一个腔，速度较慢的分子进入另一个腔。这样的结果会导致其中一个腔室温度升高，另一个腔室温度降低，使得系统的熵减小。</p>
+<p>这个思想实验的关键在于，麦克斯韦妖的操作似乎违反了热力学第二定律，即熵应当不断增加的原则。因为通过妖精的操作，系统似乎可以实现自发地将热量从低温区转移到高温区，而不需要做功。这与热力学第二定律所描述的自然过程的不可逆性相矛盾。</p>
+<p>这一思想实验在当时引起了无休止的争论和探讨，最后是在量子力学的发展和信息论的建立下才有了令人满意的解释，人们认识到信息的获取和处理也需要能量，而这一过程会导致系统总的熵增加，因此麦克斯韦妖并不违反热力学第二定律，而这距离麦克斯韦妖的提出已经过了近百年的时间。</p>
+<hr />
+<p>以上的内容大都是 20 世纪以前发展的物理学理论体系，通常被称为经典物理学（classical physics），在宏观、低速的情况下，这些理论可以很好地描述我们日常生活中的绝大部分物理现象。当时的物理学家雄心勃勃，认为他们已经掌握了自然界运行的规律，因此未来的工作只需要在这一物理学大厦上做些修缮的工作罢了。</p>
+<p>其中拉普拉斯就曾提出了另一个物理学神兽——拉普拉斯妖：</p>
+<blockquote>若存在一个极为聪慧的妖怪，它能知道宇宙中每个原子确切的位置和动量，它就能够使用牛顿定律来描述宇宙中所有事件的完整过程，无论是过去还是未来。</blockquote>
+<p>这一观点实际上也是机械决定论思想的体现，在当时这一思想基本上统治了整个科学界，认为一切都是有因果关系联系起来的，一切世界的运动都是由确定的规律来决定的，就像精心设计好的程序，未来的一切走向都已确定。这一思想甚至也影响到 20 世纪初的许多量子先驱，包括爱因斯坦，他在给玻恩的一封信中写到：</p>
+<blockquote>你信仰投骰子的上帝，我却信仰完备的定律和秩序。</blockquote>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-ce02af68af8c3984b0446cc23378a6a0_1440w.jpg" /><figcaption>爱因斯坦：上帝不掷骰子，from AZ Quotes</figcaption></figure>
+<p>然而，随着对微观世界的研究深入，经典物理的局限性也逐渐体现出来，越来越多的物理现象无法解释。彼时漂浮的两朵乌云最终也落地化为了量子力学和相对论，它们分别在微观和宏观层次提出了新的理论解释来填补这些局限性。</p>
+<figure><img alt="" class="content-image" src="https://pic3.zhimg.com/v2-efc3c4cf584f91d32a3d9f5142ed9dda_1440w.jpg" /><figcaption>霍金：上帝不仅掷骰子，而且有时会将它们抛到看不见的地方。 from thequotes.in</figcaption></figure>
+<p>这一部分也就是 Dominic Walliman 绘制的物理学地图右边的内容，欲知后事如何，且听下回分解。</p>
+
+<div class="view-more"><a href="https://zhuanlan.zhihu.com/p/697340076">查看知乎讨论</a></div>
+
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+]]></content:encoded>
+<pubDate>Mon, 13 May 2024 16:00:00 GMT</pubDate>
+<pubDate>Mon, 13 May 2024 16:00:00 GMT</pubDate>
+</item>
+<item>
+<title>哺乳动物体型变大会被重力压垮，那么恐龙为什么没被重力压垮呢？</title>
+<link>https://daily.zhihu.com/story/9772277</link>
+<guid>https://daily.zhihu.com/story/9772277</guid>
+<content:encoded><![CDATA[
+<div> 恐龙 骨骼 结构 哺乳动物 气囊
+
+恐龙在骨骼结构、呼吸系统和内部器官体积等方面优于哺乳动物，使得恐龙更适合大型化。恐龙的头骨镂空减重优势，使其体积上限大于哺乳动物。恐龙的气囊呼吸系统能更高效地获取氧气，排出废气，支撑更庞大的体积。而大气含氧量并不是限制哺乳动物大型化的原因，恐龙的呼吸系统优势反而提高了大气含氧量。但恐龙的小型化下限高于哺乳动物，只有体积达到一定程度的恐龙才具有优势。翼龙成为大型恐龙优势的巅峰，体重轻于同等尺寸的长颈鹿。总的来说，恐龙体积上限更大，但小型恐龙无优势，只有部分小型鸟类扛过大灭绝，并通过飞行避开竞争，成为唯一延续至今的恐龙。 <br><br>总结: 恐龙在骨骼结构、呼吸系统、体积优势方面超越哺乳动物，但小型化下限较高，只有特定条件下的恐龙才能获得优势。飞行能力和气囊呼吸系统为恐龙生存提供了有力支持。 <div>
+<div class="main-wrap content-wrap">
+<div class="headline">
+
+<div class="img-place-holder"></div>
+
+
+
+</div>
+
+<div class="content-inner">
+
+
+
+
+<div class="question">
+
+
+<div class="answer">
+
+<strong>
+<img class="avatar" src="https://pica.zhimg.com/v2-4bdd483f1c5e677da58aaca1972cc9fc_l.jpg?source=8673f162" />
+<span class="author">黑黑的东西，</span><span class="bio">被人挑事怎么办？少反思自己，多指责他人</span>
+<a class="originUrl" hidden="" href="https://www.zhihu.com/question/409522724/answer/1364937501">查看知乎原文</a>
+</strong>
+
+<div class="content">
+<p>恐龙的骨骼结构，支撑 - 行动方式，呼吸系统，内部器官的体积，都比哺乳动物更适合大型化。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-904f9a2aed2f93e003a2cf65ad814bb0_720w.jpg?source=8673f162" /><figcaption>狼的头骨</figcaption></figure>
+<figure><img alt="" class="content-image" src="https://pica.zhimg.com/v2-4b88fd3f333cd3a99044d4696244d0c1_720w.jpg?source=8673f162" /><figcaption>驰龙的头骨</figcaption></figure>
+<p>仅仅从颅骨方面看，相比厚重、实心的狼颅骨，恐龙颅骨各种开孔、镂空，极尽减重之能事~~~~~而且强度还没什么区别。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-8fcafddead8fe3ea5c616566dae8e211_720w.jpg?source=8673f162" /><figcaption>一个道理</figcaption></figure>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-8ca1f4277972380881d7905fc09f1bb0_720w.jpg?source=8673f162" /><figcaption>知道了上面的道理，大致就能明白这件化石所代表的生物到底是和恐龙、还是和哺乳动物血缘关系更近</figcaption></figure>
+<p>颅骨镂空减重是整个双孔亚纲都自诞生以来就存在并且不断完善的优势，到了主龙形下纲将其发扬光大，至恐龙将其发展到了顶尖水平。只不过做到巅峰的并不是恐龙，而是恐龙的姐妹种族翼龙</p>
+<figure><img alt="" class="content-image" src="https://pica.zhimg.com/v2-21e901187f9c5f3fc30bf26971824568_720w.jpg?source=8673f162" /><figcaption>迄今为止没有哪种脊椎动物能把减重做到翼龙这等水平。翼龙普遍具有比例夸张的大头，但是重量其实轻得很。</figcaption></figure>
+<p>除了颅骨以外，较为进步的一些恐龙类型还演化出中空结构的骨骼，进一步减重。现存的鸟类就保留了这样的结构。</p>
+<figure><img alt="" class="content-image" src="https://pica.zhimg.com/v2-6f2d52dd1f1a426f0fd0d524885028ba_720w.jpg?source=8673f162" /><figcaption>中空骨骼结构</figcaption></figure>
+<p>这就使恐龙的结构密度低于合弓纲。</p>
+<p><strong>同等体积之下，体重更轻。或者同等体重之下，体积更大。</strong></p>
+<p>再加上恐龙的气囊呼吸系统获取氧气 - 排除废气的效率大大强于哺乳动物，足够支撑更庞大的体积而不怕末端缺氧。</p>
+<p>而且<strong>气囊占据了体腔内的大量空间，增大了体积，但是却没增加多少重量</strong>。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-e144dffa5ae9e6e83926d3bebb2badca_720w.jpg?source=8673f162" /><figcaption>气囊占用了大量空间，使得体型更大，却没有增加多少重量</figcaption></figure>
+<p>此外气囊还有一个好处，就是使得<strong>恐龙体内有大量直接接触空气的面积，能高效地将体内多余热量通过呼吸排出体外</strong>。这一点，又解决了如果体积过大的话，就会导致内部器官散热困难的问题。</p>
+<p>虽然中生代的主流植物体系能供养更大的素食动物，进而供养更大的食肉恐龙的确是事实，但是很多人认为的新生代哺乳动物长不了恐龙那么大的原因是大气含氧量低的观点是错误的。特别是白垩纪时期的大气含氧量并不比现在高，甚至白垩纪大部分时期的地球气温也处于持续下降的趋势，但是这都没能阻止恐龙的大型化。恐龙的呼吸系统优势，相比哺乳动物，等于是起到了提高大气含氧量的作用，氧气浓度越低，恐龙的优势越大。</p>
+<p>总的来说，<strong>恐龙的体积上限要大于哺乳动物</strong>。且不说巨型蜥脚类，即便是不以尺寸和体重见长的鸟臀目恐龙，鸭嘴龙科也能轻松超过 10 吨，体积更是远远大于哺乳动物的极限，而这种级别的恐龙在中生代占据的也就相当于现在羚羊的生态位。迄今为止发现的最大的鸟臀目恐龙是中国发现的巨型山东龙，已经是高 8 米长 15 米级别了，这已经是陆生合弓纲无法望其项背的水平了，而且 4 吨副栉龙还能以 40 公里以上的速度奔跑，跟马的速度差不多。而这个级别的哺乳动物，速度起码要减半，恐龙大型化的优势可见一斑。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-f2c92d84c383223ea536467fa904225c_720w.jpg?source=8673f162" /><figcaption>短冠龙木乃伊化石，保留了完整的内部器痕迹，甚至还保留了后肢的蹄子。这种中型副栉龙体长 9 米，尺寸大于非洲象，4 吨的体重却小于非洲象，推测奔跑速度在 30-45KM，与马相当。能留下木乃伊化石，可以想象当时这种动物数量有多庞大。</figcaption></figure>
+<p>不过凡事都有代价，恐龙的大型化上限虽然要高于哺乳动物，但是小型化下限也要高于哺乳动物。恐龙专精的这些结构减重天赋树，只有体积大到一定程度之后才具有优势，体积越大优势越大。</p>
+<p>但是只有老鼠那么大的不能飞的小型恐龙，相比只有老鼠那么大、甚至更小的哺乳动物，并没有什么优势。</p>
+<p>这就是为什么鸟类能成为唯一延续至今的恐龙的原因：太大的恐龙扛不过大灭绝，太小的恐龙竞争不过哺乳动物，只有一部分小型鸟类扛过了大灭绝，又靠飞行避开了和小型哺乳动物的直接竞争，才得以存续至今。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-f2b66a47aab51cf3c427d86ba4df9405_720w.jpg?source=8673f162" /><figcaption>减重的巅峰还得看翼龙，要不然怎么会长这么大还能飞。成年风神翼龙的体重只有在地上尺寸差不多的长颈鹿的 1/4</figcaption></figure>
+</div>
+</div>
+
+
+<div class="view-more"><a href="https://www.zhihu.com/question/409522724">查看知乎讨论<span class="js-question-holder"></span></a></div>
+
+</div>
+
+
+</div>
+</div>
+]]></content:encoded>
+<pubDate>Mon, 13 May 2024 16:00:00 GMT</pubDate>
+<pubDate>Mon, 13 May 2024 16:00:00 GMT</pubDate>
+</item>
+<item>
+<title>从能级角度解释，水为什么是透明的？</title>
+<link>https://daily.zhihu.com/story/9772286</link>
+<guid>https://daily.zhihu.com/story/9772286</guid>
+<content:encoded><![CDATA[
+
+<div class="main-wrap content-wrap">
+<div class="headline">
+
+<div class="img-place-holder"></div>
+
+
+
+</div>
+
+<div class="content-inner">
+
+
+
+
+<div class="question">
+
+
+<div class="answer">
+
+<strong>
+<img class="avatar" src="https://picx.zhimg.com/v2-dedafb7a0d68f775acd03f9d352006cb_l.jpg?source=8673f162" />
+<span class="author">四爷，</span><span class="bio">打得那狼虫虎豹，宽又阔！</span>
+<a class="originUrl" hidden="" href="https://www.zhihu.com/question/408949859/answer/1369177898">查看知乎原文</a>
+</strong>
+
+<div class="content">
+<p>水只是在人眼中是无色透明的，换句话说是在可见光区透明。换个波段，比如红外区或远紫外区，那就不一定了。</p>
+<p>这个“无色透明”至少涉及两个问题：对可见光的吸收弱，对可见光的反射也很弱。</p>
+<p>我们从电磁波谱（如下）开始。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-dec543a954e6c86e6fcec84245982f93_720w.jpg?source=8673f162" /></figure>
+<p>各波段与物质的相互作用机制如下：</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-7fa2acdb3472f917f28b237a4f1049e3_720w.jpg?source=8673f162" /></figure>
+<p>因为懒得打字，所以直接从维基上截来了。</p>
+<p>紫外 - 可见光区对应化学键中的电子、原子价电子、半导体导带电子的跃迁，所以光谱分析中紫外光谱和可见光谱经常放在一起分析，也就是紫外 - 可见分光光度法（UV-Vis Spectroscopy）。</p>
+<p>如果要使水分子的电子被激发，所需的光子能量至少要能使水分子最高占据轨道的电子跃迁到最低空轨道，也就是下图中</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Cpsi_5%5Crightarrow%5Cpsi_6" /></p>
+<p>的跃迁。</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Cpsi_5" /></p>
+<p>是非键轨道，来自于 O 的</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=2p_x" /></p>
+<p>，相当于价键理论里的孤对电子；</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Cpsi_6" /></p>
+<p>是反键轨道，相当于一个</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Csigma%5E%2A" /></p>
+<p>。所以这个</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Cpsi_5%5Crightarrow%5Cpsi_6" /></p>
+<p>跃迁对应到 UV-Vis 光谱的几种跃迁形式中是比较困难的</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=n%5Crightarrow+%5Csigma%5E%2A" /></p>
+<p>跃迁。对水分子而言这个跃迁所需能量超过 6.5 eV，对应的电磁波波长小于 190 nm。而光谱分析中最常用的 UV-Vis 波段在 200-800 nm，也就是说水不仅对可见光透明，在一段紫外光中也是透明的，因此水在 UV-Vis 光谱分析中是很常用的溶剂。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-0951237a7794b0712d4d1337dc44163e_720w.jpg?source=8673f162" /><figcaption>水的分子轨道能级示意，简化了一些记号</figcaption></figure>
+<p>也就是说，可见光无法引起水分子跃迁，或者说水不吸收可见光。</p>
+<p>但是大部分金属也不吸收可见光，但金属并不透明。这是因为金属把可见光都反射掉了，而且反射率极高，这种强烈的反光造就了我们眼中的“金属光泽”。</p>
+<p>金属对可见光的强反射来自于等离子体振荡：金属可以视为自由电子和金属阳离子的等离子体，当电磁波射向金属，如果频率足够高就会被金属吸收，同时产生特定频率</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Comega_%7Bpe%7D" /></p>
+<p>的等离子体振荡；而如果光子的频率不足以引发金属的等离子体振荡，就会被反射掉。不考虑电子热运动的话，</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Comega_%7Bpe%7D" /></p>
+<p>是金属的固有性质，和自由电子浓度</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=n_e" /></p>
+<p>有关</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Comega_%7Bpe%7D%3D%5Csqrt%7B%5Cfrac%7Bn_ee%5E2%7D%7Bm_e%5E%2A%5Cepsilon_0%7D%7D" /></p>
+<p>，其中</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=e" /></p>
+<p>为电子电量，</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Cepsilon_0" /></p>
+<p>为真空介电常数，</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=m_e%5E%2A" /></p>
+<p>称为电子有效质量，是个很吊诡的东西，直接当是电子质量也行。金属中自由电子浓度相当高，因此金属的</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Comega_%7Bpe%7D" /></p>
+<p>也远高于可见光，基本上会把所有可见光都反射掉，呈银白色。个别金属会因为和可见光作用发生电子跃迁而显现出一些特定的颜色，像金这种，可以吸收一部分蓝紫光发生跃迁，因而呈黄色。当然，这部分说的是宏观尺寸的金属，当金属颗粒被处理到微米甚至纳米级别的时候，情况就完全不一样了，把金搞出彩虹色也不是不可能，有机会再另行讨论。</p>
+<p>等离子体振荡也可以放到其他物质上讨论：</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Comega_%7Bpe%7D%3D%5Csqrt%7B%5Cfrac%7Bnq%5E2%7D%7Bm%5E%2A%5Cepsilon_0%7D%7D" /></p>
+<p>，</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=n%E3%80%81q%E3%80%81m%5E%2A" /></p>
+<p>分别表示载流子浓度、载流子约化电荷量和载流子有效质量。比如水，水存在自偶电离，可以视为极稀薄的等离子体，载流子可以视为电离出来的</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=H%5E%2B%E3%80%81OH%5E-" /></p>
+<p>，电量和电子无异，但浓度极低且质量极大，因此水的</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Comega_%7Bpe%7D" /></p>
+<p>也极低，意味着水基本没有反射可见光的资格。</p>
+<p>所以水既不怎么吸收可见光，也基本不反射可见光，在我们眼里当然就是透明的。</p>
+</div>
+</div>
+
+
+<div class="view-more"><a href="https://www.zhihu.com/question/408949859">查看知乎讨论<span class="js-question-holder"></span></a></div>
+
+</div>
+
+
+</div>
+</div>
+]]></content:encoded>
+<pubDate>Mon, 13 May 2024 16:00:00 GMT</pubDate>
+<pubDate>Mon, 13 May 2024 16:00:00 GMT</pubDate>
+</item>
+<item>
+<title>往坦克上丢燃烧弹为什么能杀伤坦克?</title>
+<link>https://daily.zhihu.com/story/9772287</link>
+<guid>https://daily.zhihu.com/story/9772287</guid>
+<content:encoded><![CDATA[
+
+<div class="main-wrap content-wrap">
+<div class="headline">
+
+<div class="img-place-holder"></div>
+
+
+
+</div>
+
+<div class="content-inner">
+
+
+
+
+<div class="question">
+
+
+<div class="answer">
+
+<strong>
+<img class="avatar" src="https://pic1.zhimg.com/v2-8f08e0574e3887d37d0d030a89737112_l.jpg?source=8673f162" />
+<span class="author">MUMA，</span><span class="bio">私信已关，有事评论咨询皆可。</span>
+<a class="originUrl" hidden="" href="https://www.zhihu.com/question/400820284/answer/1284580953">查看知乎原文</a>
+</strong>
+
+<div class="content">
+<p>这个问题下的回答偏得没谱。向坦克上丢燃烧瓶可以瘫痪坦克的原理并不是什么干扰观瞄或者烧热装甲让人员热得受不了，甚至回答让坦克发动机着火，严格来说都没答到点子上。燃烧瓶对坦克最主要的作用原理就是让坦克发动机停止工作，进而使坦克因丧失动力而无法运动。</p>
+<p>对于发动机来说，由于内部的气缸本身就持续存在燃烧现象，故用燃烧瓶在外部用汽油灼烧坦克，甚至部分发动机的金属部件，很难对发动机造成实质性的损害——当然发动机外部的管线并不耐高温，确实有可能被汽油燃烧损毁而造成发动机无法工作。但坦克的发动机大多放置在车体内部，有装甲保护，燃烧瓶的汽油很难流入坦克内部烧毁内部的管线。</p>
+<p>对于燃烧瓶来说，唯一的作用是通过附着在坦克表面的汽油燃烧，消耗掉坦克表面空气中的氧气。更具体一点来说，是消耗掉坦克发动机进气口（一般在坦克尾部车体上方）附近空气中的氧气，造成坦克发动机吸入的空气中氧气不足，使得发动机燃烧室无法正常燃烧，造成发动机熄火。</p>
+<p>让坦克熄火就能杀伤坦克了么？大部分知友出生在八十年代之后，在他们的印象里，遇到汽车发动机熄火，只要一扭车钥匙就能重新启动。但是在更早的六七十年代，包括坦克在内的轻型卡车，车辆熄火后标准的启动程序，是司机将驾驶室里常备的一个大约四十公分的启动曲轴拿到车头，对准发动机转子的位置用力旋转十几下，带动发动机燃烧室的活塞运动之后，才能正常启动发动机——所有的发动机都需要让转子获得初始转动的能量（用于吸入并压缩空气）才能被正常点火。现在的汽车、飞机、坦克，有专门的启动电机，只要扭一下钥匙给启动电机通电即可用电力带动发动机启动。但仍有部分简陋的农用小型拖拉机没有启动电机这种配置，启动时需要曲轴手工转动转子。而现今绝大部分摩托车，在启动的时候也需要用脚配合踩动一个将近二十公分的曲轴，才能正常发动（现代摩托车出于紧凑结构的考虑普遍没有安装启动电机）。</p>
+<p>知友也可以通过看一战和间战时期的航空记录片，那时的飞机也没有配备启动电机，常有飞机的地勤人员在机头转动螺旋桨，飞机发动起才能正常启动的画面。如下图，地勤通过转动螺旋桨飞机的桨叶来发动飞机发动机。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-8b68ef55cfd15034790f297e9075d473_720w.jpg?source=8673f162" /></figure>
+<p>由于二战时期相当一部分坦克大多并没有设计启动电机用于给发动机初始的启动能量——坦克等重型设备也存在发动机太大，小型电动机带不动，大型电动机没空间装。故大部分坦克一旦熄火，就需要成员下车，到车外手工启动发动机。而在战场情况下，这显然是很危险的。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-14ea18c460aef20bb4745b287a7af2ae_720w.jpg?source=8673f162" /></figure>
+<p>博物馆演示二战装甲车辆的启动，需两人在车外合力操作</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-f275033032e0d22e8e684f7eeaa0b64a_720w.jpg?source=8673f162" /></figure>
+<p>故对于燃烧瓶来说，只需要丢对地方（坦克后部发动机舱进气口），即可让坦克发动机熄火并在整个战斗中丧失动力。这对于只有步兵优势的一方来说，可以认为近似消灭了对方的坦克（毕竟里面的坦克兵不可能一直呆在里面不出来）。</p>
+</div>
+</div>
+
+
+<div class="view-more"><a href="https://www.zhihu.com/question/400820284">查看知乎讨论<span class="js-question-holder"></span></a></div>
+
+</div>
+
+
+</div>
+</div>
+]]></content:encoded>
+<pubDate>Mon, 13 May 2024 16:00:00 GMT</pubDate>
+<pubDate>Mon, 13 May 2024 16:00:00 GMT</pubDate>
+</item>
+<item>
+<title>瞎扯 · 如何正确地吐槽</title>
+<link>https://daily.zhihu.com/story/9772296</link>
+<guid>https://daily.zhihu.com/story/9772296</guid>
+<content:encoded><![CDATA[
+
+<div class="main-wrap content-wrap">
+<div class="headline">
+
+<div class="img-place-holder"></div>
+
+
+
+</div>
+
+<div class="content-inner">
+
+
+
+<div class="question">
+
+<div class="answer">
+
+<strong>
+<img class="avatar" src="https://pic1.zhimg.com/v2-624f6eb03f71a1b045034d25185d29f4_l.jpg?source=8673f162" />
+<span class="author">知乎日报</span>
+</strong>
+
+<div class="content">
+<p>Q：<a class="internal" href="https://www.zhihu.com/question/19586531/answer/35184771">北京最挤的公交是每天什么时段的哪一路？</a></p>
+<blockquote>@苏婉婷 ：我坐过的最挤的一班车，到现在都不知道是多少路。那天只是路过公交车站，结果被挤上了车，直到终点站才挤下来。</blockquote>
+<p>Q：<a class="internal" href="https://www.zhihu.com/question/27101174/answer/35248933">北方人与南方人之间都有哪些常见的误解？</a></p>
+<blockquote><a class="member_mention" href="http://www.zhihu.com/people/c38d5d66a2a2150a329e918974cec5bf">@墨革</a> ：南方人认为北方人抗冻，北方人认为南方不冷。</blockquote>
+<p>Q：<a class="internal" href="https://www.zhihu.com/question/24068256/answer/26568107">为什么大家对每年的高考作文都这么关注？</a></p>
+<blockquote>@安心洁 ：因为数理化什么的看不懂啊！</blockquote>
+<p>Q：<a class="internal" href="https://www.zhihu.com/question/27374367/answer/36383575">当参观一个世界奇迹时，你最想了解哪些信息？</a></p>
+<blockquote><a class="member_mention" href="http://www.zhihu.com/people/c93586c3a5ebf9e8bddf836184e8ad13">@苏沉船</a> ：这附近有好吃的吗？</blockquote>
+<p>Q：<a class="internal" href="https://www.zhihu.com/question/27308269/answer/36152168">如何在别人吹牛的时候巧妙地打断他们？</a></p>
+<blockquote><a class="member_mention" href="http://www.zhihu.com/people/43d9c433f5c835416b88c89c2d9cc47f">@魏什么凡</a> ：你说的是打断哪？我这就动手。</blockquote>
+
+<div class="view-more"><a href="https://zhuanlan.zhihu.com/p/697569423">查看知乎讨论</a></div>
+
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+]]></content:encoded>
+<pubDate>Mon, 13 May 2024 16:00:00 GMT</pubDate>
+<pubDate>Mon, 13 May 2024 16:00:00 GMT</pubDate>
+</item>
 
 <item>
 <title>皇帝的一天是怎样度过的？</title>
