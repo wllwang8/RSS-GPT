@@ -171,3 +171,18 @@ Existing_entries: 15
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
 append_entries: 0
 Finish: 2024-05-15 08:03:58.959678
+------------------------------------------------------
+Started: 2024-05-15 10:03:34.004205
+Existing_entries: 15
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
+Token length: 39
+Summarized using GPT-3.5-turbo
+Append: [Transformer登上nature，被誉为大模型基石的它到底凭什么这么火？](https://mp.weixin.qq.com/s/xZneDM3IJlK4BfEASw1egg)
+Token length: 27
+Summarized using GPT-3.5-turbo
+Append: [手撕Flash Attention！原理解析及代码实现](https://mp.weixin.qq.com/s/2hSNQk1y99YM4TX0D96POQ)
+Append: [DPO作者新作｜From r to Q*](https://mp.weixin.qq.com/s/kRhatwbCyPFSl4tTxg_dlA)
+Append: [Introducing GPT-4o](https://mp.weixin.qq.com/s/1Mvwf_U0NXq-1DDRjrd_uw)
+Append: [RAG开源项目Qanything源码阅读2-离线文件处理](https://mp.weixin.qq.com/s/MU4AwDWNZtoLkTIfvN5JZg)
+append_entries: 5
+Finish: 2024-05-15 10:03:46.996258
