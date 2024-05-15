@@ -142,3 +142,18 @@ Existing_entries: 10
 Fetching from http://tw.wleilei.com:1200/zhihu/daily
 append_entries: 0
 Finish: 2024-05-14 22:03:08.030708
+------------------------------------------------------
+Started: 2024-05-15 00:08:28.013286
+Existing_entries: 10
+Fetching from http://tw.wleilei.com:1200/zhihu/daily
+Token length: 3673
+Summarized using GPT-3.5-turbo
+Append: [什么是情绪价值？](https://daily.zhihu.com/story/9772317)
+Token length: 2792
+Summarized using GPT-3.5-turbo
+Append: [为什么马普尔小姐、波洛、福尔摩斯都不结婚？](https://daily.zhihu.com/story/9772299)
+Append: [人类生理上有什么不合理之处？](https://daily.zhihu.com/story/9772307)
+Append: [如何深度理解《哈尔的移动城堡》？](https://daily.zhihu.com/story/9772318)
+Append: [瞎扯 · 如何正确地吐槽](https://daily.zhihu.com/story/9772320)
+append_entries: 5
+Finish: 2024-05-15 00:08:41.884112
