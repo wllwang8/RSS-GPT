@@ -4,18 +4,18 @@
 <title>AINLP</title>
 <link>http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301.atom</link>
 
+
 <item>
 <title>Transformer登上nature，被誉为大模型基石的它到底凭什么这么火？</title>
 <link>https://mp.weixin.qq.com/s/xZneDM3IJlK4BfEASw1egg</link>
 <guid>https://mp.weixin.qq.com/s/xZneDM3IJlK4BfEASw1egg</guid>
 <content:encoded><![CDATA[
 <div> Transformer 大模型 基石 火
-<br>
-总结:<br>
+<br />
+总结:<br />
 Transformer因其强大的处理能力和广泛的应用领域而受到广泛关注。作为大模型的基石，Transformer在自然语言处理等领域展现出了卓越的表现。其独特的结构和先进的机制使其能够有效地处理各种复杂任务，并取得令人瞩目的成果。Transformer的火爆也源于其被广泛认可为推动人工智能发展的关键技术之一，对未来的发展具有重要意义。 <div>
 Transformer登上nature，被誉为大模型基石的它到底凭什么这么火？
 ]]></content:encoded>
-
 <pubDate>2024-05-14T15:12:33.000Z</pubDate>
 </item>
 <item>
@@ -24,11 +24,10 @@ Transformer登上nature，被誉为大模型基石的它到底凭什么这么火
 <guid>https://mp.weixin.qq.com/s/2hSNQk1y99YM4TX0D96POQ</guid>
 <content:encoded><![CDATA[
 <div> 原理解析、代码实现、Flash、手撕、注意事项
-<br>
-手撕Flash Attention！是一篇介绍如何手动实现Flash Attention机制的文章。通过深入分析Flash Attention的原理，在代码中实现该机制，可以提高模型的性能和泛化能力。在实现过程中，需要注意调整超参数、保持网络结构的稳定性和正确使用损失函数等细节。通过手动实现Flash Attention，可以更好地理解模型内部的运作机制，从而更好地优化模型的表现。<br><br>总结:手撕Flash Attention！是一篇介绍如何手动实现Flash Attention机制的文章。通过深入分析Flash Attention的原理，在代码中实现该机制，可以提高模型的性能和泛化能力。在实现过程中，需要注意调整超参数、保持网络结构的稳定性和正确使用损失函数等细节。 <div>
+<br />
+手撕Flash Attention！是一篇介绍如何手动实现Flash Attention机制的文章。通过深入分析Flash Attention的原理，在代码中实现该机制，可以提高模型的性能和泛化能力。在实现过程中，需要注意调整超参数、保持网络结构的稳定性和正确使用损失函数等细节。通过手动实现Flash Attention，可以更好地理解模型内部的运作机制，从而更好地优化模型的表现。<br /><br />总结:手撕Flash Attention！是一篇介绍如何手动实现Flash Attention机制的文章。通过深入分析Flash Attention的原理，在代码中实现该机制，可以提高模型的性能和泛化能力。在实现过程中，需要注意调整超参数、保持网络结构的稳定性和正确使用损失函数等细节。 <div>
 手撕Flash Attention！原理解析及代码实现
 ]]></content:encoded>
-
 <pubDate>2024-05-14T15:12:33.000Z</pubDate>
 </item>
 <item>
@@ -36,10 +35,8 @@ Transformer登上nature，被誉为大模型基石的它到底凭什么这么火
 <link>https://mp.weixin.qq.com/s/kRhatwbCyPFSl4tTxg_dlA</link>
 <guid>https://mp.weixin.qq.com/s/kRhatwbCyPFSl4tTxg_dlA</guid>
 <content:encoded><![CDATA[
-
 DPO作者新作｜From r to Q*
 ]]></content:encoded>
-
 <pubDate>2024-05-14T15:12:33.000Z</pubDate>
 </item>
 <item>
@@ -47,10 +44,8 @@ DPO作者新作｜From r to Q*
 <link>https://mp.weixin.qq.com/s/1Mvwf_U0NXq-1DDRjrd_uw</link>
 <guid>https://mp.weixin.qq.com/s/1Mvwf_U0NXq-1DDRjrd_uw</guid>
 <content:encoded><![CDATA[
-
 Introducing GPT-4o
 ]]></content:encoded>
-
 <pubDate>2024-05-14T15:12:33.000Z</pubDate>
 </item>
 <item>
@@ -58,13 +53,10 @@ Introducing GPT-4o
 <link>https://mp.weixin.qq.com/s/MU4AwDWNZtoLkTIfvN5JZg</link>
 <guid>https://mp.weixin.qq.com/s/MU4AwDWNZtoLkTIfvN5JZg</guid>
 <content:encoded><![CDATA[
-
 RAG开源项目Qanything源码阅读2-离线文件处理
 ]]></content:encoded>
-
 <pubDate>2024-05-14T15:12:33.000Z</pubDate>
 </item>
-
 <item>
 <title>太强了！深度学习融合魔改</title>
 <link>https://mp.weixin.qq.com/s/HwJPnEdtYyPWuao-he6d1Q</link>
