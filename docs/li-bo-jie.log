@@ -611,3 +611,9 @@ Summarized using GPT-3.5-turbo
 Append: [李博杰发布了想法: Ilya 终于官宣离开 OpenAI 了，此前半年基本上都没在办公室出现。Superalignment team 的另外一位主要负责人 Jan Leike 也在今天离职，OpenAI...](https://www.zhihu.com/pin/1774060477385367552)
 append_entries: 1
 Finish: 2024-05-15 06:03:35.884863
+------------------------------------------------------
+Started: 2024-05-15 08:03:32.098866
+Existing_entries: 49
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+append_entries: 0
+Finish: 2024-05-15 08:03:33.565664
