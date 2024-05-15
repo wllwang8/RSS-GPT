@@ -647,3 +647,9 @@ Summarized using GPT-3.5-turbo
 Append: [李博杰赞同了回答: 如何评价OpenAI 联合创始人兼首席科学家 Ilya Sutskever 官宣从OpenAI离职？](https://www.zhihu.com/question/656050970/answer/3499342945)
 append_entries: 1
 Finish: 2024-05-15 16:03:50.731803
+------------------------------------------------------
+Started: 2024-05-15 18:03:11.594497
+Existing_entries: 51
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+append_entries: 0
+Finish: 2024-05-15 18:03:12.562618
