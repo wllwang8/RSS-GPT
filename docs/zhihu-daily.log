@@ -250,3 +250,9 @@ Existing_entries: 20
 Fetching from http://tw.wleilei.com:1200/zhihu/daily
 append_entries: 0
 Finish: 2024-05-16 04:02:39.271450
+------------------------------------------------------
+Started: 2024-05-16 06:02:51.260265
+Existing_entries: 20
+Fetching from http://tw.wleilei.com:1200/zhihu/daily
+append_entries: 0
+Finish: 2024-05-16 06:03:06.325873
