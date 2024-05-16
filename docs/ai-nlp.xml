@@ -4,6 +4,71 @@
 <title>AINLP</title>
 <link>http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301.atom</link>
 
+<item>
+<title>RAG还是微调？大模型微调技术全面盘点</title>
+<link>https://mp.weixin.qq.com/s/KJ4qQWnF4rcJjz705ngCAQ</link>
+<guid>https://mp.weixin.qq.com/s/KJ4qQWnF4rcJjz705ngCAQ</guid>
+<content:encoded><![CDATA[
+<div> RAG 微调 模型 技术 全面
+
+<br><br>总结:
+本文全面盘点了微调大模型的技术，探讨了RAG和微调之间的关系。大模型微调技术的发展已经日益成熟，可以有效提升模型性能。RAG模型可以帮助用户更好地理解模型预测结果，尤其在自然语言处理领域表现突出。整体上，微调大模型是为了更好地适应特定任务，提高模型的准确性和泛化能力。通过深入研究大模型微调技术，可以更好地利用现有模型，为各类应用提供更好的解决方案。 <div>
+RAG还是微调？大模型微调技术全面盘点
+]]></content:encoded>
+
+<pubDate>2024-05-15T14:21:35.000Z</pubDate>
+</item>
+<item>
+<title>如何提升大模型的Agent推理规划等能力？</title>
+<link>https://mp.weixin.qq.com/s/7208b2TxskVJn3IKj6hw6Q</link>
+<guid>https://mp.weixin.qq.com/s/7208b2TxskVJn3IKj6hw6Q</guid>
+<content:encoded><![CDATA[
+<div> 提升 大模型 Agent 推理 规划 能力  
+总结:  
+提升大模型的Agent推理规划等能力，可采用以下策略：   
+1. 引入更多数据：通过增加训练数据量，让Agent在更多场景中学习并提升推理能力。  
+2. 增加模型复杂度：适当增加Agent的模型复杂度，提高推理和规划的精度和准确度。  
+3. 优化算法：选择更优的优化算法，提高Agent的训练效率和模型性能。  
+4. 强化学习：利用强化学习技术，让Agent在实时环境中不断优化策略和决策能力。  
+5. 结合领域知识：结合实际领域的专业知识，让Agent更好地理解和处理复杂情况，提升推理规划能力。 <div>
+如何提升大模型的Agent推理规划等能力？
+]]></content:encoded>
+
+<pubDate>2024-05-15T14:21:35.000Z</pubDate>
+</item>
+<item>
+<title>开源闭源争论不休，浅谈大模型开源和闭源</title>
+<link>https://mp.weixin.qq.com/s/y9Ru6UANWOu4Q2wHJBgMWQ</link>
+<guid>https://mp.weixin.qq.com/s/y9Ru6UANWOu4Q2wHJBgMWQ</guid>
+<content:encoded><![CDATA[
+
+开源闭源争论不休，浅谈大模型开源和闭源
+]]></content:encoded>
+
+<pubDate>2024-05-15T14:21:35.000Z</pubDate>
+</item>
+<item>
+<title>大模型测试集作弊？ICLR论文将leak一网打尽！</title>
+<link>https://mp.weixin.qq.com/s/tGVB1f6oJ_-BJv88oFy8Uw</link>
+<guid>https://mp.weixin.qq.com/s/tGVB1f6oJ_-BJv88oFy8Uw</guid>
+<content:encoded><![CDATA[
+
+大模型测试集作弊？ICLR论文将leak一网打尽！
+]]></content:encoded>
+
+<pubDate>2024-05-15T14:21:35.000Z</pubDate>
+</item>
+<item>
+<title>IJCAI2024｜基于指令的大模型知识编辑</title>
+<link>https://mp.weixin.qq.com/s/aMqcZW55I8xQrtpCy_nE_Q</link>
+<guid>https://mp.weixin.qq.com/s/aMqcZW55I8xQrtpCy_nE_Q</guid>
+<content:encoded><![CDATA[
+
+IJCAI2024｜基于指令的大模型知识编辑
+]]></content:encoded>
+
+<pubDate>2024-05-15T14:21:35.000Z</pubDate>
+</item>
 
 <item>
 <title>Transformer登上nature，被誉为大模型基石的它到底凭什么这么火？</title>

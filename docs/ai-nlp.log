@@ -252,3 +252,18 @@ Existing_entries: 20
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
 append_entries: 0
 Finish: 2024-05-16 08:04:17.040667
+------------------------------------------------------
+Started: 2024-05-16 10:03:42.390106
+Existing_entries: 20
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
+Token length: 19
+Summarized using GPT-3.5-turbo
+Append: [RAG还是微调？大模型微调技术全面盘点](https://mp.weixin.qq.com/s/KJ4qQWnF4rcJjz705ngCAQ)
+Token length: 21
+Summarized using GPT-3.5-turbo
+Append: [如何提升大模型的Agent推理规划等能力？](https://mp.weixin.qq.com/s/7208b2TxskVJn3IKj6hw6Q)
+Append: [开源闭源争论不休，浅谈大模型开源和闭源](https://mp.weixin.qq.com/s/y9Ru6UANWOu4Q2wHJBgMWQ)
+Append: [大模型测试集作弊？ICLR论文将leak一网打尽！](https://mp.weixin.qq.com/s/tGVB1f6oJ_-BJv88oFy8Uw)
+Append: [IJCAI2024｜基于指令的大模型知识编辑](https://mp.weixin.qq.com/s/aMqcZW55I8xQrtpCy_nE_Q)
+append_entries: 5
+Finish: 2024-05-16 10:03:53.059228
