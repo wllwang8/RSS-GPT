@@ -4,13 +4,14 @@
 <title>阮一峰的网络日志</title>
 <link>http://www.ruanyifeng.com/blog/</link>
 
+
 <item>
 <title>科技爱好者周刊（第 300 期）：三十年，解决人生三大问题</title>
 <link>http://www.ruanyifeng.com/blog/2024/05/weekly-issue-300.html</link>
 <guid>http://www.ruanyifeng.com/blog/2024/05/weekly-issue-300.html</guid>
 <content:encoded><![CDATA[
-<div> 极光 太阳活动 三大问题 人生规划 WebGPU<br>
-<br>总结:本周的科技内容包括极光现象、人生三大问题的规划、WebGPU技术等。文章介绍了以解决事业、家庭和财务三大问题为中心的人生规划框架，并推荐了WebGPU线下沙龙和稀土开发者大会活动。此外，还分享了AI模型、新工具和资源等内容。另外，还涉及到神秘的《蒙娜丽莎》地点之谜、沙发后面插座工具、金属轮胎等新颖科技动态。文章结尾包含了一则引人深思的故事和多条言论，为本周科技内容画上完美句号。 <div>
+<div> 极光 太阳活动 三大问题 人生规划 WebGPU<br />
+<br />总结:本周的科技内容包括极光现象、人生三大问题的规划、WebGPU技术等。文章介绍了以解决事业、家庭和财务三大问题为中心的人生规划框架，并推荐了WebGPU线下沙龙和稀土开发者大会活动。此外，还分享了AI模型、新工具和资源等内容。另外，还涉及到神秘的《蒙娜丽莎》地点之谜、沙发后面插座工具、金属轮胎等新颖科技动态。文章结尾包含了一则引人深思的故事和多条言论，为本周科技内容画上完美句号。 <div>
 <p>这里记录每周值得分享的科技内容，周五发布。</p>
 <p>本杂志<a href="https://github.com/ruanyf/weekly">开源</a>，欢迎<a href="https://github.com/ruanyf/weekly/issues">投稿</a>。另有<a href="https://github.com/ruanyf/weekly/issues/4390">《谁在招人》</a>服务，发布程序员招聘信息。合作请<a href="mailto:yifeng.ruan@gmail.com">邮件联系</a>（yifeng.ruan@gmail.com）。</p>
 
@@ -437,9 +438,7 @@
 </ul></div><div></div>
 ]]></content:encoded>
 <pubDate>Fri, 17 May 2024 08:13:29 +0800</pubDate>
-<pubDate>Fri, 17 May 2024 08:13:29 +0800</pubDate>
 </item>
-
 <item>
 <title>科技爱好者周刊（第 299 期）：AI 的关键是语料</title>
 <link>http://www.ruanyifeng.com/blog/2024/05/weekly-issue-299.html</link>

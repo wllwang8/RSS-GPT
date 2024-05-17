@@ -287,3 +287,9 @@ Summarized using GPT-3.5-turbo
 Append: [科技爱好者周刊（第 300 期）：三十年，解决人生三大问题](http://www.ruanyifeng.com/blog/2024/05/weekly-issue-300.html)
 append_entries: 1
 Finish: 2024-05-17 02:14:02.692091
+------------------------------------------------------
+Started: 2024-05-17 04:03:25.663698
+Existing_entries: 7
+Fetching from https://feeds.feedburner.com/ruanyifeng
+append_entries: 0
+Finish: 2024-05-17 04:03:25.925069
