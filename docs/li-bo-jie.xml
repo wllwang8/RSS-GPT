@@ -5,19 +5,32 @@
 <link>https://www.zhihu.com/people/li-bo-jie/activities</link>
 
 <item>
+<title>李博杰发布了想法: GPT-4o 都整了些什么中文语料训练啊，看看 o200k 的词表里面都是些什么……<br>图1是 GPT-4o 词表里面最长的中文词，图2是双字中文词，图3是 ...</title>
+<link>https://www.zhihu.com/pin/1774942462706176001</link>
+<guid>https://www.zhihu.com/pin/1774942462706176001</guid>
+<content:encoded><![CDATA[
+<div> GPT-4o, o200k词表, 训练语料, 中文tokenizer, 超长词汇, 双字词汇
+
+总结:<br><br>
+本文介绍了GPT-4o模型以及其使用的中文语料训练情况。分别展示了o200k词表中的超长词汇、双字词汇，以及GPT-4o将“给主人留下些什么吧”作为一个token的现象。相比较正常的GPT-4词表，o200k词表中的词汇相对奇特。讨论了中文tokenizer对中文的不友好问题。整体而言，GPT-4o在中文语料训练方面存在一些特殊现象，需要在应用中予以关注。 <div>
+<p>GPT-4o 都整了些什么中文语料训练啊，看看 o200k 的词表里面都是些什么……<br />图1是 GPT-4o 词表里面最长的中文词，图2是双字中文词，图3是 GPT-4o 把 “给主人留下些什么吧” 当作一个 token，认为是夸奖的意思。图4是比较正常的 GPT-4 词表（cl100k_base），虽然 tokenizer 对中文不太友好，中文占用 token 数较多，但至少没有太多奇奇怪怪的 token。</p><p><img src="https://pic3.zhimg.com/100/v2-2cd0ff7a0ad422f4387a730c3923fdee_720w.jpg" /></p><p><img src="https://pic1.zhimg.com/100/v2-3400de588b7487d9b43c73fede8595f0_720w.jpg" /></p><p><img src="https://pic2.zhimg.com/100/v2-40cdb48a745b3d2478c20848d449b189_720w.jpg" /></p><p><img src="https://pic1.zhimg.com/100/v2-e03e9bbdf27b71c9097da2053a906f04_720w.jpg" /></p>
+]]></content:encoded>
+<pubDate>Fri, 17 May 2024 15:20:59 GMT</pubDate>
+<pubDate>Fri, 17 May 2024 15:20:59 GMT</pubDate>
+</item>
+
+<item>
 <title>李博杰发布了想法: 今天早上收到中国银行一笔扣款消息，扣完之后账户余额为0，我想怎么这么凑巧，再一看转账记录里面这笔转账的对方为空。然后我就打银行客服，...</title>
 <link>https://www.zhihu.com/pin/1774915894239911936</link>
 <guid>https://www.zhihu.com/pin/1774915894239911936</guid>
 <content:encoded><![CDATA[
 <div> 银行 扣款 失败 客服 合约  
-总结:<br>
+总结:<br />
 收到中国银行扣款消息后发现转账对方为空，原来是信用卡还款失败。客服解释合约回滚，但要T+1才能退款。客服似乎对合约很熟悉，让人感觉他是内行。 <div>
 <p>今天早上收到中国银行一笔扣款消息，扣完之后账户余额为0，我想怎么这么凑巧，再一看转账记录里面这笔转账的对方为空。然后我就打银行客服，原来是信用卡自动还款失败了。我就说你们的合约写的有问题呀，还款失败了也不能把钱扣在里面呀，信用卡账单还是一分没付。客服说合约回滚了，但是钱要T+1才能给退回来。我想这客服不会是在交易所上班的吧，我顺口说了个合约，他就说合约回滚了，看来是内行呀 😂</p>
 ]]></content:encoded>
 <pubDate>Fri, 17 May 2024 13:35:25 GMT</pubDate>
-<pubDate>Fri, 17 May 2024 13:35:25 GMT</pubDate>
 </item>
-
 <item>
 <title>李博杰赞同了文章: 大模型网信办备案全网最详细说明（附附件）</title>
 <link>https://zhuanlan.zhihu.com/p/694114550</link>

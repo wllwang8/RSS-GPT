@@ -809,3 +809,12 @@ Summarized using GPT-3.5-turbo
 Append: [李博杰发布了想法: 今天早上收到中国银行一笔扣款消息，扣完之后账户余额为0，我想怎么这么凑巧，再一看转账记录里面这笔转账的对方为空。然后我就打银行客服，...](https://www.zhihu.com/pin/1774915894239911936)
 append_entries: 1
 Finish: 2024-05-17 14:02:46.955527
+------------------------------------------------------
+Started: 2024-05-17 16:03:29.694072
+Existing_entries: 59
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+Token length: 204
+Summarized using GPT-3.5-turbo
+Append: [李博杰发布了想法: GPT-4o 都整了些什么中文语料训练啊，看看 o200k 的词表里面都是些什么……<br>图1是 GPT-4o 词表里面最长的中文词，图2是双字中文词，图3是 ...](https://www.zhihu.com/pin/1774942462706176001)
+append_entries: 1
+Finish: 2024-05-17 16:03:35.801086
