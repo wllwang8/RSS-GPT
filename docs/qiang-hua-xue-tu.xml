@@ -4,20 +4,19 @@
 <title>强化学徒的知乎动态</title>
 <link>https://www.zhihu.com/people/heda-he-28/activities</link>
 
+
 <item>
 <title>强化学徒赞同了回答: 如何看待某本科生在 arXiv 声称破解千禧年数学难题 NP 完全问题?</title>
 <link>https://www.zhihu.com/question/656189747/answer/3500999037</link>
 <guid>https://www.zhihu.com/question/656189747/answer/3500999037</guid>
 <content:encoded><![CDATA[
 <div> 认真 严谨 notation 格式 修改理论
-<br>
+<br />
 这篇文章对于学术写作提出了一些建议：首先，要保持认真和严谨，统一论文中的notation和格式，增加阅读动力；其次，避免使用不恰当的用词，避免过度包装；最后，修改理论部分，确保清晰表达、定义明确，避免混乱。总的来说，作者认为这篇论文混乱不清晰，缺乏吸引人阅读的动力，建议作者先认真对待自己的工作，再呈现给同行。 <div>
 <p>我觉得，如果你对学术是 认真 和 严谨 的，应该做如下步骤：</p><ol><li>将论文里的 notation 和 格式 统一。比如：</li></ol><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic2.zhimg.com/v2-c5366e2b00a038284c879555336bf159_1440w.jpg" /></figure><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic1.zhimg.com/v2-25058ac6496e75f5cc29c0eba00cd9dc_1440w.jpg" /></figure><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic4.zhimg.com/v2-687944c35e998f4aa3a2ece73c92db0f_1440w.jpg" /></figure><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic4.zhimg.com/v2-3fcf9edff2a0b86e1de94b53ce4e7263_1440w.jpg" /></figure><p>以上这些只是几个格式问题的例子。修改格式后，有可能会增加别人阅读的动力。至少，同行的第一感是“不管结果的正确与否，你对这个工作是认真的”。</p><p>我不知道你写这个论文时是出于什么心情，以至于这么明显的格式问题都没有修改。</p><p>2. 用词 （不是语法问题）：</p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic2.zhimg.com/v2-fb831c6f7a8e92fcf155188235e3a525_1440w.jpg" /></figure><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic3.zhimg.com/v2-fc36c8371da0993b29c92df775f5d926_1440w.jpg" /></figure><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic3.zhimg.com/v2-942978a0a85c471e25828b795471d5e2_1440w.jpg" /></figure><p>我本人是做 combinatorial optimization 和 learning theory 的。负责任的说，没有任何一个正经的 TCS论文 会说自己证明的Theorem是“beautiful“。也不会有人用”meticulously“包装自己的论证过程。</p><p>同第一条，我不知道你写这个论文时的心理状态如何。如果你对自己的工作态度是认真的，请修改。这会增加同行阅读的动力。</p><p>3. 修改理论的部分：</p><p>我恰巧非常熟悉SDP以及他在 approximation algorithms 里的应用。咱们看你 Theorem 1.1 的 formulation：</p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic4.zhimg.com/v2-6491d1489702f6ad98ec4dcc8cad1a9f_1440w.jpg" /></figure><p>每当你使用一个notation的时候，先要问自己："这个notation我之前有没有定义过？"如果没有定义过，一定要先定义再用。因为，别人不会知道你这个notation代表什么。</p><p>比如，这里的 objective function f 没有定义。换句话说，看完这个Theorem，完全不知道你要优化什么函数。在举一个例子： <img alt="d_{i,n}" src="https://www.zhihu.com/equation?tex=d_%7Bi%2Cn%7D" /> 是什么？也没有定义</p><p>总结就是，Theorem 不知所云，不知道要证明什么，不知道这个Theorem有什么意义。这样的话，谁会有动力去看它的证明呢？</p><p>还有这个：</p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic3.zhimg.com/v2-130f6a817538e622e11c5730e3d7b656_1440w.jpg" /></figure><p>你是在优化什么？优化 0 吗？</p><p class="ztext-empty-paragraph"><br /></p><p>总结：</p><p>论文极其混乱，同行不会有任何的阅读兴趣。如果想让大家认真对待你的工作，请你自己先认真对待自己的工作。参见 Babai 这篇：<a class=" wrap external" href="https://arxiv.org/abs/1512.03547" rel="nofollow noreferrer" target="_blank">Graph Isomorphism in Quasipolynomial Time</a>。 这个论文当时（现在也是）轰动一时的。请参考他写论文的严谨与诚恳，然后修改你的论文吧。</p><p>其他的话：</p><p>你给人整体的感觉是：想搞一个大新闻，而不是真正的想解决TCS问题。比如，你说自己得过什么奖，Annal 把你的论文推给了editors 诸如此类的。你想表明什么？你的证明对就是对，错就是错，和你得过什么奖 没有任何关系。</p>
 ]]></content:encoded>
 <pubDate>Fri, 17 May 2024 06:17:14 GMT</pubDate>
-<pubDate>Fri, 17 May 2024 06:17:14 GMT</pubDate>
 </item>
-
 <item>
 <title>强化学徒关注了问题: 如何看待某本科生在arxiv声称破解千禧年数学难题np完全问题?</title>
 <link>https://www.zhihu.com/question/656189747</link>
