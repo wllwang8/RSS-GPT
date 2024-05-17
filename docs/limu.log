@@ -313,3 +313,10 @@ Fetching from https://www.zhihu.com/people/mli65
 Feed error: <unknown>:2:0: syntax error
 append_entries: 0
 error when rendering xml, skip docs/limu
+------------------------------------------------------
+Started: 2024-05-17 00:09:01.048588
+Existing_entries: 0
+Fetching from https://www.zhihu.com/people/mli65
+Feed error: <unknown>:2:0: syntax error
+append_entries: 0
+error when rendering xml, skip docs/limu
