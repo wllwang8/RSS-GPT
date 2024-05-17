@@ -818,3 +818,9 @@ Summarized using GPT-3.5-turbo
 Append: [李博杰发布了想法: GPT-4o 都整了些什么中文语料训练啊，看看 o200k 的词表里面都是些什么……<br>图1是 GPT-4o 词表里面最长的中文词，图2是双字中文词，图3是 ...](https://www.zhihu.com/pin/1774942462706176001)
 append_entries: 1
 Finish: 2024-05-17 16:03:35.801086
+------------------------------------------------------
+Started: 2024-05-17 18:03:04.556018
+Existing_entries: 60
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+append_entries: 0
+Finish: 2024-05-17 18:03:05.448962
