@@ -752,3 +752,15 @@ Existing_entries: 54
 Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
 append_entries: 0
 Finish: 2024-05-17 00:08:59.861713
+------------------------------------------------------
+Started: 2024-05-17 02:13:10.912015
+Existing_entries: 54
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+Token length: 158
+Summarized using GPT-3.5-turbo
+Append: [李博杰赞同了回答: 战争史上有哪些蠢到令人窒息的操作？](https://www.zhihu.com/question/263416200/answer/3469534133)
+Token length: 1174
+Summarized using GPT-3.5-turbo
+Append: [李博杰赞同了回答: 鸿门宴中，项羽赐樊哙生猪腿的用意何在？为什么项羽只说“赐之彘肩”，手下就知道赐“生”猪腿？](https://www.zhihu.com/question/19870339/answer/1836144340)
+append_entries: 2
+Finish: 2024-05-17 02:13:24.273710
