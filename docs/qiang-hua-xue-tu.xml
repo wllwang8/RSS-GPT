@@ -4,6 +4,20 @@
 <title>强化学徒的知乎动态</title>
 <link>https://www.zhihu.com/people/heda-he-28/activities</link>
 
+<item>
+<title>强化学徒赞同了回答: 计算机领域有哪些编程的方向适合自己在家中研究，对设备要求不高，而且比较有意思？</title>
+<link>https://www.zhihu.com/question/656336984/answer/3502398018</link>
+<guid>https://www.zhihu.com/question/656336984/answer/3502398018</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 开发方向, 编程语言, 设备要求, 学习曲线, 主要技术<br>
+<br>
+总结:<br>
+本文介绍了多种不同的编程开发方向，包括图形界面开发、安卓开发、IOS开发、网络爬虫开发、web开发等。不同方向对设备要求各有不同，学习曲线也有所差异。主要涉及的编程语言包括C++、Java、JS、Python等。根据个人兴趣和设备条件选择合适的方向学习，不同方向有不同的技术和应用领域，可以根据自身需求和兴趣进行选择和学习。 <div>
+<p>很好的问题，我无法告诉你哪些比较有意思，因为我在你家没装监控。</p><p>但是我可以告诉你哪些方向对于设备要求不高。</p><h2>你有一台5年前的笔记本</h2><p>如果你只有一台小笔记本，内存只有4-8个G，没有独立显卡。</p><ul><li>图形界面开发。也就是开发各种桌面端软件，比如英雄联盟的客户端呀，QQ，微信，文本编辑器这样的PC端软件。可以去学习一下C++驱动的Qt，python驱动的pyqt5，js 驱动的 electron，Dart 驱动的 flutter。个人建议学习最后两个。pyqt5是学习门槛最低的。</li><li>安卓开发。指开发安卓上的各类App，主要编程语言是Java，平台是 AndroidStudio。</li><li>IOS开发。指开发 iPad 和 iPhone 上的各类App，主要编程语言是 Swift。</li><li>微信小程序开发。微信小程序是目前国内生态的主流，主要编程语言是 js。</li><li>网络爬虫开发。包括单不限于批量从一个网站通过程序下载静态资源，或者抓取上面不能直接复制的文本信息，主要编程语言是 python 或 JavaScript。但是需要额外的 web 端的知识，学习曲线较长，建议熟悉 web 开发后再攻读。</li><li>web 开发。包括网页开发，后端开发。网页开发主要编程语言为 html，js，css。后端开发可就杂了，国内主流为 java，这几年 go 在飞速发展。国内外也有不少公司使用 python。推特用的是 Scala，wiki 用的 php，QQ 用的 C。后端不仅可以接入网站，也可以接入图形界面。</li><li>平面游戏开发，可以使用 unity3d 做做玩具，主要编程语言是 C#</li><li>精准动画制作，使用 manim 进行精准炫酷的动画制作，主要编程语言是 python</li></ul><p>进阶。</p><ul><li>开发形式语言解析器。为一些特殊格式的文本开发解析器，比如读取一个表格里面感兴趣的内容，识别 HTTP 报文的内容。主要编程语言为 C，C++，rust。你可能需要一定的编译原理中文法推导的知识。</li><li>CPU/GPU 软核开发。使用 HDL 开发 RTL 级的 CPU/GPU，主要编程语言为 verilog，vhdl，Scala，你可能需要一定的计算机组成原理和数字电路的知识。推荐 tinyGPU 这个项目。</li><li>开发特殊语言编译器。为某种编程语言开发编译器，并自定义某些特殊功能，比如GC优化，数据类型转换，内存申请机制。主要编程语言为 C，C++，rust 以及汇编。</li><li>开发小型数据库系统。开发一个小型的数据库系统，包括SQL脚本控制台，数据的CRUD接口，回滚和备份。主要编程语言为C，C++，rust 以及汇编。</li><li>开发操作系统。开发一个小型的操作系统，只需要支持基本的一些C语言的系统调用。主要编程语言为 C，C++，rust。</li><li>开发小型的浏览器内核。也就是自己写一个浏览器，包括JavaScript解释器和DOM排版器。主要编程语言为 C，C++，rust。</li><li>网络渗透。使用计算机进入学校的监控网站，酒店的人员资料等等。你需要对网络传输层往上的协议和web原理都很了解才能做到。主要编程语言为 bash 终端。</li></ul><p>黑产。</p><ul><li>waiguai</li><li>shegongku</li><li>jiedian</li><li>... ...</li></ul><h2>你有一台有显卡的主机</h2><p>你有一台有显卡和声卡的电脑。</p><ul><li>做深度学习，炼丹，然后去 kaggle 上打比赛。主要编程语言为 python</li><li>3D游戏开发。使用 虚幻引擎 或者 Unity3D 开发游戏，主要编程语言为 C#。除此之外，你可能还需要一定的乐理和美术基础用于制作游戏配乐和角色立绘。用 SunoAI 和 diffusion 做也行，但是有点次。</li><li>web 图形渲染，这个很好玩：<a class=" external" href="https://www.gamemcu.com/su7" rel="nofollow noreferrer" target="_blank"><span class="invisible">https://www.</span><span class="visible">gamemcu.com/su7</span><span class="invisible"></span></a>  。这个技术比较复杂，主要编程语言是 html，js，glsl（着色器编程语言），rust/C++（编译 wasm）</li><li>GPU计算加速。</li><li>开发模拟器。开发一个可以模拟显示生活中物体碰撞的模拟器，主要编程语言为 C，你可能需要一定的图形学和物理学的知识。</li></ul><p class="ztext-empty-paragraph"><br /></p><h2>你有两台主机</h2><ul><li>组局域网，玩隧道和 frp。</li><li>玩分布式数据库，比如 mangodb，es</li><li>玩分布式中间件，比如redis，kafka</li><li>部署后端，开网站，赚 adsense</li></ul><p class="ztext-empty-paragraph"><br /></p><h2>你有 N 台 A100 的主机</h2><p>你有一台128核，256G内存的主机，里面装了 &gt;=1 块的 A100。</p><ul><li>挖矿。</li><li>用 70B 开源大模型配合向量数据库 finetone &amp; 部署分布式猫娘。</li></ul><figure><img class="content_image lazy" src="https://pic2.zhimg.com/v2-5b8c9b9533145fcd76f6869de31da745_1440w.jpg" /></figure><p></p>
+]]></content:encoded>
+<pubDate>Sat, 18 May 2024 07:44:56 GMT</pubDate>
+<pubDate>Sat, 18 May 2024 07:44:56 GMT</pubDate>
+</item>
 
 <item>
 <title>强化学徒赞同了回答: 如何评价武大某兰州籍毕业生因选调生上岸被分配到嘉峪关市而在朋友圈破防对该地恶语相向？</title>
