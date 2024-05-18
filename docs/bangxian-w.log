@@ -467,3 +467,10 @@ Fetching from http://tw.wleilei.com:8090/i/?a=normal&get=f_2
 Feed error: <unknown>:26:3: mismatched tag
 append_entries: 0
 error when rendering xml, skip docs/bangxian-w
+------------------------------------------------------
+Started: 2024-05-18 22:03:08.965520
+Existing_entries: 0
+Fetching from http://tw.wleilei.com:8090/i/?a=normal&get=f_2
+Feed error: <unknown>:26:3: mismatched tag
+append_entries: 0
+error when rendering xml, skip docs/bangxian-w
