@@ -397,3 +397,10 @@ Existing_entries: 20
 Fetching from http://tw.wleilei.com:1200/zhihu/topic/19758322
 append_entries: 0
 Finish: 2024-05-18 08:02:50.476889
+------------------------------------------------------
+Started: 2024-05-18 10:02:57.505650
+Existing_entries: 20
+Fetching from http://tw.wleilei.com:1200/zhihu/topic/19758322
+Feed error: 503
+append_entries: 0
+error when rendering xml, skip docs/zhihu-meirijingxuan
