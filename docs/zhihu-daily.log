@@ -385,3 +385,18 @@ Existing_entries: 25
 Fetching from http://tw.wleilei.com:1200/zhihu/daily
 append_entries: 0
 Finish: 2024-05-17 22:02:48.229099
+------------------------------------------------------
+Started: 2024-05-18 00:07:56.238449
+Existing_entries: 25
+Fetching from http://tw.wleilei.com:1200/zhihu/daily
+Token length: 1562
+Summarized using GPT-3.5-turbo
+Append: [为什么简化字「国」把「或」换成了「玉」，繁体字中的「或」有什么含义？](https://daily.zhihu.com/story/9772407)
+Token length: 4182
+Summarized using GPT-3.5-turbo
+Append: [有哪些我们熟知的历史常识根本就是错误的？](https://daily.zhihu.com/story/9772385)
+Append: [康熙的九个儿子为什么要争皇位，当个王爷无忧无虑不好吗？](https://daily.zhihu.com/story/9772390)
+Append: [力、热、电、磁、光、声相互会产生哪些效应，如压电、热电、磁光效应等？](https://daily.zhihu.com/story/9772399)
+Append: [中国古代工匠会用什么方法来延长木结构建筑的寿命？](https://daily.zhihu.com/story/9772415)
+append_entries: 5
+Finish: 2024-05-18 00:08:05.648662
