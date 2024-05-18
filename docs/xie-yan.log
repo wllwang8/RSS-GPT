@@ -390,3 +390,9 @@ Summarized using GPT-3.5-turbo
 Append: [为啥现在用大模型这么便宜](https://mp.weixin.qq.com/s/_QvP8qKlhwV6qouv7OLKdg)
 append_entries: 1
 Finish: 2024-05-18 10:03:52.361402
+------------------------------------------------------
+Started: 2024-05-18 12:03:57.707189
+Existing_entries: 12
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3566232719
+append_entries: 0
+Finish: 2024-05-18 12:03:58.220017
