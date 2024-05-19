@@ -4,18 +4,18 @@
 <title>李博杰的知乎动态</title>
 <link>https://www.zhihu.com/people/li-bo-jie/activities</link>
 
+
 <item>
 <title>李博杰赞同了回答: Linux 为何不把图形用户界面写入内核？</title>
 <link>https://www.zhihu.com/question/20667741/answer/2987068837</link>
 <guid>https://www.zhihu.com/question/20667741/answer/2987068837</guid>
 <content:encoded><![CDATA[
 <div> 微内核、Windows NT、GUI、性能、Linux
-<br>
-<br>
+<br />
+<br />
 总结: Windows NT 4.0在设计中考虑了微内核的模块化和封装原则，但实际将GUI移入内核后带来了性能问题。Linux的GUI体系更轻量，采用用户态实现，具有丰富的生态系统。随着技术发展，Windows移除了部分内核中的GUI功能，并采用UWP和其他解决方案。虽然存在一些问题，但Linux在GUI方面并不出在内核上，而是在特定情况下可能产生的性能问题。 <div>
 <p>Windows NT 4.0把GUI做进内核， 微软是专门发了一个白皮书讲这件事的：</p><a class=" wrap external" href="https://learn.microsoft.com/en-us/previous-versions/cc750820(v=technet.10)" rel="nofollow noreferrer" target="_blank">MS Windows NT Kernel-mode User and GDI White Paper</a><p>简单转述一下：Windows NT的内核设计是考虑到微内核的设计的</p><a class="internal" href="https://www.zhihu.com/question/339638625/answer/784544135">什么是微内核？</a><p>在微软NT内核的设计者看来， 微内核有两个原则</p><ol><li>从设计上：模块化、封装和通过接口抽象数据结构. </li><li>从实现上：大部分操作系统代码运行在用户模式下（包括驱动程序），只有少部分硬件特定代码和内核本身运行在内核模式。即纯微内核系统</li></ol><p>但事实上所有商业上可行的微内核设计不能采用纯微内核的设计， 因为这么做太慢了。</p><p>文中给了一个例子：微内核的一个好处是，如果一个操作系统的功能出现了问题，比如文件系统的代码有问题，整个系统不会崩溃。但从使用者的角度考虑，如果一个系统的文件系统出现了问题，那么宏内核的系统崩溃（比如Windows蓝屏）和微内核的数据丢失是没有区别的。</p><p>文中没有点出这一点，但很显然，在NT设计者看来，作为一个名称中带有“窗口”的操作系统，如果用户界面崩溃，那么整个系统即完全无法操作，微内核的好处无法体现。</p><p>事实上Windows NT 3.x的GUI是运行在用户态的，由csrss.exe(客户端/服务端运行时子系统，Client/Server Runtime Subsystem)负责。csrss.exe由smss.exe(Session Manager Subsystem, 1号进程，相当于Linux的init/systemd或macOS的launchd) 启动，在NT 3.x中负责实现win32子系统的功能。</p><p>win32实际上是来自基于DOS的16位Windows上采用的API的移植，16位Windows的user.exe（即窗口管理）和gdi.exe(2D图形绘制）在32位的NT 3.x中被移植为user32.dll和gdi32.dll, 二者仍负责窗口管理和2D图像绘制，但其实现方式为通过与csrss.exe进程间通讯完成GUI的各项功能。具体的进程间通讯方式为LPC, 全称为Local Procedure Call（本地过程调用）或Lightweight Procedure Call（轻量级过程调用）, LPC会绕过内核调度器，直接调度到IPC对面的进程。</p><p>但尽管NT 3.5优化了LPC的性能，微软的NT开发者当时认为这种微内核风格的实现方式效率还是较低，因此微软在NT4（1996年发布）中将csrss原本负责user32和gdi32对应的服务端代码挪到了内核模式一个叫win32k.sys的组件下，csrss仅剩下win32控制台程序的接口。</p><p>将gdi移入内核的后果是，显卡驱动的gdi驱动必须一同在内核中运行，而当时应用也非常广泛的gdi打印机驱动也一同在内核中运行，尽管逻辑上打印机并不如GUI一样需要高性能。NT4和NT5中，如果显卡驱动或gdi打印机驱动出现问题，系统就会崩溃。</p><p>在当时，Linux的GUI基本上完全位于用户态. 除去内核的fbdev驱动可以提供一个基本的framebuffer, X Server负责构建窗口管理和绘图的功能（对应NT的win32k.sys），X client使用libX11（对应NT的user32.dll)通过Unix Socket或TCP连接到X Server（对应NT的HWND消息队列）,然后使用libX11以及其之上的gtk或者qt（对应gdi32.dll和MFC等框架）绘制窗体。X Server可以使用DDX驱动加速2D绘图(对应NT的gdi驱动）</p><p>Linux这套方案在用户态实现，理论效率是不如NT的，而且Linux的GPU驱动质量不如NT, 因此更容易崩溃或卡死。但Linux确实可以通过重新启动X server的方式从崩溃后恢复，而当时的NT则必须重启整个系统。</p><p>但之后NT6和Linux都对GUI系统做出了重大的变动。</p><p>NT6移除了gdi驱动的功能，并引入了WDDM（Windows Display Driver Model)，之前gdi驱动的功能完全使用Direct 3D或CPU实现。WDDM允许GPU驱动重启并重置硬件的状态，因此Windows可以从一些GPU驱动故障中恢复。此外dwm.exe（Desktop Window Manager)允许将桌面合成的工作转交给该进程完成。</p><p>Windows10之后，微软在桌面之外的系统上使用的GUI均不包括gdi32和user32的整个体系，在内核上，win32k.sys被分为通用的win32kbase.sys和win32kmin.sys/win32kfull.sys, 只有桌面版本的Windows使用win32kfull.sys, 包括gdi32/user32和传统的窗口体验，Windows手机版、SurfaceHub版、Hololens版、Xbox版、Iot版均使用win32kmin.sys, 并没有传统的窗口体验，反而是使用类似于手机的UI体验. 所谓UWP, 为了统一在这些设备上使用，也不能调用win32kmin中缺失的api, 因此UWP程序一直相较于win32程序较少的原因就是无法使用很多已有的win32 api.</p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic2.zhimg.com/v2-ea6d578423b9d4af67141c7ac09fab4d_1440w.jpg" /><figcaption>但实际上微软将史上最大的软件，代码量接近于Windows本体的chromium移植到基于win32kmin.sys的诸多系统上，如Xbox System OS和已经放弃的Windows 10 X. 如图为第一版基于Windows 11内核的Xbox System OS运行Edge浏览器的gpu详情页.</figcaption></figure><p>而在定制之后的Windows 10 Iot core或Windows nano server系统上，压根不包括任何GUI的支持，所有控制只能通过powershell或者openssh.</p><p>Linux这边，drm换掉了fbdev(1999年drm框架提出，2021年Linux 5.14合并SimpleDRM作为fbdev的替代), drm本身足够轻量，大部分GPU驱动的功能由用户态的mesa或者各个专有驱动完成。而窗口管理等功能均有不同的用户态进程完成，例如X11的开源实现Xorg, 具有客户端库libX11/xcb并通过Unix socket/TCP连接，由各种Window Manager负责管理窗口，然后由合成器完成图像合成；Wayland由各个Wayland合成器负责窗口管理和合成，有统一的libwayland-client客户端库，并通过Unix socket链接；Android有SurfaceFlinger负责窗口合成，有WindowManager负责窗口管理，并通过Linux binder内核驱动与各App进行通讯。显然Linux具有丰富的GUI生态体系。</p><p>事实上，当初Windows NT 4.0将GUI移入内核的原因在当前已经不存在了。一方面gdi已经不再使用，程序普遍自绘GUI，另一方面，在用户态实现窗口管理完全不存在性能瓶颈，况且dwm已经将绘制这一主要的窗口管理功能在用户态实现了。唯一能解释的就是微软本来打算使用UWP完全代替过去的生态, 但失败了, 因此不再追求在桌面版Windows上破坏原有的win32兼容性。</p><p>至于Linux GUI的问题，恐怕并不出在Linux内核上。比如drm支持热插拔，但实际上大概率会导致合成器卡死甚至于内核卡死。</p>
 ]]></content:encoded>
-<pubDate>Sun, 19 May 2024 04:39:39 GMT</pubDate>
 <pubDate>Sun, 19 May 2024 04:39:39 GMT</pubDate>
 </item>
 <item>
@@ -25,13 +25,11 @@
 <content:encoded><![CDATA[
 <div> nested ticketing, interleaved ticketing, 二分图最小权重匹配, NP-hard, FPT算法
 
-总结:<br><br>这篇文章探讨了利用nested ticketing和interleaved ticketing方法来降低异地情侣团聚的机票费用。其中，nested ticketing是购买两组往返机票，停留时间重叠；interleaved ticketing是利用多个航司来执行nested ticketing。研究发现，只允许interleaved ticketing情况下，寻找最优解的问题有多项式时间算法。然而，存在一些未考虑的因素如何影响结果，如interleaved ticketing是否存在FPT算法等。通过实际数据分析发现，interleaved ticketing可以节省约10%的费用。最后，文章指出还有许多方面需要进一步研究，如在一个人飞行版本中有些航司允许nesting，有些不允许时，是否存在多项式时间算法等问题。 <div>
+总结:<br /><br />这篇文章探讨了利用nested ticketing和interleaved ticketing方法来降低异地情侣团聚的机票费用。其中，nested ticketing是购买两组往返机票，停留时间重叠；interleaved ticketing是利用多个航司来执行nested ticketing。研究发现，只允许interleaved ticketing情况下，寻找最优解的问题有多项式时间算法。然而，存在一些未考虑的因素如何影响结果，如interleaved ticketing是否存在FPT算法等。通过实际数据分析发现，interleaved ticketing可以节省约10%的费用。最后，文章指出还有许多方面需要进一步研究，如在一个人飞行版本中有些航司允许nesting，有些不允许时，是否存在多项式时间算法等问题。 <div>
 <p>以前异地时想过多次往返另一个城市机票如何才能便宜。在网上找到了back-to-back ticketing，也叫nested ticketing的方法。这个方法是指购买两组往返机票，其中两段往返行程的部分停留时间重叠。我以前也回答过相关问题，描述了为什么这样购买机票会更加便宜。</p><a class="internal" href="https://www.zhihu.com/question/58053735/answer/725669337">关于机票，经济学有哪些有趣的研究？</a><p>假如我们有一对异地情侣A和B(A在城市A，B在城市B），接下来n个周末都要团聚。我们知道所有的往返机票价格，怎么样才能最便宜的让他们团聚呢？为此学生吕东育，<a class=" wrap external" href="https://www.linkedin.com/in/yizhi-song-24784312b/" rel="nofollow noreferrer" target="_blank">Yizhi Song</a>和我考虑了一下这个问题，将会在<a class=" wrap external" href="https://ijtcs2024.comp.polyu.edu.hk/" rel="nofollow noreferrer" target="_blank">IJTCS-FAW 2024</a>上present。</p><ul><li>A更加愿意飞行，所以每次都是A飞去B那边。那可以看出最便宜的买往返机票的方法可以规约为一个二分图最小权重匹配。</li><li>但是两边都愿意飞对方那边，目标只是省最多的钱呢？这是NP-hard的。</li></ul><p>对于一个航司来说，nested ticketing是违规的。所以我们文章也考虑了我们称之为interleaved ticketing的方法，也就是用多个不同航司来执行nested ticketing。但因为每个航司只能看到自己的机票，也就没有办法发现nested ticket。结果我们发现如果只允许interleaved ticketing，航司数量也是常数个，找到两个情侣互飞的最优解就有多项式时间算法了。</p><figure><img class="origin_image zh-lightbox-thumb" src="https://pic4.zhimg.com/v2-83cf78457273a7c2e9ee3177b52085b3_1440w.jpg" /><figcaption>Nested ticketing和Interleaved Ticketing的例子。</figcaption></figure><p>有意思的是，跑了些实际的数据，显示interleaved ticketing能省10%的钱。<a class=" wrap external" href="https://chaoxu.prof/files/papers/nested-ticketing.pdf" rel="nofollow noreferrer" target="_blank">文章这里可看</a>。</p><p class="ztext-empty-paragraph"><br /></p><p>文章一堆没考虑的东西</p><ol><li>只用Interleaved Ticketing是否存在FPT算法，参数为航司数量。</li><li>近似算法能做多好？</li><li>一个人飞的版本，如果有的航司允许nesting，有的航司不允许呢？不显然有多项式时间算法？</li></ol><p class="ztext-empty-paragraph"><br /></p><p>题图：<a class=" wrap external" href="https://www.hyatt.com/en-US/hotel/china/grand-hyatt-dalian/dalgh" rel="nofollow noreferrer" target="_blank">Grand Hyatt Dalian</a></p>
 ]]></content:encoded>
 <pubDate>Sun, 19 May 2024 04:17:51 GMT</pubDate>
-<pubDate>Sun, 19 May 2024 04:17:51 GMT</pubDate>
 </item>
-
 <item>
 <title>李博杰发布了想法: GPT-4o 都整了些什么中文语料训练啊，看看 o200k 的词表里面都是些什么……<br />图1是 GPT-4o 词表里面最长的中文词，图2是双字中文词，图3是 ...</title>
 <link>https://www.zhihu.com/pin/1774942462706176001</link>

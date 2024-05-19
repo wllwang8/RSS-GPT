@@ -499,3 +499,9 @@ Existing_entries: 35
 Fetching from http://tw.wleilei.com:1200/zhihu/daily
 append_entries: 0
 Finish: 2024-05-19 06:02:49.749282
+------------------------------------------------------
+Started: 2024-05-19 08:02:39.580227
+Existing_entries: 35
+Fetching from http://tw.wleilei.com:1200/zhihu/daily
+append_entries: 0
+Finish: 2024-05-19 08:02:49.843796
