@@ -481,3 +481,9 @@ Append: [为什么生物界中会出现「我怕蟑螂，蟑螂也怕我」这�
 Append: [近视的人老了就不会老花吗？](https://daily.zhihu.com/story/9772453)
 append_entries: 5
 Finish: 2024-05-19 00:09:01.558774
+------------------------------------------------------
+Started: 2024-05-19 02:14:33.066404
+Existing_entries: 35
+Fetching from http://tw.wleilei.com:1200/zhihu/daily
+append_entries: 0
+Finish: 2024-05-19 02:14:43.472708
