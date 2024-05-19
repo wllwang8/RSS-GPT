@@ -456,3 +456,16 @@ Existing_entries: 12
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3566232719
 append_entries: 0
 Finish: 2024-05-19 08:03:16.390079
+------------------------------------------------------
+Started: 2024-05-19 10:03:41.095231
+Existing_entries: 12
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3566232719
+Token length: 23
+Summarized using GPT-3.5-turbo
+Append: [五月AI模型大比拼：性能、价格与降价背后的技术](https://mp.weixin.qq.com/s/IcXxcV1Jfxx3cKE6pCctbA)
+Token length: 17
+Summarized using GPT-3.5-turbo
+Append: [论文阅读_大模型优化_YOCO架构](https://mp.weixin.qq.com/s/D2CxrXQJbPJaS9m4KcS-xg)
+Append: [论文阅读_大模型优化_DeepSeek-V2](https://mp.weixin.qq.com/s/P3yD1uWPQN_03NWHnrEU9w)
+append_entries: 3
+Finish: 2024-05-19 10:03:50.873623
