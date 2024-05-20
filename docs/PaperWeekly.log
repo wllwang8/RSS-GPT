@@ -516,3 +516,9 @@ Existing_entries: 10
 Fetching from http://tw.wleilei.com:1200/zhihu/zhuanlan/paperweekly
 append_entries: 0
 Finish: 2024-05-20 06:03:40.635266
+------------------------------------------------------
+Started: 2024-05-20 08:04:09.328113
+Existing_entries: 10
+Fetching from http://tw.wleilei.com:1200/zhihu/zhuanlan/paperweekly
+append_entries: 0
+Finish: 2024-05-20 08:04:11.344730

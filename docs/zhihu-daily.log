@@ -580,3 +580,9 @@ Existing_entries: 40
 Fetching from http://tw.wleilei.com:1200/zhihu/daily
 append_entries: 0
 Finish: 2024-05-20 06:03:16.849483
+------------------------------------------------------
+Started: 2024-05-20 08:03:35.796677
+Existing_entries: 40
+Fetching from http://tw.wleilei.com:1200/zhihu/daily
+append_entries: 0
+Finish: 2024-05-20 08:03:40.304199

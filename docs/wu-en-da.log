@@ -522,3 +522,9 @@ Summarized using GPT-3.5-turbo
 Append: [吴恩达发表了文章: 吴恩达来信：编写更优提示](https://zhuanlan.zhihu.com/p/698748054)
 append_entries: 1
 Finish: 2024-05-20 06:03:33.838855
+------------------------------------------------------
+Started: 2024-05-20 08:04:04.061079
+Existing_entries: 8
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/wu-en-da-89
+append_entries: 0
+Finish: 2024-05-20 08:04:05.432809
