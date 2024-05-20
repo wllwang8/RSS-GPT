@@ -4,6 +4,393 @@
 <title>知乎日报</title>
 <link>https://daily.zhihu.com</link>
 
+<item>
+<title>经典力学中有哪些违反直觉的现象/实验？</title>
+<link>https://daily.zhihu.com/story/9772455</link>
+<guid>https://daily.zhihu.com/story/9772455</guid>
+<content:encoded><![CDATA[
+<div> 弹簧、受力分析、弹性系数、弹簧密度、声速
+<br>
+文章讨论了弹簧结构的特殊性质，弹簧在一定条件下可以呈现悬浮状态。通过受力分析，解释了弹簧如何实现这一现象。弹簧顶部失去拉力后加速下降，底部继续悬浮，弹簧中声速限制了信息传递速度。顶部弹簧超过声速后，底部几乎感知不到顶部变化。通过简化的微分方程和图示，展示了弹簧在特定条件下的运动规律。总的来说，弹簧的弹性系数和密度对悬浮状态起着关键作用，声速限制也是实现这一现象的重要因素。
+<br><br>总结: 弹簧在合适条件下可呈现悬浮状态，弹簧顶部加速下降，底部悬浮。声速限制了信息传递速度，顶部超过声速后底部感知不到变化。弹簧弹性系数、密度和声速是关键因素。 <div>
+<div class="main-wrap content-wrap">
+<div class="headline">
+
+<div class="img-place-holder"></div>
+
+
+
+</div>
+
+<div class="content-inner">
+
+
+
+
+<div class="question">
+
+
+<div class="answer">
+
+<strong>
+<img class="avatar" src="https://picx.zhimg.com/da8e974dc_l.jpg?source=8673f162" />
+<span class="author">章彦博，</span><span class="bio">云行雨施，品物流形</span>
+<a class="originUrl" hidden="" href="https://www.zhihu.com/question/49152793/answer/524509382">查看知乎原文</a>
+</strong>
+
+<div class="content">
+<p>第一反应想到这个图：</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-de904648475ff757adcea6921449553d_720w.gif?source=8673f162" /></figure>
+<p>看起来像是合成的，但其实是真的。有三个关键：</p>
+<p><strong>一、弹簧的弹性系数要足够低；</strong></p>
+<p><strong>二、弹簧的密度相对于弹性系数，要足够大；</strong></p>
+<p><strong>三、弹簧要足够长。</strong></p>
+<p>如果去做一点简单的受力分析，就会发现其实原理非常简单。</p>
+<figure><img alt="" class="content-image" src="https://pica.zhimg.com/v2-8adcfcf9eaf27fcb770bd5a79bab56d0_720w.jpg?source=8673f162" /></figure>
+<p>简单的受力分析如上图。弹簧的每一个小部分的形变，会产生一个拉力，而这个拉力恰好可以抵消下面弹簧的重力。</p>
+<p>松手之后，弹簧顶部失去拉力，在弹性势能、引力势能的作用下，加速下降。而<strong>弹簧底部则因为局部没有形变，所以重力与弹力仍然相等，所以会「悬浮」在那里，不发生位移</strong>。</p>
+<p>弹簧顶部在松手之后，会因为弹力与重力的共同作用，加速向下。</p>
+<p>在这个时候，需要注意一点，那就是弹簧中机械波的传递速度是有限的，也就是在这个系统中的「声速」。这个时候，只要弹簧的性质在合适的范围内（弹性系数低，弹簧密度大），那弹簧中的声速就会足够低。</p>
+<p>而在经过一小段时间的加速之后，由于还有重力的加持，<strong>顶部弹簧的速度就会超过机械波的传递速度</strong>。也就是在这个系统中，顶部的弹簧「超音速」了。这样下面的弹簧就几乎「感觉」不到上面发生了什么。机械波产生的形变传递的速度，还不如顶部弹簧下落的速度。</p>
+<p>这种情况下，在弹簧缩成一团之前，弹簧底部都是不会运动的。</p>
+<p>做一个半定量的分析：</p>
+<p>比如图中标记的那个红点，下面的弹簧质量假设是</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=m%27%3DM+x%2FL" /></p>
+<p>，那我们其实可以计算弹簧各部分的拉伸率。如果用</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Cxi" /></p>
+<p>表示未拉伸的弹簧的位置的话（以底部为 0），那么不同位置的拉伸率就是线性增长的。而在拉伸之后的弹簧上，则是二次方的关系。</p>
+<p>简单来说，弹簧上方的拉伸率大，产生足够的力拉起下面的弹簧；而下面的拉伸率低，所需拉起的弹簧重量也比较低。而在上面的图中，这种结构非常明显。</p>
+<p>列了一个简化了的微分方程：</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Csigma+%5Cfrac%7B%5Cpartial%5E2+x%7D%7B%5Cpartial+t%5E2%7D+%3D+k+%5Cfrac%7B%5Cpartial%5E2+x%7D%7B%5Cpartial+%5Cxi%5E2%7D+-+%5Csigma+g%2C+%5C%5Cx%7C_%7Bt%3D0%7D%3D%5Cfrac%7B%5Csigma+g%7D%7B2k%7D%5Cxi%5E2%2C+%5Cdot+x%7C_%7Bt%3D0%7D%3D0" /></p>
+<p>做出的图大概是这样的：</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-c826216f395cd24b3369165e089ed33c_720w.jpg?source=8673f162" /></figure>
+<p>与实验有些差别，主要是方程的边界条件没设好，在两端会出一点问题……不过定性的性质还是保留了的</p>
+</div>
+</div>
+
+
+<div class="view-more"><a href="https://www.zhihu.com/question/49152793">查看知乎讨论<span class="js-question-holder"></span></a></div>
+
+</div>
+
+
+</div>
+</div>
+]]></content:encoded>
+<pubDate>Sun, 19 May 2024 16:00:00 GMT</pubDate>
+<pubDate>Sun, 19 May 2024 16:00:00 GMT</pubDate>
+</item>
+<item>
+<title>为什么一个碳原子上不能同时存在两个碳碳双键？</title>
+<link>https://daily.zhihu.com/story/9772461</link>
+<guid>https://daily.zhihu.com/story/9772461</guid>
+<content:encoded><![CDATA[
+<div> 联烯化合物、麻生明院士、结构特征、反应性质、手性<br>
+<br>总结:联烯化合物是一类含有1,2-丙二烯官能团的化合物，具有独特的结构特征。麻生明院士在联烯化学领域有深入研究，联烯具有两套相互垂直的轨道，且具有手性。联烯能进行多种反应，包括亲核加成、亲电加成等。虽然在热力学上丙二烯向丙炔转化，但在取代基存在的情况下可能更稳定。认识错误并不断学习是人类进步的重要途径。 <div>
+<div class="main-wrap content-wrap">
+<div class="headline">
+
+<div class="img-place-holder"></div>
+
+
+
+</div>
+
+<div class="content-inner">
+
+
+
+
+<div class="question">
+
+
+<div class="answer">
+
+<strong>
+<img class="avatar" src="https://pica.zhimg.com/v2-1db60b87dfc3af1bd187eb8d3494f834_l.jpg?source=8673f162" />
+<span class="author">ChemX，</span><span class="bio">化学/成分解读/科普</span>
+<a class="originUrl" hidden="" href="https://www.zhihu.com/question/405093442/answer/1324273549">查看知乎原文</a>
+</strong>
+
+<div class="content">
+<p>看来题主还没有走出高中化学的“旧世界”，没有被大学化学好好调教过。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-623e374cf8590aa9b0f3054dbeb0b488_720w.jpg?source=8673f162" /></figure>
+<p><strong>实际上一个碳上面是能够同时存在两个碳碳双键的，并且稳定性也尚可。</strong>这类物质有个名称，叫做<strong>联烯</strong>，确实像一些高中老师说的，联烯上两个双键不稳定会发生重排生成碳碳三键。比如丙二烯（联烯的一种）和丙炔之间的互变异构。但是这类反应需要一定的温度才可以进行，在低温下，联烯是可以较稳定存在的。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-88a454bc05ab219f11212a172255b193_720w.jpg?source=8673f162" /><figcaption>丙二烯与丙炔的互变异构</figcaption></figure>
+<p>联烯是指一类含有<strong>1,2- 丙二烯</strong>官能团的化合物，本身具有独特的结构。联烯官能团的三个碳原子中末端的两个</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=sp%5E2" /></p>
+<p>杂化的碳原子以剩下的未杂化的</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=p" /></p>
+<p>轨道与中间的</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=sp" /></p>
+<p>杂化的碳原子的两个互相垂直的 p 轨道交盖形成两个相互垂直的 p 轨道。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-db4cfb045a4ea1a01b208cc4286d0f08_720w.jpg?source=8673f162" /><figcaption>联烯的结构特征</figcaption></figure>
+<p>这一方面使这三个碳原子上有着不同的电子云密度，同时当联烯带有其它基团时（图中 a、b、c、d 代表不同的取代基），由于取代基团的立体、电子等因素影响，更赋予了这类化合物的两个</p>
+<p><img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=C%3DC" /></p>
+<p>键特有的反应性能，使得联烯构成了一个轴手性因素。<sup>[1]</sup></p>
+<p>我国麻生明院士<sup>[2]</sup><sup>[3]</sup>就专门搞联烯这块的研究，在<strong>联烯化学</strong>领域深耕细作，成果颇丰。（这里说句题外话，高中教材也应该跟随时代了，稍微介绍一下化学前沿该多好，一些学生甚至包括高中化学老师，连一个碳上能不能连接两个碳碳双键都不清楚。）</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-d3d0c4d7376977391ae2dad0b6d86072_720w.jpg?source=8673f162" /><figcaption>麻生明院士在联烯化学领域可是扛把子。</figcaption></figure>
+<p>麻生明主要从事联烯及其类似物化学方面的研究，开展金属催化的联烯反应，联烯的亲核加成反应，联烯的亲电加成反应，联烯自由基化学和酶催化反应，联烯的合成化学，以及自己发展的这些方法学在天然产物合成中的应用。</p>
+<p>回到联烯上来，<strong>联烯化学</strong>是<strong>有机化学</strong>的一个重要的分支。早在 19 世纪末期，1887 年化学家 Burton 和 Pecham 就制备了第一个联烯化合物<sup>[4]</sup>，然而限于当时令人捉急的化合物鉴别手段，这玩意被错误地当做戊炔二酸，直到 1954 年，Jones 等人根据当时先进的紫外光谱手段正确地确定了其联烯的结构<sup>[5]</sup>。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-a842fdd880d5717894aa9bf2ef8846b8_720w.jpg?source=8673f162" /><figcaption>联烯在 19 世纪就被合成出来了，然而当时被当成了其他物质，直到上世纪 50 年代，才被正确确定其结构。</figcaption></figure>
+<p>限于当时的价键理论的思想，在很长的一段时间内，化学家们认为这种一个碳连接两个碳碳双键的结构是不可能稳定存在的，理所当然不能被制备。（没错，当时很多化学家就是这样认为的，其理由大体上就是积累二烯烃能重排不稳定，和我高中化学老师说的一样。）</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-cb1986648ef6fd31bb01ada7b1a6193b_720w.jpg?source=8673f162" /><figcaption>当时的化学家：累积二烯烃？tan90°</figcaption></figure>
+<p>然而到了 1924 年，事情出现了转机，Staudinger 和 Ruzika 两位化学家第一次从自然界里面分离得到了联烯化合物<strong>Pyrethrolone</strong>（除虫菊酯）<sup>[6]</sup>，无独有偶，在 1952 年，化学家从自然界分离得到的<strong>Mycomycin</strong>（霉素）也含有联烯的结构<sup>[7]</sup><sup>[8]</sup>。人们才知道，原来这种结构不仅能够稳定存在，并且还能天然地存在于自然界。对，<strong>人家是天然存在的喏~</strong></p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-d103104df81464b672f708b62602dbf8_720w.jpg?source=8673f162" /><figcaption>这事说不好能上 nature</figcaption></figure>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-80f68fb263d873d91e474dad3ae31e15_720w.jpg?source=8673f162" /><figcaption>Mycomycin 是一种联烯，在 PubChem 网站上你可以点点鼠标拖动这个三维分子，很有趣。</figcaption></figure>
+<p>Pyrethrolone（除虫菊酯）<sup>[9]</sup>这玩意可能你家里都有，翻看你家的驱蚊水或者电蚊香液，里面的一些成分中就可能有除虫菊酯。<strong>别再说“一个碳原子上不能同时存在两个碳碳双键”了，除虫菊酯第一个不服，人家可是帮人类驱赶跑了很多蚊子呢！</strong></p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-a741dbc24abd80ae0fe5423b8e75630e_720w.jpg?source=8673f162" /><figcaption>除虫菊的根茎部分含有除虫菊酯，这种漂亮的小花花可以帮助你驱赶蚊子。</figcaption></figure>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-aa9bbf248591edce0828ba20c14bc15d_720w.jpg?source=8673f162" /><figcaption>天然存在的联烯化合物，左是除虫菊酯的结构，右是霉素的结构。</figcaption></figure>
+<p>从结构上而言，最简单的联烯即<strong>1,2- 丙二烯</strong>与<strong>丙炔</strong>是同分异构体，事实上，<strong>这种结构上的相似性在所有联烯类化合物与其对应炔类化合物都存在</strong>，结构上的相似性往往带来性质的相似性，因此两者的性质往往可以相互比较和借鉴。比如丙二烯和乙烯的在结构上比较，丙二烯的碳碳键和碳氢键的键长小于乙烯对应的碳碳键和碳氢键的键长。</p>
+<p>联烯和烯以及炔的部分化学性质很相似，有兴趣的小伙伴可以通过下面的传送门到达我之前整理的《烯和炔的一点化学性质》<sup>[10]</sup>，了解一下。</p>
+<p><a class="internal" href="https://zhuanlan.zhihu.com/p/38405933"><span class="invisible">https://</span><span class="visible">zhuanlan.zhihu.com/p/38</span><span class="invisible">405933</span><span class="ellipsis"></span></a></p>
+<p>许多<strong>联烯化合物</strong>是通过<strong>炔类化合物</strong>的<strong>重排</strong>而来，当然联烯化合物又有更多自己的特色。</p>
+<ol>
+<li>其一，联烯有两套相互垂直的 <img alt="" class="content-image" src="https://www.zhihu.com/equation?tex=%5Cpi" /> 轨道。</li>
+<li>其二，联烯上可以引入四个不同的取代基，这种取代基的多样性是炔类化合物所不具备的，这种多样性又决定了联烯化合物自然而然地成为一类重要的有机合成中间体<sup>[11]</sup>。</li>
+</ol>
+<figure><img alt="" class="content-image" src="https://pica.zhimg.com/v2-521f91f38aadaa1298e72529e243752e_720w.jpg?source=8673f162" /><figcaption>联烯的结构模型，很典型两个 sp2 碳夹一个 sp 碳的结构，中间的β碳的电负性比另外两碳电负性大，是一些反应的中心。</figcaption></figure>
+<p>从稳定性角度而言，确实最简单的联烯——丙二烯，的能量要高于其同分异构体——丙炔，因此单从热力学角度而言，丙二烯有着向丙炔转化的倾向，一旦温度合适，丙二烯生成丙炔的转化率就很高。然而，如果联烯上面连接了一些取代基（比如羧基、卤原子等），情况就不一样了，<strong>许多取代的丙二烯在热力学上比相应的炔烃更稳定</strong>。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-250bc57e58be813d64144d834a74d7b6_720w.jpg?source=8673f162" /><figcaption>左边是丙二烯与乙烯的键长比较，右边是丙二烯与丙炔的能量比较，丙二烯的能量高于丙炔，容易向丙炔转化。</figcaption></figure>
+<p>值得一提的是，联烯还具有<strong>轴手性</strong>，在手性合成上面，联烯还有一定的用武之地。当四个取代基各不相同时，具有手性，可以将联烯三个碳原子“缩”为一个碳原子根据 Cahn-Ingold-Prelog 规则来判断<sup>[11]</sup>。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-50396d4bb77e5ab72fd3d42b32278f4a_720w.jpg?source=8673f162" /><figcaption>联烯的手性判断。</figcaption></figure>
+<p>从反应机理角度而言。联烯所能进行的反应很多，亲核加成、亲电加成、自由基反应都有所覆盖。实在太多，有兴趣的小伙伴可以翻一下参考文献吧<sup>[1]</sup><sup>[11]</sup><sup>[12]</sup>。关于联烯的合成有一篇 paper 也相当有趣。参考这篇文章：how easy are the synthesis of allenes?<sup>[13]</sup></p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-e13bc7df2a1695273cc0d096901cf653_720w.jpg?source=8673f162" /><figcaption>how easy are the synthesis of allenes? </figcaption></figure>
+<p>总而言之，一个碳原子上是能够同时存在两个碳碳双键的，而且这类化合物被称为联烯，由这类化合物发展的<strong>联烯化学</strong>是有机化学的一个重要的分支，并且不断在合成方法学上添砖加瓦。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-3c62a6216ff16fee4566a6a971a1997b_720w.jpg?source=8673f162" /><figcaption>其实人类就是在不断认识错误中才能所有进步，最重要的就是靠不断学习来推翻之前的错误。</figcaption></figure>
+</div>
+</div>
+
+
+<div class="view-more"><a href="https://www.zhihu.com/question/405093442">查看知乎讨论<span class="js-question-holder"></span></a></div>
+
+</div>
+
+
+</div>
+</div>
+]]></content:encoded>
+<pubDate>Sun, 19 May 2024 16:00:00 GMT</pubDate>
+<pubDate>Sun, 19 May 2024 16:00:00 GMT</pubDate>
+</item>
+<item>
+<title>为什么柏拉图的哲学在现在还有这么高的研究价值？</title>
+<link>https://daily.zhihu.com/story/9772467</link>
+<guid>https://daily.zhihu.com/story/9772467</guid>
+<content:encoded><![CDATA[
+
+<div class="main-wrap content-wrap">
+<div class="headline">
+
+<div class="img-place-holder"></div>
+
+
+
+</div>
+
+<div class="content-inner">
+
+
+
+
+<div class="question">
+
+
+<div class="answer">
+
+<strong>
+<img class="avatar" src="https://picx.zhimg.com/ad98bed8fc98ea1431436f100e54194d_l.jpg?source=8673f162" />
+<span class="author">White，</span><span class="bio">视频平台账号：白话哲学。</span>
+<a class="originUrl" hidden="" href="https://www.zhihu.com/question/405071585/answer/1320719692">查看知乎原文</a>
+</strong>
+
+<div class="content">
+<p>当代认识论的两个核心问题，都是从柏拉图那儿来的。</p>
+<p>第一个是<strong>知识的定义问题</strong>。</p>
+<p>这要从盖梯尔 1963 年那篇著名的论文说起。在那篇 3 页的短文中，盖梯尔挑战了知识的传统定义——知识是正当的真信念（justified true belief）。</p>
+<p>盖梯尔给出了两个反例，证明了这个定义是不充分的，于是后来的认识论学者踏上了一条寻找知识定义的漫长道路，直到现在。</p>
+<p>那话说回来，知识的传统定义最早是在哪里提出来的？<strong>柏拉图的《泰阿泰德》</strong>。</p>
+<p>认识论的另一个核心问题，是<strong>知识的价值问题</strong>。</p>
+<p>假设今天要下雨，A 知道“今天要下雨”，B 只是单纯地相信“今天要下雨”。我们一般会认为 A 的知识比 B 的真信念更有价值。但问题是，知识比真信念有价值在哪儿呢？</p>
+<p>我们可能会说，比如，知识能够指导实践。但是，其实真信念也可以指导实践。可见，这个问题比想象中更难回答。在钻研了很久知识定义问题后，哲学家们回过头来思考知识价值问题，发现很多对知识的定义都很难回答知识价值问题。</p>
+<p>对知识价值问题的讨论起源于哪里？<strong>柏拉图的《美诺》</strong>。</p>
+<p>现在，但凡要提出一个相对完整的知识理论，都必须要回答以上两个问题。柏拉图的影响和贡献，不可谓不大。</p>
+<p>当然，柏拉图也有很多过时的理论。太阳喻、线段喻和洞穴喻在当代认识论文献中已经几乎不被提及了。回忆说——知识来自我们前世的记忆——则显得更加不合时宜了。</p>
+<p>以上只是我熟悉的认识论领域的情况。柏拉图在形而上学、伦理学、政治哲学、美学和宗教哲学等方面都有深远的影响，看看斯坦福哲学百科和网络哲学百科有多少柏拉图的词条心里就有数了。</p>
+<hr />
+<p>除了“为什么<strong>柏拉图的哲学</strong>在现在还有这么高的价值？”，题主的问题补充其实还涉及到另一个问题，即“为什么<strong>对柏拉图哲学的研究</strong>现在还有这么高的价值？”</p>
+<p>这两个问题，有联系，也有区别。</p>
+<p>题主似乎认为：</p>
+<blockquote>1. 柏拉图哲学没有太高的价值。<br />2. 如果柏拉图哲学没有太高的价值，那么对柏拉图哲学的研究没有太高的价值。</blockquote>
+<p>所以，</p>
+<blockquote>3. 对柏拉图哲学的研究没有太高的价值。</blockquote>
+<p>我不同意前提 1，因为柏拉图的哲学其实很有价值。</p>
+<p>但是在某种意义上，我同情题主的结论。</p>
+<p>牛顿的物理学有很高的价值，但是牛顿研究就没那么高的价值。</p>
+<p>牛顿固然牛逼，但是尊重他的最好方式应该是验证和完善他的理论，甚至像爱因斯坦那样推翻他的理论。</p>
+<p>同样，柏拉图的理论对当时和后世都有重要的影响，但是对于我们现代人来说，最重要的还是站在巨人的肩膀上，向前看，把研究往下推进一步。</p>
+</div>
+</div>
+
+
+<div class="view-more"><a href="https://www.zhihu.com/question/405071585">查看知乎讨论<span class="js-question-holder"></span></a></div>
+
+</div>
+
+
+</div>
+</div>
+]]></content:encoded>
+<pubDate>Sun, 19 May 2024 16:00:00 GMT</pubDate>
+<pubDate>Sun, 19 May 2024 16:00:00 GMT</pubDate>
+</item>
+<item>
+<title>如何评价刘备？</title>
+<link>https://daily.zhihu.com/story/9772471</link>
+<guid>https://daily.zhihu.com/story/9772471</guid>
+<content:encoded><![CDATA[
+
+<div class="main-wrap content-wrap">
+<div class="headline">
+
+<div class="img-place-holder"></div>
+
+
+
+</div>
+
+<div class="content-inner">
+
+
+
+
+<div class="question">
+
+
+<div class="answer">
+
+<strong>
+<img class="avatar" src="https://pic1.zhimg.com/v2-17f711e01da54d9115c256c5976d2fae_l.jpg?source=8673f162" />
+<span class="author">殷守甫，</span><span class="bio">在野武将~</span>
+<a class="originUrl" hidden="" href="https://www.zhihu.com/question/23232990/answer/82281217">查看知乎原文</a>
+</strong>
+
+<div class="content">
+<p>虽然三国的战事是一个茶余饭后为大家津津乐道的话题，但关于这个时期的军事史，我们掌握的材料微乎其微。我们固然知道一些兵器是什么样子的（如孙机先生有《汉代物质文化资料图说》），我们也知道一些抽象的谋略原则，毕竟我们可以看到所谓曹操注的《孙子兵法》。但是，兵器形态和谋略思想，这两者之间有一个巨大的空白。我会背《孙子》，也知道刀剑的样子，但我根本无法指挥战斗。这个空白，我们可以称之为军事文化——即当时的人们是如何理解战阵并实际进行战斗的。</p>
+<p>脱离了军事文化，而讨论人物的军事能力或抽象的谋略思想，其实毫无意义。下文中我想要讲的是刘备军团的军事文化；并以此对刘备与曹操的军事、谋略能力进行再评价。难免许多猜测，但我想强调的是无论是文学中的形象还是至少宋以后的谋略文化都对当时的军事现实有许多遮蔽。</p>
+<p>1</p>
+<p>简单说，刘备从早年开始就熟悉战阵，并有一套行之有效的战法：集中少量精锐骑兵或步兵，从合适的角度直接冲击对方主帅所在的本阵；或者撕开缺口斩杀对方主帅，或者对对方主帅造成心理上的恐慌；然后大军并进，合力收官。</p>
+<p>这似乎是很简单的擒贼擒王的道理。但有两点值得注意。首先，在世界范围内，这并不是常见的骑兵战法。在同时期的地中海世界、稍后的阿拉伯世界来说，这样的行为都过于冒险了。我们之后用具体的例子说明。第二，尽管这种战法对很多人来说过于冒险，对于后汉的北方边境武人来说，却是一种他们最习惯的战法。换而言之，他们并不觉得这是一种谋略。在二到四世纪的中国，北方边境的武人开始较大规模的进入中原的战事，这是他们的军事文化中的一部分，而刘备只是其中的一个个案。董卓、马超的西凉军团，吕布、张辽、徐晃的河东军团，本身就已经习惯边境的骑马厮杀，在面对中原战斗力较弱的军团的时候，直接冲击对方本阵成为他们最基本的策略。</p>
+<p>这种战术的有效性首先取决于冲击部队的战斗力，一旦能掌握一支精悍的先锋部队，那么，这种战术运用很容易复制。如《三国志·蜀书·关羽传》：</p>
+<blockquote>曹公使张辽及羽为先锋击之。羽望见良麾盖，策马刺良於万众之中，斩其首还，绍诸将莫能当者，遂解白马围。</blockquote>
+<p>曹操把统帅河东军的张辽与关羽编为一队，就组织起了一支强有力的先锋部队。请注意：这支部队的作战思路并不是侧翼迂回等骑兵战法，而是直接以对方主将为目标的斩首行动。也许比较阅读更能看出其中的区别，唐代《汝州刺史陈公墓志铭》有：</p>
+<blockquote>寇军大至，公以马步军五百当强寇万人，立为奇兵，橫击其右，凶党退却，数月不前。</blockquote>
+<p>这是一场九世纪初的战斗，已经是官渡六百年之后的事情了。陈公陈利贞统帅的是幽州军，和张辽、关羽的河东军一样，都是河朔的劲旅。陈利贞精选了骑步五百人，实践的是典型的侧翼冲击的战法。对方右翼被打乱，无法维系战阵，选择主动退却。当然，本阵没有受到任何影响。总体而言，这在中古中国是更加常见的精锐突击战法。即使没有精锐的骑兵，也可以组织小股步兵精锐，伏击地方侧翼，迫使敌退却，然后再加以掩杀。隋末的李密就非常熟稔这种战法。这似乎更符合我们想象中的“奇兵”。</p>
+<p>恰恰在三世纪，武人们崇尚一种更加的突击方式，以对方本阵为目标。或者一战成名，或者身死人手。这不仅仅是个人的英勇或鲁莽，而是一种文化的趋势。</p>
+<p>这里有趣的是颜良。他全然没有像下文中的孙权那样仓皇撤退，他的死对于后来三国故事的听众来说也很奇怪，所以《三国演义》炮制出了赤兔马快的桥段。很有可能，颜良作为袁绍手下的河北精锐，也受同一种军事文化的润泽。既然曹军起精锐突击，颜良作为袁军精锐，自然要与之对攻。有可能，白马之战，并不是曹操的精湛部署，只是同一种军事文化下两军精锐的惨烈血拼。</p>
+<p>曹操在获得了张辽、关羽之后，如法炮制了张、关历来的战法，而张辽自己就得心应手，如《三国志·魏书·张辽传》：</p>
+<blockquote>于是辽夜募敢从之士，得八百人，椎牛飨将士，明日大战。平旦，辽被甲持戟，先登陷阵，杀数十人，斩二将，大呼自名，冲垒入，至权麾下。权大惊，衆不知所为，走登高冢，以长戟自守。</blockquote>
+<p>基本作战思路与当年斩杀颜良时的部署是一样的。以少量精锐部队突击对方本阵。这里值得注意的是，张辽在本地招募敢死之士，这些士兵是以必死的心态投入战阵的；但张辽根本不觉得这是一场九死一生的冲击。这固然有传记渲染的因素，但也可以发现，这样的冲击对河东的武人（张辽）来说也许是常态，而对于江淮的勇士来说则过于冒险了。孙权方缺少准备，而初涉战阵的孙权本人无疑被吓到了。于是无论是实际的战线，还是主帅的信心都呈现出崩溃的态势——让我们想起幽州城下的宋太宗。这里的关键是：我们不能将这种战术运用简单的归诸于曹操的谋略值或张辽的智力。</p>
+<p>2</p>
+<p>刘备对此也再熟悉不过了。刘备在逐鹿中原的时代，就取得过不少战术上的胜利。显然，在这些时候，刘备熟练地运用着这基本的战法，而他确实有资本这样做。《三国志·蜀书·先主传》：</p>
+<blockquote>时先主自有兵千余人及幽州乌丸杂胡骑，又略得饥民数千人。既到，谦以丹杨兵四千益先主，先主遂去楷归谦。</blockquote>
+<p>幽州本来就是精兵之地，乌丸、杂胡的骑兵更具有极强的冲击力——五百多年后安禄山就可以借助这样的部队横扫中原。丹阳兵无论实际战绩如何，也富有精兵之名。刘备有这些精锐部队，他展开的战法应该与吕布、张辽、关羽等相若。因此，和吕布军一样对曹操军团构成了实质威胁。有趣的是，裴松之注引《英雄记》有：</p>
+<blockquote>布见备，甚敬之，谓备曰：我与卿同边地人也……</blockquote>
+<p>这是《三国志》中我最喜欢的一条史料。吕布、刘备本来都出自北边——在唐代，则都属于河朔。超越于后世文学中截然不同的形象，吕布、刘备二人在背景上有相当的共性，于是相逢之处，才有了这样套近乎的空间。由此，我们可以发现，曹植《白马篇》中，所谓“白马饰金羁，连翩西北驰。借问谁家子，幽并游侠儿……”实际上是吕布（并州）、刘备（幽州）背后武人群体的速写。而裴潜说刘备“使居中国，能乱人而不能为治也。若乘间守险，足以为一方主。”其实也是强调这些人的来自华夏边缘，不能统治中原，却可以在边缘地区自立。</p>
+<p>曹操对于刘备军团的恐惧和担忧，其实也是对于整个幽并游侠军团的担忧——单独将刘备捧为英雄只是当时人物臧否语境下的恭维。这种恐惧背后的原因也非常简单：对阵北方军团时，很难抵挡住其精锐部队的突击，由此，主帅就有阵前被斩杀的危险。遗憾的是，因为史料的局限，我们并不熟悉刘备早年转战中原时的细节，但许多后来的许多战役，可以让我们体会曹操的担心。如《三国志·蜀书·张飞传》：</p>
+<blockquote>飞率精卒万余人，从他道邀郃军交战，山道迮狭，前后不得相救，飞遂破郃。</blockquote>
+<p>基本思路和以上关羽、张辽如出一辙：集中一支精锐部队，突击对方本阵。这里的变化是，张飞选择了在狭窄的山道作战，张郃只能选择迎战。狭路相逢，事实上使这一战法更加简单，当然也就更加惨烈。一旦战力不济，也就步颜良后尘的。这样的行为并不能归为张飞个人的冒险，事实上也是其背后军事文化的体现——《白马篇》所谓“捐躯赴国难，视死忽如归！”再后来汉中破夏侯渊也是一样的，《三国志·蜀书·黄忠传》：</p>
+<blockquote>于汉中定军山击夏侯渊。渊众甚精，忠推锋必进，劝率士卒，金鼓振天，欢声动谷，一战斩渊，渊军大败。迁征西将军。</blockquote>
+<p>这里没有演义中的诸如以逸待劳的谋略，实际战法异常粗暴。夏侯渊军很精锐，那好，我集中一支更加凝练的部队，鼓舞他们的士气，直接冲击夏侯渊的本阵。这显然是关羽、张辽、张飞战法的再现。甚至在细节上，相比张辽“大呼自名”，黄忠军“金鼓振天，欢声动谷”。可见气势上压制敌人也是这一战法的一个环节。关张在当时就有万人敌之名，也是和战法联系在一起的。</p>
+<p>3</p>
+<p>至此我们介绍了后汉时代广泛实践的一种战法。当然，我们对这种战法的认识还非常有限，尤其还经过了当时史家笔法的过滤——我们永远不能排除一种令人绝望的可能，当时的史家习惯把战斗写成那个样子。</p>
+<p>但即使这样，我们还是可以看出，《三国演义》乃至《三十六计》给我们呈现了一个错误的刻板印象，仿佛中国古代的战阵中到处都是精湛而复杂的谋略——相形之下，希腊、罗马乃至阿拉伯虽然不乏优秀的阵法，谋略则非常粗糙。事实恐怕不是这样的。三世纪甚至一直到十世纪，北方边缘地带的武人不断地通过各种途径南下中原，他们的基本战法简洁、明快，给中原步兵军队带来了空前的挑战。</p>
+<p>现在我们来讨论刘备军——也即北方“边地”军——战法的局限。首先他需要本军确实具有一支战力突出的精锐部队。如果这支部队战斗力有限，用它来突击对方本阵简直就是自取灭亡。换而言之，关张是这种军事文化下的佼佼者、幸运儿——青史几行名姓，北邙无数荒丘。风险可想而知。在这样的背景下，对于主帅而言，如何防止对方突击则是一个根本问题。曹操对马超之战是一个经典战例。裴松之注引《魏书》有：</p>
+<blockquote>议者多言“关西兵强，习长矛，非精选前锋，则不可以当也”。公谓诸将曰：“战在我，非在贼也。贼虽习长矛，将使不得以刺，诸君但观之耳。”</blockquote>
+<p>这些议论的人意识到了关西军精锐如果发起冲击，必须要有先锋部队可以形成对攻。曹操有长期与吕布、刘备周旋的经验。他知道这是没游戏唱的，如果组织精锐进行对攻，结果是精锐惨败，本阵堪忧。所以他的实际做法是“坚壁勿与战”，翻译一下就是……“别和他们打，我们打不过的”。</p>
+<p>这就涉及到这一战法的第二个局限，即地形与地利。如果对方已经形成坚壁，甚至像孙权一样“以长戟自守”，那么对地方本阵就无法再进行冲击了。夷陵之战，陆逊对阵刘备的基本思路是一样的，利用三峡一带错综复杂的地形，坚守不出。刘备失去关羽、张飞，实际也未出动赵云、魏延等悍将，实际上无法组织起局部的突击——所谓关张无命欲何如。受限于三峡一带的地形，以及本军精锐的乏力，刘备实质上无法构想出合适的战法。他率领一支游侠组成的军团，以突击对方本阵为核心战法。固然可以打出一些变化（如击破夏侯惇之战），但核心战斗力比较单一。随着游侠军团因年迈与故去渐次瓦解，当年的战术无法再现，也就只能陷入僵局。或许，他在出征前已经意识到了这个问题，所以战前展开了全面的军事动员，求助于兵数上的优势。但就此，我们一无所知。</p>
+<p>此外，应对这一战法还可以采取广设疑兵、诱敌深入的策略。前者即避免暴露己方主力，后者则吸引对方突击部队进入已经设下的埋伏圈，在消耗其体力士气之后迫使其撤退。裴松之注引《魏书》说：</p>
+<blockquote>布疑有伏，乃相谓曰：“曹操多谲，勿入伏中。”引军屯南十馀里。明日复来，太祖隐兵堤里，出半兵堤外。布益进，乃令轻兵挑战，既合，伏兵乃悉乘堤，步骑并进，大破之，获其鼓车，追至其营而还。</blockquote>
+<p>史书的写法充满了对曹操的褒美。实际的情况可能是，曹操面对吕布的突击并没有任何有效的办法。只能将主力隐藏在吕布不能够到的地方，从而避开吕布的精锐。甚至，伪装一些主力所在的地方，诱使吕布扑空。这固然是优秀的谋略，其实也是一种非常无奈的做法。敌方可以对我军心脏发起高强度的突击，我军并不能抵挡，只能设计其他的方法化解。常年面对北方边地军团使得曹操有了“多谲”的名声。而这一时期，疑兵和埋伏之所以重要，或许也是因为主要战法的缘故。要之，我并不是要说后汉时期并没有战术意义上的谋略或策略，而是说这些计策必须要在当时军事文化的背景下才能理解。</p>
+<p>脱离了这一背景，其实就是意淫的做法。事实上，到了宋代，文人开始广泛地率领部队。此时他们也面临北方的精锐骑兵。在这些时候，他们开始重新挖掘中古的军事遗产，认为一些谋略也许是克制骑兵的手段。而在民间文化中，各种精巧的计策也甚嚣尘上，也就有了演义中左一计策右一计策的曹操诸葛亮了。</p>
+<p>4</p>
+<p>现在来做一个小结。在上文中，我们从军事文化的角度对个人的谋略或军事能力提出了再认识。我主张，尽管董卓、吕布、刘备、张辽，所属势力不同，后世形象各异，但他们属于同一种北方边缘的文化。我们经常把永嘉之乱、六镇兵变和安史之乱放在一起，作为中古的大变故。抛开种族与暴力的问题，就其中北方边缘地带的人口较大规模进入中原而言，东汉末是其先导。从对羌战争到镇压黄巾之乱，北方的边地人首先作为雇佣军人加入了汉军的战斗序列，然后又成为一个独立的群体开始逐鹿中原。这与罗马帝国后期相类似，作为辅助的蛮族军团开始扮演越来越重要的作用——所以近来罗马史的学者也强调，所谓蛮族入侵是不存在的，五世纪只是作为雇佣军的蛮族军团的转型。</p>
+<p>就汉末而言，这些北方边地人的文化已经不可能追索了——像《安禄山服散考》那样的追索也不可能。但至少，在军事上，这些人物都崇尚勇气，崇尚个人的名声。他们熟悉一种突击战法，他们中的佼佼者都曾在战术层面收到很好的效果——因而名震华夏。曹操所谓的谋略，其实都是应对一种简单有效的战法的无奈之举。从战术上说，曹操的成功在于他艰难地与一种强有力的战法相周旋，不断从失败中汲取经验教训；刘备固然在战法上比较单一——但在相当长的时间里这并不是一个问题，因为这是一个有效的战法。所以，陈寿评价刘备说：“机权幹略，不逮魏武”，这并不是全然公允的判断。绝大多数时候，刘备并不需要曹操的机权。</p>
+<p>对刘备等人来说，其“基宇亦狭”，其实有更深刻的问题。西方有句谚语说，汉尼拔知道如何取胜，但不知道如何利用胜利。这句话对于吕布、刘备等军事将领来说，也许也是成立的。即使面对曹操这样的对手，他们能够用自己熟悉的战法取得战术层面上的胜利。但胜利之后又当如何，许多时候他们却陷入无措。此时的中原社会正在经历深刻的社会与文化变迁，作为北方边缘地带的外来者，他们感到陌生，难以适应。公孙瓒与商贩庸儿为伍，刘备与糜竺，又何尝不是如此？对于中原的许多大族来说，他们终究是外来者——就如裴潜所说的。随着他们战法的局限因地形或人为因素而暴露，他们事实上也没有行之有效的备选方案。或者陷入困境，或者束手就擒。而唯有刘备能以百折不挠、屡败屡战的精神，辗转大河上下、大江南北，成就一番事业，并非因其战术上有所突破，而在于隆中制定的合宜战略——最终将局部突击的战术胜利，转化为三足鼎立的天下格局。</p>
+<p>5</p>
+<p>结尾，我想交代一下和回答直接有关的文字及电子作品。军事文化这个词，直接得益于 Rafe de Crespigny 的专文“The military culture of later Han”（狄宇宙所编<em>Military culture in imperial China</em>），他很早就利用三国时期的零星材料，试图勾勒当时的一些军事风尚。似乎，也受到陈寅恪先生河北胡化说的一些启发，是较少关注汉代北方与南方边缘地域的学者之一。对他感兴趣的话，可以移步我早先的一个回答：</p>
+<p><a class="internal" href="https://www.zhihu.com/question/23962964/answer/42170463">西方学术界有哪些研究三国魏晋的学者？ - 知乎用户的回答</a></p>
+<p>。</p>
+<p>但更主流的观念与上文所讲出入较多。日本学者如川胜义雄等固然指出孙吴的军事贵族与北方不同，但对于曹操、董卓等北方军事集团，主流的看法更注重后汉以来豪侠的风尚——就复仇、质任等现象，加藤繁、增渊龙夫等有很深入的讨论。在这个思路下，并州的张辽、关羽与豫州的许褚在文化上并没有本质的差异，这一预设似乎有所局限。</p>
+<p>上文中的基本思路还得益于于曾瑞龙先生对于宋代军事史的探索。宋代的史料几何级数地多于三国，所以他的探索是史学。而这里的所有文字，只是在《三国志 13》到来的前夜，因往事而有的一种佐兴。</p>
+</div>
+</div>
+
+
+<div class="view-more"><a href="https://www.zhihu.com/question/23232990">查看知乎讨论<span class="js-question-holder"></span></a></div>
+
+</div>
+
+
+</div>
+</div>
+]]></content:encoded>
+<pubDate>Sun, 19 May 2024 16:00:00 GMT</pubDate>
+<pubDate>Sun, 19 May 2024 16:00:00 GMT</pubDate>
+</item>
+<item>
+<title>瞎扯 · 如何正确地吐槽</title>
+<link>https://daily.zhihu.com/story/9772472</link>
+<guid>https://daily.zhihu.com/story/9772472</guid>
+<content:encoded><![CDATA[
+
+<div class="main-wrap content-wrap">
+<div class="headline">
+
+<div class="img-place-holder"></div>
+
+
+
+</div>
+
+<div class="content-inner">
+
+
+
+<div class="question">
+
+<div class="answer">
+
+<strong>
+<img class="avatar" src="https://picx.zhimg.com/v2-624f6eb03f71a1b045034d25185d29f4_l.jpg?source=8673f162" />
+<span class="author">知乎日报</span>
+</strong>
+
+<div class="content">
+<p>Q：<a class="internal" href="https://www.zhihu.com/question/20671774/answer/35578958">有哪个瞬间会让你想「就一直这么下去该多好」？</a></p>
+<blockquote><a class="member_mention" href="http://www.zhihu.com/people/6abcde303a66b48a285ed303532b18e8">@筑室</a> ：ATM 机吐钞的时候。</blockquote>
+<p>Q：<a class="internal" href="https://www.zhihu.com/question/28056906/answer/39217410">作为程序员，你在编程时吃了哪些数学的亏？</a></p>
+<blockquote><a class="member_mention" href="http://www.zhihu.com/people/32552cc48792c561eeadf5559cc7d620">@Amb BAI</a> ：看论文时候一个「显然」推了我一下午。</blockquote>
+<p>Q：<a class="internal" href="https://www.zhihu.com/question/27815163/answer/38226118">体毛旺盛是种怎样的体验？</a></p>
+<blockquote>@匿名用户 ：看表得先吹口气。</blockquote>
+<p>Q：<a class="internal" href="https://www.zhihu.com/question/28087919/answer/39335365">你是什么时候发现人和人差距大得无法跨越？</a></p>
+<blockquote><a class="member_mention" href="http://www.zhihu.com/people/e8a29d3b6b0d4ca0b54b7d5cb1feb7e5">@司空白</a> ：吴彦祖也是学建筑的……</blockquote>
+<p>Q：<a class="internal" href="https://www.zhihu.com/question/25292709/answer/30396864">汉语中有没有四字短语分别是一二三四声？</a></p>
+<blockquote><a class="member_mention" href="http://www.zhihu.com/people/fba968938eff224938e1bc8bffc5fd4e">@苏芸</a> ：番茄炒蛋<br />干炸土豆<br />孜然烤肉<br />椒盐烤肉<br />茭白炒肉</blockquote>
+
+<div class="view-more"><a href="https://zhuanlan.zhihu.com/p/698648113">查看知乎讨论</a></div>
+
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+]]></content:encoded>
+<pubDate>Sun, 19 May 2024 16:00:00 GMT</pubDate>
+<pubDate>Sun, 19 May 2024 16:00:00 GMT</pubDate>
+</item>
 
 <item>
 <title>中国有哪些城仍有护城河？</title>

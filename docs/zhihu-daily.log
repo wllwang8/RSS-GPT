@@ -547,3 +547,18 @@ Existing_entries: 35
 Fetching from http://tw.wleilei.com:1200/zhihu/daily
 append_entries: 0
 Finish: 2024-05-19 22:02:47.025128
+------------------------------------------------------
+Started: 2024-05-20 00:08:11.484588
+Existing_entries: 35
+Fetching from http://tw.wleilei.com:1200/zhihu/daily
+Token length: 810
+Summarized using GPT-3.5-turbo
+Append: [经典力学中有哪些违反直觉的现象/实验？](https://daily.zhihu.com/story/9772455)
+Token length: 2528
+Summarized using GPT-3.5-turbo
+Append: [为什么一个碳原子上不能同时存在两个碳碳双键？](https://daily.zhihu.com/story/9772461)
+Append: [为什么柏拉图的哲学在现在还有这么高的研究价值？](https://daily.zhihu.com/story/9772467)
+Append: [如何评价刘备？](https://daily.zhihu.com/story/9772471)
+Append: [瞎扯 · 如何正确地吐槽](https://daily.zhihu.com/story/9772472)
+append_entries: 5
+Finish: 2024-05-20 00:08:35.828419
