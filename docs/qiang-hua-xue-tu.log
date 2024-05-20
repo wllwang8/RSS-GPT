@@ -610,3 +610,9 @@ Summarized using GPT-3.5-turbo
 Append: [强化学徒发布了想法: 如果在读期间没有机会实习，还有其他的路径吗？毕业之后不断跳槽？](https://www.zhihu.com/pin/1776059005007618048)
 append_entries: 1
 Finish: 2024-05-20 18:03:22.013708
+------------------------------------------------------
+Started: 2024-05-20 20:03:25.840550
+Existing_entries: 28
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/heda-he-28
+append_entries: 0
+Finish: 2024-05-20 20:03:27.170274
