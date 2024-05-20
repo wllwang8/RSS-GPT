@@ -562,3 +562,9 @@ Append: [如何评价刘备？](https://daily.zhihu.com/story/9772471)
 Append: [瞎扯 · 如何正确地吐槽](https://daily.zhihu.com/story/9772472)
 append_entries: 5
 Finish: 2024-05-20 00:08:35.828419
+------------------------------------------------------
+Started: 2024-05-20 02:14:18.171455
+Existing_entries: 40
+Fetching from http://tw.wleilei.com:1200/zhihu/daily
+append_entries: 0
+Finish: 2024-05-20 02:14:19.141808
