@@ -594,3 +594,18 @@ Existing_entries: 30
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
 append_entries: 0
 Finish: 2024-05-20 20:03:41.929659
+------------------------------------------------------
+Started: 2024-05-20 22:02:48.230499
+Existing_entries: 30
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
+Token length: 11
+Summarized using GPT-3.5-turbo
+Append: [老乡鸡，竟然开源了？！](https://mp.weixin.qq.com/s/MJ6emb5qXVM2tyShtr48Og)
+Token length: 29
+Summarized using GPT-3.5-turbo
+Append: [Cantor（领唱员）:厦门大学提出多模态 CoT 新架构](https://mp.weixin.qq.com/s/72lrbr1Z8C8gaOxFheeevQ)
+Append: [阿里巴巴通义实验室RAG团队招聘日常实习生](https://mp.weixin.qq.com/s/JmU0tPd6vjjv-GKHWXpwqg)
+Append: [快手在召回场景GPT范式的尝试](https://mp.weixin.qq.com/s/KKgYAzsTrMoTCw9hXJGYSA)
+Append: [一文逮尽知名开源大模型作弊！训题库...](https://mp.weixin.qq.com/s/-o9pfWuEzALZfaTdNj_eXg)
+append_entries: 5
+Finish: 2024-05-20 22:02:56.244019
