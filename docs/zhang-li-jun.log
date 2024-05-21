@@ -651,3 +651,16 @@ Existing_entries: 35
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3089330056
 append_entries: 0
 Finish: 2024-05-21 08:03:42.357864
+------------------------------------------------------
+Started: 2024-05-21 10:03:16.695056
+Existing_entries: 35
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3089330056
+Token length: 12
+Summarized using GPT-3.5-turbo
+Append: [高手做事，一定先吃透规则](https://mp.weixin.qq.com/s/2wxq8DhNM4VMB8yGrigPUw)
+Token length: 16
+Summarized using GPT-3.5-turbo
+Append: [一个领导会不会带团队，就看这两点](https://mp.weixin.qq.com/s/Noz3sE5b_09VMw27B5-klA)
+Append: [精进日志449 | 5.21](https://mp.weixin.qq.com/s/-PlCmp9IG3LNnUwNmeO5fw)
+append_entries: 3
+Finish: 2024-05-21 10:03:27.169777
