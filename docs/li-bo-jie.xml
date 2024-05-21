@@ -4,25 +4,24 @@
 <title>李博杰的知乎动态</title>
 <link>https://www.zhihu.com/people/li-bo-jie/activities</link>
 
+
 <item>
 <title>李博杰赞同了回答: 为什么 Python 里的 True 和 False 两个布尔值首字母要大写呢？</title>
 <link>https://www.zhihu.com/question/22564380/answer/3176517442</link>
 <guid>https://www.zhihu.com/question/22564380/answer/3176517442</guid>
 <content:encoded><![CDATA[
-<div> PEP285, 布尔数据类型, True, False, 内部一致性<br>
-<br>
-要点1: 2002年，Guido van Rossum在Python社区提出PEP285，讨论是否添加布尔数据类型。<br>
-要点2: Python社区认为保持内部一致性比与其他编程语言一致更重要，因此决定使用首字母大写的True和False作为布尔值常量。<br>
-要点3: 将True和False设置为内置常量，提升Python语言的健壮性和代码可读性。<br>
-要点4: 在处理JSON数据时，Python通过json.loads()方法将小写的true和false转换为Python的True和False，确保数据类型正确转换。<br>
-要点5: 采用小写的true和false代替首字母大写的True和False会导致代码混乱，降低可读性和可维护性。<br>
-<br>总结: 2002年，Guido van Rossum提出PEP285讨论布尔数据类型，在Python社区坚持使用True和False作为内置常量，以保持内部一致性，提升代码可读性和可维护性，同时在处理JSON数据时，json.loads()方法确保正确转换布尔值，减少代码混乱。 <div>
+<div> PEP285, 布尔数据类型, True, False, 内部一致性<br />
+<br />
+要点1: 2002年，Guido van Rossum在Python社区提出PEP285，讨论是否添加布尔数据类型。<br />
+要点2: Python社区认为保持内部一致性比与其他编程语言一致更重要，因此决定使用首字母大写的True和False作为布尔值常量。<br />
+要点3: 将True和False设置为内置常量，提升Python语言的健壮性和代码可读性。<br />
+要点4: 在处理JSON数据时，Python通过json.loads()方法将小写的true和false转换为Python的True和False，确保数据类型正确转换。<br />
+要点5: 采用小写的true和false代替首字母大写的True和False会导致代码混乱，降低可读性和可维护性。<br />
+<br />总结: 2002年，Guido van Rossum提出PEP285讨论布尔数据类型，在Python社区坚持使用True和False作为内置常量，以保持内部一致性，提升代码可读性和可维护性，同时在处理JSON数据时，json.loads()方法确保正确转换布尔值，减少代码混乱。 <div>
 <p>这事还得从2002年的3月8日说起，有一个荷兰人，中午吃了顿中国菜，顺便在Python社区发了个提案，讨论要不要给Python加一个布尔数据类型，以及如何加这个数据类型。</p><p class="ztext-empty-paragraph"><br /></p><p>在这之前，Python 使用整数 0 和 1 或"truthy" 和 "falsy" 值来表示布尔逻辑，但没有一个专门的布尔数据类型。</p><p class="ztext-empty-paragraph"><br /></p><p>这个提案，围绕着布尔值的话题，讨论了8件事，他的说话风格就和python的风格一样，简短有力，每件事就说了一句话。从2002年的第一场雪，到现在二十多年过去了，我忘了很多事，但那三句话，却如余音袅袅，不绝如缕；散发出来的霸气，昨日种种，历历在目。</p><p class="ztext-empty-paragraph"><br /></p><p>第一句：这个方案，行也得行，不行也得行！ Should this PEP be accepted?  =&gt; Yes. </p><p>第二句：别管返回 "1" 会不会更兼容，"True" 就是 "True"，别想太多！Should<code>str(True)</code>return “True” or “1”?  =&gt; “True”.</p><p>第三句：其他语言怎么叫，我不管！什么C++,Java,C99，记住，这里是Python的地盘，我就叫它 'True' 和 'False'，听懂还是听不懂？ Should the constants be called ‘True’ and ‘False’ (similar to None) or ‘true’ and ‘false’ (as in C++, Java and C99)?   =&gt; True and False.</p><p class="ztext-empty-paragraph"><br /></p><p>那个荷兰人叫Guido van Rossum，人们管它叫龟叔，据说去谷歌面试，简历上就写了一句话，他写了个python。（"I wrote Python"）</p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic4.zhimg.com/v2-e626c3535d426662de2ff23e6a434bb7_1440w.jpg" /><figcaption>龟叔</figcaption></figure><hr /><p>好了，开始说正经的。</p><p class="ztext-empty-paragraph"><br /></p><p>那次提案就是PEP285<sup>[1]</sup>。PEP 是 Python Enhancement Proposal（Python 增强提案）的缩写，它是 Python 社区用于提出和讨论语言特性和库的变更或添加的标准化文档。每个 PEP 都有一个唯一的编号，PEP 285 就是其中一个。这个 PEP 正是由 Python 的创始人 Guido van Rossum 所写，并讨论是否以及如何在 Python 中添加一个布尔（boolean）数据类型。</p><p class="ztext-empty-paragraph"><br /></p><p>在Reviews里,  龟叔面对激烈的反对意见，在深思熟虑后，还是决定坚持他原来的提案，并且不会做出任何改变。也因此， PEP 285 是一个非常重要的里程碑，因为它为 Python 语言添加了一个基础、重要且普遍使用的数据类型。正是这个决定，让True和False作为天选之子，成为我们今天看到的两个布尔值。</p><p class="ztext-empty-paragraph"><br /></p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic4.zhimg.com/v2-67b321c2cfc8177760d976a2c9d82a6f_1440w.jpg" /><figcaption>改编不是乱编，戏说不是胡说</figcaption></figure><p class="ztext-empty-paragraph"><br /></p><p>Python大多数参与讨论的人认为，在设计这些常量的命名时，与 Python 语言内部保持一致性更为重要，而不是与其他编程语言（如 C++、Java 或 C99）保持一致。</p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic3.zhimg.com/v2-758fa2a2c487e7aeb1fbdabb70969c12_1440w.jpg" /><figcaption>python内部一致性</figcaption></figure><p class="ztext-empty-paragraph"><br /></p><p>具体来说，Python 有其自己的命名和设计习惯，比如内置常量 <code>None</code> 也是首字母大写的。因此，为了保持一致性，大多数评审者认为 <code>True</code> 和 <code>False</code> 也应该首字母大写，即便这与其他编程语言的习惯不同。</p><p class="ztext-empty-paragraph"><br /></p><p>这种设计决策背后的逻辑，是编程语言不仅仅被看作一组功能或命令。它们也有自己的“文化”和一致性。正是这种一致性，使得学习和使用该语言更为直观，也更容易读懂和维护代码。因此，在这种情况下，内部一致性被认为比与其他语言的一致性更为重要。</p><p class="ztext-empty-paragraph"><br /></p><p>举例来说，在Python 中有35个关键字<sup>[2]</sup>，他们都不能作为变量。</p><p class="ztext-empty-paragraph"><br /></p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic3.zhimg.com/v2-8c21eaaaa37bc76c40d1662b94db8076_1440w.jpg" /><figcaption>Python关键字</figcaption></figure><p class="ztext-empty-paragraph"><br /></p><p>并且绝大多数不能被赋值，如果强行赋值，则会报错。当然，这里有三个例外，分别是True,False,None这三个内置常量。当然，从外形上，他们还有一个共同点，即均是首字母大写。</p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic4.zhimg.com/v2-87737372c5c63abd30a6374ef151eeff_1440w.jpg" /><figcaption>内置常量可赋值</figcaption></figure><p class="ztext-empty-paragraph"><br /></p><p>在这35个关键字中，True、False、None 作为唯三的常量，可以赋值给变量，均首字母大写，也是其注重一致性的体现。<sup>[3]</sup></p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic1.zhimg.com/v2-3af84b5b774e94582554e66f31054fd0_1440w.jpg" /><figcaption>内置常量--官方文档</figcaption></figure><p class="ztext-empty-paragraph"><br /></p><p class="ztext-empty-paragraph"><br /></p><p>在python2中，True和False不是内置常量，可以被重新赋值，会出 True==False 这种情况，而这会产生某些隐患，让代码变得难以调试，降低了代码的可读性和可维护性。将True和False设置为内置常量，提升Python语言本身的健壮性。</p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic4.zhimg.com/v2-74a2ea370b2de86e352cd24309825ddf_1440w.jpg" /><figcaption>python2中 True 可以被赋值 </figcaption></figure><p class="ztext-empty-paragraph"><br /></p><p>花絮：这查资料的过程中，才发现这个问题是stack overflow上的镜像问题<sup>[4]</sup>。</p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic3.zhimg.com/v2-da0fd33633d0d54c487a4e714372365a_1440w.jpg" /><figcaption>stack overflow 问题</figcaption></figure><p class="ztext-empty-paragraph"><br /></p><p>Q&amp;A答疑环节：</p><p class="ztext-empty-paragraph"><br /></p><p>先回答一下JSON粘贴到Python中的问题：</p><p class="ztext-empty-paragraph"><br /></p><p>Q: Python的True和False是首字母大写，而JSON格式的布尔值是小写的true和false，把JSON数据拷到python代码里时，还要手动改布尔值，好麻烦。</p><p class="ztext-empty-paragraph"><br /></p><p>A: 其实这不是Python的问题，而是处理流程上的问题。如果要把JSON放到Python代码里，最通用和最推荐的方式是用Python标准库中的 <code>json</code> 模块的 <code>json.loads()</code> ，将JSON数据反序列化为可处理的Python对象，在这个过程中，JSON的 <code>true</code> 和 <code>false</code>会自动被转换成Python的 True 和 False 。</p><p class="ztext-empty-paragraph"><br /></p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic3.zhimg.com/v2-e778256cc13689479e5446ec50e0a5b2_1440w.jpg" /><figcaption>将JSON反序列为Python对象</figcaption></figure><p class="ztext-empty-paragraph"><br /></p><p>不仅Python如此，其他语言也一样，只所以将JSON反序列化，是因为反序列化不仅能确保数据类型的正确转换，还能提供错误处理机制，使代码更具可读性和可维护性。</p><p class="ztext-empty-paragraph"><br /></p><p>提供一个反例，有一种方案，用小写的true=True和false=False来处理布尔值，这样的确可以用小写的变量代替首字母大写的True和False。但这会造成代码的混乱，降低代码的可读性和可维护性，尤其是多人维护的项目时，这是一种灾难。</p>
 ]]></content:encoded>
 <pubDate>Tue, 21 May 2024 05:43:56 GMT</pubDate>
-<pubDate>Tue, 21 May 2024 05:43:56 GMT</pubDate>
 </item>
-
 <item>
 <title>李博杰赞同了回答: 为什么有的冰是透明的，有的不透明，怎么做出来的？</title>
 <link>https://www.zhihu.com/question/319742862/answer/2873469690</link>
