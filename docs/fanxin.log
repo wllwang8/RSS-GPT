@@ -602,3 +602,9 @@ Existing_entries: 6
 Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/vaxin
 append_entries: 0
 Finish: 2024-05-21 10:02:44.930813
+------------------------------------------------------
+Started: 2024-05-21 12:04:00.212074
+Existing_entries: 6
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/vaxin
+append_entries: 0
+Finish: 2024-05-21 12:04:01.082250

@@ -654,3 +654,9 @@ Append: [LLM2Vec: 改造Decoder-only LLM以生成高质量text embedding](https:
 Append: [时序建模基础——RevIN](https://mp.weixin.qq.com/s/7TQXLNTD_QjJS9wX_9aZ8w)
 append_entries: 5
 Finish: 2024-05-21 10:03:38.378552
+------------------------------------------------------
+Started: 2024-05-21 12:04:31.805384
+Existing_entries: 40
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
+append_entries: 0
+Finish: 2024-05-21 12:04:32.394498
