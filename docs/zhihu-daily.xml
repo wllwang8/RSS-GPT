@@ -4,13 +4,14 @@
 <title>知乎日报</title>
 <link>https://daily.zhihu.com</link>
 
+
 <item>
 <title>如何看待「月经期间喝红糖水比喝白糖水好」？这二者有哪些实质区别？</title>
 <link>https://daily.zhihu.com/story/9772480</link>
 <guid>https://daily.zhihu.com/story/9772480</guid>
 <content:encoded><![CDATA[
 <div> 红糖, 白糖, 冰糖, 铁, 维生素
-总结：<br><br>本文主要讨论了红糖、白糖和冰糖之间的区别，指出红糖相比白糖含有更多甘蔗的杂质，但营养成分并没有明显优势。作者还解释了大姨妈期间喝红糖水的舒适感原因，并提到红糖中的铁含量较低，不足以单独满足铁的需求。最后，作者建议多摄入常见食物中的维生素和矿物质，对比了红糖和牛肉、牛奶的营养成分，强调红糖仍然是一种普通食物，并提醒读者注意碳水化合物的摄入。 <div>
+总结：<br /><br />本文主要讨论了红糖、白糖和冰糖之间的区别，指出红糖相比白糖含有更多甘蔗的杂质，但营养成分并没有明显优势。作者还解释了大姨妈期间喝红糖水的舒适感原因，并提到红糖中的铁含量较低，不足以单独满足铁的需求。最后，作者建议多摄入常见食物中的维生素和矿物质，对比了红糖和牛肉、牛奶的营养成分，强调红糖仍然是一种普通食物，并提醒读者注意碳水化合物的摄入。 <div>
 <div class="main-wrap content-wrap">
 <div class="headline">
 
@@ -70,14 +71,13 @@
 </div>
 ]]></content:encoded>
 <pubDate>Mon, 20 May 2024 16:00:00 GMT</pubDate>
-<pubDate>Mon, 20 May 2024 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>有没有这样一个质数，去掉一位后也是质数，再去掉一位后又是质数，直到只剩一位数还是质数？</title>
 <link>https://daily.zhihu.com/story/9772484</link>
 <guid>https://daily.zhihu.com/story/9772484</guid>
 <content:encoded><![CDATA[
-<div> 质数 池 树形结构 迭代 运算<br>
+<div> 质数 池 树形结构 迭代 运算<br />
 这篇文章介绍了如何通过迭代的方式构造一种特殊的数列：在每一步操作中，从已有的数字中选择质数，将新的数字加入到数字池中，并继续迭代。通过这种方法，可以得到一些特殊的质数序列，其中包括只在右边增加数字、只在左边增加数字和可以在任意位置增加数字的情况。最终得到的数字序列中，除了个位数外，只有23、53、73、37四个数字符合要求。文章中给出了相应的数学推导和代码实现。总结： 运算过程中构造了质数池、得到了树形结构、通过迭代得到特殊数字序列，最终只有四个符合要求的数字。 <div>
 <div class="main-wrap content-wrap">
 <div class="headline">
@@ -172,14 +172,12 @@
 </div>
 ]]></content:encoded>
 <pubDate>Mon, 20 May 2024 16:00:00 GMT</pubDate>
-<pubDate>Mon, 20 May 2024 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>世界主要的文字系统有哪些？</title>
 <link>https://daily.zhihu.com/story/9772490</link>
 <guid>https://daily.zhihu.com/story/9772490</guid>
 <content:encoded><![CDATA[
-
 <div class="main-wrap content-wrap">
 <div class="headline">
 
@@ -306,14 +304,12 @@
 </div>
 ]]></content:encoded>
 <pubDate>Mon, 20 May 2024 16:00:00 GMT</pubDate>
-<pubDate>Mon, 20 May 2024 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>豕古代就是猪的意思了，为何还要搞一个猪字？</title>
 <link>https://daily.zhihu.com/story/9772492</link>
 <guid>https://daily.zhihu.com/story/9772492</guid>
 <content:encoded><![CDATA[
-
 <div class="main-wrap content-wrap">
 <div class="headline">
 
@@ -414,14 +410,12 @@
 </div>
 ]]></content:encoded>
 <pubDate>Mon, 20 May 2024 16:00:00 GMT</pubDate>
-<pubDate>Mon, 20 May 2024 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>瞎扯 · 如何正确地吐槽</title>
 <link>https://daily.zhihu.com/story/9772497</link>
 <guid>https://daily.zhihu.com/story/9772497</guid>
 <content:encoded><![CDATA[
-
 <div class="main-wrap content-wrap">
 <div class="headline">
 
@@ -467,9 +461,7 @@
 </div>
 ]]></content:encoded>
 <pubDate>Mon, 20 May 2024 16:00:00 GMT</pubDate>
-<pubDate>Mon, 20 May 2024 16:00:00 GMT</pubDate>
 </item>
-
 <item>
 <title>经典力学中有哪些违反直觉的现象/实验？</title>
 <link>https://daily.zhihu.com/story/9772455</link>
