@@ -628,3 +628,18 @@ Existing_entries: 40
 Fetching from http://tw.wleilei.com:1200/zhihu/daily
 append_entries: 0
 Finish: 2024-05-20 22:02:26.331098
+------------------------------------------------------
+Started: 2024-05-21 00:08:14.150594
+Existing_entries: 40
+Fetching from http://tw.wleilei.com:1200/zhihu/daily
+Token length: 1093
+Summarized using GPT-3.5-turbo
+Append: [如何看待「月经期间喝红糖水比喝白糖水好」？这二者有哪些实质区别？](https://daily.zhihu.com/story/9772480)
+Token length: 1225
+Summarized using GPT-3.5-turbo
+Append: [有没有这样一个质数，去掉一位后也是质数，再去掉一位后又是质数，直到只剩一位数还是质数？](https://daily.zhihu.com/story/9772484)
+Append: [世界主要的文字系统有哪些？](https://daily.zhihu.com/story/9772490)
+Append: [豕古代就是猪的意思了，为何还要搞一个猪字？](https://daily.zhihu.com/story/9772492)
+Append: [瞎扯 · 如何正确地吐槽](https://daily.zhihu.com/story/9772497)
+append_entries: 5
+Finish: 2024-05-21 00:08:33.095178
