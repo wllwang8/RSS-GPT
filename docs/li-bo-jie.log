@@ -1112,3 +1112,9 @@ Summarized using GPT-3.5-turbo
 Append: [李博杰发布了想法: 基础模型领域有两类玩家：一类是OpenAI这样的最强大模型，这种API肯定是能赚钱的。如果再close一点，甚至连API都不给用，走苹果路线，只能在G...](https://www.zhihu.com/pin/1776339787253202944)
 append_entries: 1
 Finish: 2024-05-21 12:04:06.333988
+------------------------------------------------------
+Started: 2024-05-21 14:03:07.492088
+Existing_entries: 66
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+append_entries: 0
+Finish: 2024-05-21 14:03:11.685714
