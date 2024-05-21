@@ -4,26 +4,25 @@
 <title>强化学徒的知乎动态</title>
 <link>https://www.zhihu.com/people/heda-he-28/activities</link>
 
+
 <item>
 <title>强化学徒发表了文章: 推荐一个音频复刻+音频翻译的开源项目：OpenVoiceV2</title>
 <link>https://zhuanlan.zhihu.com/p/699089930</link>
 <guid>https://zhuanlan.zhihu.com/p/699089930</guid>
 <content:encoded><![CDATA[
-<div> GitHub 月榜 项目 音频 生成 情感 API openvoice 效果 展示 音频 翻译 HF<br>
-<br>
-要点一：文章介绍了一个GitHub项目，提到了音频生成中存在的痛点和对解决方案的期待。<br>
-要点二：项目中提到了一些开源方案，但存在吞音和杂音问题，需要大量手动调整。<br>
-要点三： openvoice被提及，展示了其效果符合作者需求，但配置要求未知。<br>
-要点四：音频翻译的试用效果还可以，需要对应的英文音频和翻译字幕。<br>
-要点五：作者提到了HF，表示大家可以去试一试。<br>
-<br>
+<div> GitHub 月榜 项目 音频 生成 情感 API openvoice 效果 展示 音频 翻译 HF<br />
+<br />
+要点一：文章介绍了一个GitHub项目，提到了音频生成中存在的痛点和对解决方案的期待。<br />
+要点二：项目中提到了一些开源方案，但存在吞音和杂音问题，需要大量手动调整。<br />
+要点三： openvoice被提及，展示了其效果符合作者需求，但配置要求未知。<br />
+要点四：音频翻译的试用效果还可以，需要对应的英文音频和翻译字幕。<br />
+要点五：作者提到了HF，表示大家可以去试一试。<br />
+<br />
 总结: 文章介绍了一个音频生成项目，指出现有方案存在问题并期待API的开放，提到了效果符合需求的开源方案openvoice和音频翻译的实验效果。作者也建议大家去HF试用。 <div>
 <p>今天刷GitHub月榜，看到了这个项目：<a class=" wrap external" href="https://github.com/myshell-ai/OpenVoice" rel="nofollow noreferrer" target="_blank">GitHub - myshell-ai/OpenVoice: Instant voice cloning by MyShell.</a></p><figure><img class="origin_image zh-lightbox-thumb" src="https://pic1.zhimg.com/v2-794a829408d1e0f35e839ce590622a50_1440w.jpg" /></figure><p>关注我的朋友应该知道，我前段时间参与维护了一个英语视频中文配音的项目：</p><p><a class="internal" href="https://zhuanlan.zhihu.com/p/696057198">强化学徒：无敌强的英文视频一键中文配音的开源项目Pytvzhen介绍</a></p><p>这个项目存在一个非常大的痛点，就是音频生成太电子音，没有情感。</p><p>我一直再等4o开放音频的api，但感觉暂时拿不到。</p><p>开源的方案，gpt-sovits，吞音和杂音都比较厉害，需要大量手动调整的工作，不符合我们一把通过的初衷。</p><h3>openvoice的效果展示：</h3><a class="video-box" href="https://www.zhihu.com/video/1776399791591186432" target="_blank"><img class="thumbnail" src="https://picx.zhimg.com/v2-8c3a20cd88df713b9e6000b194700c3c.jpeg" /><span class="content"><span class="title">openvoice效果展示<span class="z-ico-extern-gray"></span><span class="z-ico-extern-blue"></span></span><span class="url"><span class="z-ico-video"></span>https://www.zhihu.com/video/1776399791591186432</span></span></a><p>输入：参考音频+参考文本+情感</p><p>输出：从参考音频中提取音色，从参考文本中获取语言和文字，从情感中生成情绪。</p><p>完美符合我的需求，但不知道具体配置要求是什么。</p><p>试了一下音频翻译，如果有对应的英文音频+翻译后的字幕，效果还是可以的。</p><p>大家可以去HF试试：</p><p><a class=" external" href="https://huggingface.co/spaces/myshell-ai/OpenVoiceV2" rel="nofollow noreferrer" target="_blank"><span class="invisible">https://</span><span class="visible">huggingface.co/spaces/m</span><span class="invisible">yshell-ai/OpenVoiceV2</span><span class="ellipsis"></span></a></p><p></p>
 ]]></content:encoded>
 <pubDate>Tue, 21 May 2024 16:45:15 GMT</pubDate>
-<pubDate>Tue, 21 May 2024 16:45:15 GMT</pubDate>
 </item>
-
 <item>
 <title>强化学徒发布了想法: 如果在读期间没有机会实习，还有其他的路径吗？毕业之后不断跳槽？</title>
 <link>https://www.zhihu.com/pin/1776059005007618048</link>
