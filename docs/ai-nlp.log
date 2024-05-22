@@ -735,3 +735,9 @@ Append: [【LLM & 长文本】Infini-attention：高效无限上下文 Transform
 Append: [OpenAI前CTO Ilya推荐的30篇文章，认真读完将理解当下90%的AI技术（1-10）](https://mp.weixin.qq.com/s/3HX8DBVMZTNw6zEg4XJ3lg)
 append_entries: 5
 Finish: 2024-05-22 10:03:23.079661
+------------------------------------------------------
+Started: 2024-05-22 12:04:32.984763
+Existing_entries: 45
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
+append_entries: 0
+Finish: 2024-05-22 12:04:33.515281
