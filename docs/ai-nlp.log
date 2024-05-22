@@ -720,3 +720,18 @@ Existing_entries: 40
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
 append_entries: 0
 Finish: 2024-05-22 08:04:34.311196
+------------------------------------------------------
+Started: 2024-05-22 10:03:13.694880
+Existing_entries: 40
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
+Token length: 24
+Summarized using GPT-3.5-turbo
+Append: [GPT-4o再次封神！全网独一份的AI大模型教程](https://mp.weixin.qq.com/s/uCrGz1u9v1ek2SY-gA0vDA)
+Token length: 32
+Summarized using GPT-3.5-turbo
+Append: [突破性AGI综述：UIUC 120页长文揭示离AGI仅一步之遥？](https://mp.weixin.qq.com/s/WBqj4kYNWzrTfxVKkFISog)
+Append: [浅谈大模型 SFT 的实践落地：10 问 10 答](https://mp.weixin.qq.com/s/ftuTTIqUymF5xB6LwQi-kw)
+Append: [【LLM & 长文本】Infini-attention：高效无限上下文 Transformer](https://mp.weixin.qq.com/s/UDE-bRENp8z5OdH-sC0nRg)
+Append: [OpenAI前CTO Ilya推荐的30篇文章，认真读完将理解当下90%的AI技术（1-10）](https://mp.weixin.qq.com/s/3HX8DBVMZTNw6zEg4XJ3lg)
+append_entries: 5
+Finish: 2024-05-22 10:03:23.079661

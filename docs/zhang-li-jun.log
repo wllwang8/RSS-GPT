@@ -730,3 +730,16 @@ Existing_entries: 38
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3089330056
 append_entries: 0
 Finish: 2024-05-22 08:04:33.607810
+------------------------------------------------------
+Started: 2024-05-22 10:03:04.263872
+Existing_entries: 38
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3089330056
+Token length: 24
+Summarized using GPT-3.5-turbo
+Append: [《我的阿勒泰》爆火：人这一生，最该看透这5个真相](https://mp.weixin.qq.com/s/7_Z-cedUSOQgA49fMJJbcQ)
+Token length: 19
+Summarized using GPT-3.5-turbo
+Append: [为什么业务能力强的人，反而当不好领导？](https://mp.weixin.qq.com/s/hWuVbjNd4xlnGpaj0HuxOw)
+Append: [精进日志450 | 5.22](https://mp.weixin.qq.com/s/Gf3LJvqVwzIM-XNDeqIWEw)
+append_entries: 3
+Finish: 2024-05-22 10:03:13.090138
