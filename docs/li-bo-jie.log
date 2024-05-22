@@ -1169,3 +1169,12 @@ Existing_entries: 67
 Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
 append_entries: 0
 Finish: 2024-05-22 06:03:04.249807
+------------------------------------------------------
+Started: 2024-05-22 08:04:07.782311
+Existing_entries: 67
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+Token length: 3518
+Summarized using GPT-3.5-turbo
+Append: [李博杰赞同了文章: ChatGPT语音酷似「寡姐」遭炮轰！奥特曼紧急下架「Sky」](https://zhuanlan.zhihu.com/p/698988733)
+append_entries: 1
+Finish: 2024-05-22 08:04:14.850458
