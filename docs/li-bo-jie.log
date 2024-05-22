@@ -1148,3 +1148,12 @@ Existing_entries: 66
 Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
 append_entries: 0
 Finish: 2024-05-22 00:08:50.332227
+------------------------------------------------------
+Started: 2024-05-22 02:14:15.543489
+Existing_entries: 66
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+Token length: 1706
+Summarized using GPT-3.5-turbo
+Append: [李博杰赞同了回答: Dan Abramov 年薪 13 万刀，假设加入阿里，他的能力匹配得了 P8 吗？](https://www.zhihu.com/question/393825440/answer/1214828265)
+append_entries: 1
+Finish: 2024-05-22 02:14:22.838701
