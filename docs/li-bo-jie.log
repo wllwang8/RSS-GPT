@@ -1202,3 +1202,17 @@ Existing_entries: 70
 Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
 append_entries: 0
 Finish: 2024-05-22 14:02:44.070528
+------------------------------------------------------
+Started: 2024-05-22 16:03:07.928490
+Existing_entries: 70
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+Token length: 30
+Summarized using GPT-3.5-turbo
+Append: [李博杰赞同了回答: 见过哪些离大谱的翻译？](https://www.zhihu.com/question/540850833/answer/2661429156)
+Token length: 265
+Summarized using GPT-3.5-turbo
+Append: [李博杰赞同了回答: 如果我发明出一种药物，凡是生理残疾者服用都会恢复正常，比如缺胳膊少腿能长出来，能不能保研、得诺贝尔奖？](https://www.zhihu.com/question/490252871/answer/2273698543)
+Append: [李博杰赞同了回答: 你们听过最离谱的事情是什么？](https://www.zhihu.com/question/62145775/answer/2685590031)
+Append: [李博杰赞同了回答: 你们听过最离谱的事情是什么？](https://www.zhihu.com/question/62145775/answer/2870791233)
+append_entries: 4
+Finish: 2024-05-22 16:03:17.790734
