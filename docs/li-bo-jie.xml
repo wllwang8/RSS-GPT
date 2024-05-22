@@ -4,6 +4,7 @@
 <title>李博杰的知乎动态</title>
 <link>https://www.zhihu.com/people/li-bo-jie/activities</link>
 
+
 <item>
 <title>李博杰赞同了回答: Dan Abramov 年薪 13 万刀，假设加入阿里，他的能力匹配得了 P8 吗？</title>
 <link>https://www.zhihu.com/question/393825440/answer/1214828265</link>
@@ -11,13 +12,11 @@
 <content:encoded><![CDATA[
 <div> Dan Abramov, 阿里 P7, 技术要求, 对比, 评价
 
-总结:<br><br>文章指出，Dan Abramov 不符合阿里 P7 岗位的技术要求，通过对比Dan的自述和阿里P7职位要求来论证。强调高级技术人员的竞争力应在于持续学习和解决问题的能力，而非简单的多领域精通；同时质疑职级评定标准的靠谱性，倡导真正的个人自我实现和幸福。文章指出人生追求不应被职级和评价体系所束缚，Dan可能在内心更快乐和充实。最后呼吁关注人的内在价值，而非职级评定的表面标签。 <div>
+总结:<br /><br />文章指出，Dan Abramov 不符合阿里 P7 岗位的技术要求，通过对比Dan的自述和阿里P7职位要求来论证。强调高级技术人员的竞争力应在于持续学习和解决问题的能力，而非简单的多领域精通；同时质疑职级评定标准的靠谱性，倡导真正的个人自我实现和幸福。文章指出人生追求不应被职级和评价体系所束缚，Dan可能在内心更快乐和充实。最后呼吁关注人的内在价值，而非职级评定的表面标签。 <div>
 <p>有充足的理由证明，Dan Abramov 甚至完全达不到阿里 P7 的要求，估计特批一个 P6+ 潜力很大。</p><p>众所周知，Dan 曾经在博客上介绍过自己「<a class=" wrap external" href="https://overreacted.io/zh-hans/things-i-dont-know-as-of-2018/" rel="nofollow noreferrer" target="_blank">懂什么和不懂什么</a>」。基于下面一份某阿里同学发在知乎的前端 P7 岗位要求，我们来逐条对照一下：</p><p class="ztext-empty-paragraph"><br /></p><p><b>P7 要求第一条：</b></p><blockquote>1. 精通各种 Web 前端技术（HTML / CSS / JavaScript 等），熟悉网络协议（HTTP / SSL），熟悉常见安全问题和对策。</blockquote><p><b>Dan 的自述：</b></p><blockquote>……我不了解 Flex 和 Grid。<br />……我用过 CSS 部分的 BEM，但我也就知道这么多了。<br />……我从没设置过 HTTPS 和 SSL，只了解公钥私钥的概念，不知道它们是如何运作的。<br />……我超怕这些 CORS 错误！</blockquote><p>不用多说了，显然不合格（狗头）</p><p class="ztext-empty-paragraph"><br /></p><p><b>P7 要求第二条：</b></p><blockquote>2. 精通 Babel / Webpack，对 AST 有深度理解。</blockquote><p><b>Dan 的自述：</b></p><blockquote>……我会得最多的就只有冒泡排序和快排了。如果把它们与特定的实际问题联系在一起，我能进行简单的图遍历。</blockquote><p>看起来人家也就遍历一下 AST 差不多，缺乏深度理解，不合格（狗头）</p><p class="ztext-empty-paragraph"><br /></p><p><b>P7 要求第三条：</b></p><blockquote>3. 熟悉 BaaS / FaaS，对 serverless 有深刻理解。</blockquote><p><b>Dan 的自述：</b></p><blockquote>……Serverless 听起来也很酷，但我没试过。<br />……我不知道微服务的实际优缺点是什么，因为我没用过。<br />……我从来没有用 Node 连接过数据库。</blockquote><p>还是完全不合格嘛（狗头）</p><p class="ztext-empty-paragraph"><br /></p><p><b>P7 要求第四条：</b></p><blockquote>4. 对前端事件流、数据流有深度理解，具备抽象视图层与数据层交互协议的能力，有复杂可视化搭建平台的研发经验优先。</blockquote><p><b>Dan 的自述：</b></p><blockquote>……除了 Rx Observables 之外，我还没有密切关注过 stream。我使用一两次旧的 Node 流，但总是搞乱错误处理。<br />……我可以通过 FTP 发送文件或杀死进程，但我的 devops 技能仅限于此。</blockquote><p>太菜了，怎么还是完全不行啊（狗头）</p><p class="ztext-empty-paragraph"><br /></p><p><b>P7 要求第五条：</b></p><blockquote>5. 具备跨端研发能力，有前端渲染容器实现和沙箱隔离相关实践经验。</blockquote><p><b>Dan 的自述：</b></p><blockquote>……我尝试学过 Objective C 但没有成功。我也没学过 Swift 和 Java。<br />……我没试过 Electron。<br />……无论是 Canvas、SVG 还是 WebGL，我都没有高效使用过。</blockquote><p>完全是哪壶不开提哪壶嘛（狗头）</p><p class="ztext-empty-paragraph"><br /></p><p><b>P7 要求第六条：</b></p><blockquote>6. 个性乐观开朗，逻辑性强，善于和各种背景的人合作，有丰富的项目管理、团队管理经验。</blockquote><p>这条跟技术没关系，看他 GitHub 那么活跃，应该满足吧。只不过……这条难道不是跟「五官端正」差不多的送分题吗？</p><p class="ztext-empty-paragraph"><br /></p><p><b>总结：</b></p><p>六条要求里只满足一条送分题，可见 Facebook 前端有多水，更可见阿里 P7 实力之深不可测。</p><p class="ztext-empty-paragraph"><br /></p><hr /><p class="ztext-empty-paragraph"><br /></p><p>这个对比显然是扯淡的，那么我们能从这里学到什么呢？</p><p>一方面，为什么要用这么多领域的「精通」来定义一个高级的技术人员呢？其实一个人只要是某个极细专业领域（如 UI 框架设计和状态管理）里的专家，对许多周边领域只要有基础的了解就够了。Dan 真正的竞争力显然更在于他持续学习和 problem solving 的能力。个人相信这样解决开放性问题的能力，恰恰才是对高级技术岗位更为重要的，也是目前业界刷题驱动的面试体系里所难以衡量的。我们需要更多具有足够资历的开发者显式地说出「<b>我其实不懂很多东西，这没有什么关系</b>」。而对于一个有自己笑傲江湖主场的技术人，如果不去挖掘出亮点，而是拿面试题库里的问题去逐条计较，是很刻舟求剑（且不尊重人）的。</p><blockquote>如果一个人说他什么都精通什么都懂，那他应该直接去当美国总统。</blockquote><p>另一方面，你觉得这些职级标准就真的靠谱吗？你觉得人的能力和贡献应该被贴上 P56789 的标签来 judge 吗？</p><p>职级和收入（乃至一切外部评价体系下的「成功」）当然都很重要，但绝不应该用它们随便 judge 人，或者把它们当作人生的终极追求。在满足了需求金字塔上的低层需求后，幸福的本源仍然是个体的自我实现。非要比较的话，我猜对于已经足以在前端历史上留名的 Dan，他的内心大概比前段时间那位闹得沸沸扬扬的 P8 要快乐而充实得多吧。</p><p>还计较什么 P56789 呀，这不就够了吗？</p>
 ]]></content:encoded>
 <pubDate>Wed, 22 May 2024 01:17:21 GMT</pubDate>
-<pubDate>Wed, 22 May 2024 01:17:21 GMT</pubDate>
 </item>
-
 <item>
 <title>李博杰发布了想法: 基础模型领域有两类玩家：一类是OpenAI这样的最强大模型，这种API肯定是能赚钱的。如果再close一点，甚至连API都不给用，走苹果路线，只能在G...</title>
 <link>https://www.zhihu.com/pin/1776339787253202944</link>
