@@ -1196,3 +1196,9 @@ Summarized using GPT-3.5-turbo
 Append: [李博杰赞同了回答: 「胖猫」事件一再反转，真相最终在警方通报中有了定论，我们该如何评判逾越事实界限的言论与行为？如何避免？](https://www.zhihu.com/question/656589297/answer/3504510915)
 append_entries: 2
 Finish: 2024-05-22 12:04:08.286717
+------------------------------------------------------
+Started: 2024-05-22 14:02:42.989910
+Existing_entries: 70
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+append_entries: 0
+Finish: 2024-05-22 14:02:44.070528
