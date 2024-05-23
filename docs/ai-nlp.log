@@ -816,3 +816,9 @@ Append: [现有开源MOE大模型对比](https://mp.weixin.qq.com/s/EvUpCM_ZqPfU
 Append: [ResearchAgent: 利用agent自动生成论文idea，再也不用担心做科研没有思路了](https://mp.weixin.qq.com/s/YCeQiA3Ahx7qBo8LH38thQ)
 append_entries: 5
 Finish: 2024-05-23 10:04:31.171781
+------------------------------------------------------
+Started: 2024-05-23 12:04:08.434119
+Existing_entries: 50
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
+append_entries: 0
+Finish: 2024-05-23 12:04:08.914885
