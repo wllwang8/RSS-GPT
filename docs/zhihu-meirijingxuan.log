@@ -791,3 +791,9 @@ Existing_entries: 21
 Fetching from http://tw.wleilei.com:1200/zhihu/topic/19758322
 append_entries: 0
 Finish: 2024-05-23 16:03:11.214413
+------------------------------------------------------
+Started: 2024-05-23 18:03:00.983676
+Existing_entries: 21
+Fetching from http://tw.wleilei.com:1200/zhihu/topic/19758322
+append_entries: 0
+Finish: 2024-05-23 18:03:08.599985
