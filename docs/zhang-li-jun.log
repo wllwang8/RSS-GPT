@@ -809,3 +809,16 @@ Existing_entries: 41
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3089330056
 append_entries: 0
 Finish: 2024-05-23 08:03:59.420038
+------------------------------------------------------
+Started: 2024-05-23 10:04:15.881667
+Existing_entries: 41
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3089330056
+Token length: 12
+Summarized using GPT-3.5-turbo
+Append: [所谓领导力，就是干2件事](https://mp.weixin.qq.com/s/6RVrx53grDiumAUDhcw0kQ)
+Token length: 17
+Summarized using GPT-3.5-turbo
+Append: [裁员了，很严重，尤其是加班的老实人](https://mp.weixin.qq.com/s/HUwp0CDYZ_2BOVZ_JQ70zg)
+Append: [精进日志451 | 5.23](https://mp.weixin.qq.com/s/y2CJnUdCcsg2PbwHJdwdeQ)
+append_entries: 3
+Finish: 2024-05-23 10:04:24.046157
