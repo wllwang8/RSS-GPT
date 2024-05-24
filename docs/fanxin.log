@@ -848,3 +848,10 @@ Existing_entries: 6
 Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/vaxin
 append_entries: 0
 Finish: 2024-05-24 20:02:48.723214
+------------------------------------------------------
+Started: 2024-05-24 22:02:51.951738
+Existing_entries: 6
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/vaxin
+Feed error: 503
+append_entries: 0
+error when rendering xml, skip docs/fanxin

@@ -882,3 +882,15 @@ Existing_entries: 22
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3226363426
 append_entries: 0
 Finish: 2024-05-24 20:03:07.646336
+------------------------------------------------------
+Started: 2024-05-24 22:03:22.714462
+Existing_entries: 22
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3226363426
+Token length: 20
+Summarized using GPT-3.5-turbo
+Append: [🐳来国防科技大学、苏州大学、温州商学院！](https://mp.weixin.qq.com/s/eEE8K6jCAdnOweWyq5KmDw)
+Token length: 32
+Summarized using GPT-3.5-turbo
+Append: [A100算力加持，理论结合实践！大模型实战营“初夏专场”火热来袭](https://mp.weixin.qq.com/s/VHWCipbW6XKAuA-jE0UqRw)
+append_entries: 2
+Finish: 2024-05-24 22:03:31.179708
