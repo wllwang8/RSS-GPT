@@ -4,6 +4,20 @@
 <title>李博杰的知乎动态</title>
 <link>https://www.zhihu.com/people/li-bo-jie/activities</link>
 
+<item>
+<title>李博杰发布了想法: 其实 OpenAI 实时语音电话的 <a href="https://link.zhihu.com/?target=http%3A//webrtc.chatgpt.com" data-icon-type="link" data-original-...</title>
+<link>https://www.zhihu.com/pin/1777314843651420160</link>
+<guid>https://www.zhihu.com/pin/1777314843651420160</guid>
+<content:encoded><![CDATA[
+<div> 证书透明度、TLS证书、日志、CA、安全研究者
+<br>
+证书透明度日志是一个运行至今的联盟链，以记录TLS证书的签发情况。通过至少2个logger节点签名，可以确保证书的有效性，防止CA作恶。域名所有者可订阅日志，及时发现未经授权签发的证书。安全研究者可以查询链上证书，以发现潜在问题。 Chrome和Safari等浏览器强制要求证书透明度的实施，为Web PKI机制带来重要改进。证书透明度日志的重要性在于加强证书签发过程的透明性和安全性，维护整个网络环境的信任。 
+<br><br>总结:证书透明度日志是一个通过记录TLS证书签发情况，防止CA作恶的联盟链，必须得到至少2个logger节点签名，确保证书有效性。域名所有者可订阅日志，及时发现未授权签发的证书，安全研究者可查询链上证书，发现潜在问题。 Chrome和Safari浏览器强制要求证书透明度，加强了证书签发过程的透明性和安全性，维护网络环境的信任。 <div>
+<p>其实 OpenAI 实时语音电话的 <a class="external" href="https://link.zhihu.com/?target=http%3A//webrtc.chatgpt.com">链接</a> 早在 4 月 3 日就上线了。Sora 是美国时间 2 月 15 日发布的，两天前的 13 日 <a class="external" href="https://link.zhihu.com/?target=http%3A//sora.openai.com">链接</a> 就启用了。这是怎么知道的？其实只要申请 TLS 证书，这个域名就立即被全世界知道了。<br />这就是证书透明度（Certificate Transparency）日志，是一条 2013 年运行至今的联盟链，目前已经存储了 81 亿张证书的签发记录。相比之下，比特币主网这个月刚刚突破 10 亿次交易，以太坊主网也只有 23 亿次交易。今天无论你访问什么网站，只要有 TLS 证书，都有至少两个 logger 节点的签名。<br />我在华为面试过这么多候选人，没有一个知道证书透明度的。感觉我多年前参与的这个项目虽然默默守护着整个 Web PKI 机制，但很少有人知道。从 Google 2013 年开始推动，到 2018 年起 Chrome 强制要求证书透明度，2021 年起 Safari 强制要求证书透明度，Internet Infra 的每一步改进都很不容易。<br />为什么需要证书透明度日志？其实是为了防止 CA 作恶，悄悄签发一个证书，这样的事情确实发生过。因此 CA 签发的证书需要记录到公开的区块链里，被至少 2 个 logger 节点签名，这张证书才被浏览器认为是有效的，这样单个 CA 就无法作恶了。域名的所有者可以订阅日志，这样如果有人未经授权签发了证书，域名所有者就能收到提醒。安全研究者也可以随时查询链上的证书，发现潜在问题。</p><p><img src="https://pic3.zhimg.com/100/v2-b37a53985c4480fe253da2875233cc36_720w.jpg" /></p><p><img src="https://pic2.zhimg.com/100/v2-7c97600ac4694234db7125e6759bb499_720w.jpg" /></p><p><img src="https://pic2.zhimg.com/100/v2-8b0dfb6e8c1c40050640f35a6228e831_720w.jpg" /></p><p><img src="https://pic2.zhimg.com/100/v2-b0a228cbdb01c73b1ea2ca87c0a8f159_720w.jpg" /></p><p><img src="https://pic3.zhimg.com/100/v2-f16da0048028c28b55fa7d4cd3685d3a_720w.jpg" /></p><p><img src="https://pic2.zhimg.com/100/v2-33bdd17d4a3a95a0da6484d197a924bd_720w.jpg" /></p>
+]]></content:encoded>
+<pubDate>Fri, 24 May 2024 04:27:59 GMT</pubDate>
+<pubDate>Fri, 24 May 2024 04:27:59 GMT</pubDate>
+</item>
 
 <item>
 <title>李博杰赞同了回答: 如何反驳“你愿意女儿嫁给以色列人还是巴勒斯坦人”？</title>
