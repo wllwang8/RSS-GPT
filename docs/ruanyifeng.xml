@@ -4,18 +4,19 @@
 <title>阮一峰的网络日志</title>
 <link>http://www.ruanyifeng.com/blog/</link>
 
+
 <item>
 <title>科技爱好者周刊（第 301 期）：OpenAI 的图书馆工位</title>
 <link>http://www.ruanyifeng.com/blog/2024/05/weekly-issue-301.html</link>
 <guid>http://www.ruanyifeng.com/blog/2024/05/weekly-issue-301.html</guid>
 <content:encoded><![CDATA[
-<div> OpenAI、稀土开发者大会、动态二维码、纸板床、AI工具<br>
-<br>
-1. OpenAI在总部建有图书馆工位，为员工提供舒适的工作环境。<br>
-2. 稀土开发者大会将于6月28日在北京举行，邀请70位技术专家参与。<br>
-3. 动态二维码可以实现摄像头下载文件的功能，创新且实用。<br>
-4. 西班牙创业公司推出了低成本、快速搭建的纸板床，用于救灾行动。<br>
-5. AI工具继续发展，涉及到多方面领域的应用，不断创造出新的可能性。<br>
+<div> OpenAI、稀土开发者大会、动态二维码、纸板床、AI工具<br />
+<br />
+1. OpenAI在总部建有图书馆工位，为员工提供舒适的工作环境。<br />
+2. 稀土开发者大会将于6月28日在北京举行，邀请70位技术专家参与。<br />
+3. 动态二维码可以实现摄像头下载文件的功能，创新且实用。<br />
+4. 西班牙创业公司推出了低成本、快速搭建的纸板床，用于救灾行动。<br />
+5. AI工具继续发展，涉及到多方面领域的应用，不断创造出新的可能性。<br />
 总结: OpenAI提供舒适工作环境，稀土开发者大会即将举行，动态二维码等新技术不断涌现，以及纸板床的应用与AI工具的发展，展示了科技领域的不断创新和应用。 <div>
 <p>这里记录每周值得分享的科技内容，周五发布。</p>
 <p>本杂志<a href="https://github.com/ruanyf/weekly">开源</a>，欢迎<a href="https://github.com/ruanyf/weekly/issues">投稿</a>。另有<a href="https://github.com/ruanyf/weekly/issues/4390">《谁在招人》</a>服务，发布程序员招聘信息。合作请<a href="mailto:yifeng.ruan@gmail.com">邮件联系</a>（yifeng.ruan@gmail.com）。</p>
@@ -456,9 +457,7 @@
 </ul></div><div></div>
 ]]></content:encoded>
 <pubDate>Fri, 24 May 2024 08:15:17 +0800</pubDate>
-<pubDate>Fri, 24 May 2024 08:15:17 +0800</pubDate>
 </item>
-
 <item>
 <title>科技爱好者周刊（第 300 期）：三十年，解决人生三大问题</title>
 <link>http://www.ruanyifeng.com/blog/2024/05/weekly-issue-300.html</link>

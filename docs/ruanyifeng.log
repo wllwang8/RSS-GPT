@@ -794,3 +794,9 @@ Summarized using GPT-3.5-turbo
 Append: [科技爱好者周刊（第 301 期）：OpenAI 的图书馆工位](http://www.ruanyifeng.com/blog/2024/05/weekly-issue-301.html)
 append_entries: 1
 Finish: 2024-05-24 02:14:46.585591
+------------------------------------------------------
+Started: 2024-05-24 04:04:05.872520
+Existing_entries: 8
+Fetching from https://feeds.feedburner.com/ruanyifeng
+append_entries: 0
+Finish: 2024-05-24 04:04:06.147627
