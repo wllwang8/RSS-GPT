@@ -967,3 +967,9 @@ Append: [为什么咖啡比茶叶发现的晚反而咖啡却传播了全世界�
 Append: [氢氟酸为什么是弱酸?](https://daily.zhihu.com/story/9772608)
 append_entries: 5
 Finish: 2024-05-25 00:08:21.447314
+------------------------------------------------------
+Started: 2024-05-25 02:13:03.072596
+Existing_entries: 65
+Fetching from http://tw.wleilei.com:1200/zhihu/daily
+append_entries: 0
+Finish: 2024-05-25 02:13:07.968655
