@@ -999,3 +999,18 @@ Existing_entries: 55
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
 append_entries: 0
 Finish: 2024-05-25 20:02:58.940223
+------------------------------------------------------
+Started: 2024-05-25 22:02:58.629270
+Existing_entries: 55
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
+Token length: 16
+Summarized using GPT-3.5-turbo
+Append: [微信官方回应：为什么不做已读功能](https://mp.weixin.qq.com/s/FGBMYU7Utt2k77MIA42QCA)
+Token length: 27
+Summarized using GPT-3.5-turbo
+Append: [第一本给程序员看的AI Agent图书上市了！文末赠书](https://mp.weixin.qq.com/s/hg8Le3LLs-RHhlCFeIy0iw)
+Append: [大模型推理加速-投机解码](https://mp.weixin.qq.com/s/11RqK60RTrF4DgxE28ad_Q)
+Append: [【文档智能】符合人类阅读顺序的文档模型-LayoutReader及非官方权重开源](https://mp.weixin.qq.com/s/s1a3l_9hNYAzOP6vKgldCg)
+Append: [对话大模型的跨语言迁移](https://mp.weixin.qq.com/s/fZdzeIbhRCGkV1YEElgG0w)
+append_entries: 5
+Finish: 2024-05-25 22:03:05.316370
