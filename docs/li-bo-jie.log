@@ -1448,3 +1448,10 @@ Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
 Feed error: 503
 append_entries: 0
 error when rendering xml, skip docs/li-bo-jie
+------------------------------------------------------
+Started: 2024-05-25 12:03:36.031394
+Existing_entries: 87
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+Feed error: 503
+append_entries: 0
+error when rendering xml, skip docs/li-bo-jie
