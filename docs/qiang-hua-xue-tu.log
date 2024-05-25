@@ -943,3 +943,10 @@ Existing_entries: 29
 Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/heda-he-28
 append_entries: 0
 Finish: 2024-05-25 08:03:41.414733
+------------------------------------------------------
+Started: 2024-05-25 10:03:42.533872
+Existing_entries: 29
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/heda-he-28
+Feed error: 503
+append_entries: 0
+error when rendering xml, skip docs/qiang-hua-xue-tu

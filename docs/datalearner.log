@@ -894,3 +894,10 @@ Existing_entries: 10
 Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/datalearner
 append_entries: 0
 Finish: 2024-05-25 08:03:25.716234
+------------------------------------------------------
+Started: 2024-05-25 10:02:58.133778
+Existing_entries: 10
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/datalearner
+Feed error: 503
+append_entries: 0
+error when rendering xml, skip docs/datalearner

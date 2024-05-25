@@ -1441,3 +1441,10 @@ Existing_entries: 87
 Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
 append_entries: 0
 Finish: 2024-05-25 08:03:24.687440
+------------------------------------------------------
+Started: 2024-05-25 10:02:57.292163
+Existing_entries: 87
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/li-bo-jie
+Feed error: 503
+append_entries: 0
+error when rendering xml, skip docs/li-bo-jie

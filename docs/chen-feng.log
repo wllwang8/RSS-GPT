@@ -885,3 +885,10 @@ Existing_entries: 7
 Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/chen-feng-40-67-10
 append_entries: 0
 Finish: 2024-05-25 08:03:39.027891
+------------------------------------------------------
+Started: 2024-05-25 10:03:09.201037
+Existing_entries: 7
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/chen-feng-40-67-10
+Feed error: 503
+append_entries: 0
+error when rendering xml, skip docs/chen-feng
