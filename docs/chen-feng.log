@@ -996,3 +996,10 @@ Existing_entries: 7
 Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/chen-feng-40-67-10
 append_entries: 0
 Finish: 2024-05-26 16:03:28.837153
+------------------------------------------------------
+Started: 2024-05-26 18:03:28.769380
+Existing_entries: 7
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/chen-feng-40-67-10
+Feed error: 503
+append_entries: 0
+error when rendering xml, skip docs/chen-feng

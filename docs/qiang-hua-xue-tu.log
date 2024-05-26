@@ -1057,3 +1057,10 @@ Summarized using GPT-3.5-turbo
 Append: [强化学徒发布了想法: 分配更重要一些，还是锻炼更重要一些？或者直接把活儿交给别人？](https://www.zhihu.com/pin/1778203862761455616)
 append_entries: 1
 Finish: 2024-05-26 16:03:33.448365
+------------------------------------------------------
+Started: 2024-05-26 18:03:30.112579
+Existing_entries: 30
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/heda-he-28
+Feed error: 503
+append_entries: 0
+error when rendering xml, skip docs/qiang-hua-xue-tu
