@@ -1041,3 +1041,10 @@ Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/heda-he-28
 Feed error: 503
 append_entries: 0
 error when rendering xml, skip docs/qiang-hua-xue-tu
+------------------------------------------------------
+Started: 2024-05-26 14:03:11.997834
+Existing_entries: 29
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/heda-he-28
+Feed error: 503
+append_entries: 0
+error when rendering xml, skip docs/qiang-hua-xue-tu
