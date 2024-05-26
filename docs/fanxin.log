@@ -970,3 +970,10 @@ Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/vaxin
 Feed error: 503
 append_entries: 0
 error when rendering xml, skip docs/fanxin
+------------------------------------------------------
+Started: 2024-05-26 10:02:34.633698
+Existing_entries: 6
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/vaxin
+Feed error: 503
+append_entries: 0
+error when rendering xml, skip docs/fanxin
