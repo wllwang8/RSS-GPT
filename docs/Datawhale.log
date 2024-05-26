@@ -972,3 +972,9 @@ Summarized using GPT-3.5-turbo
 Append: [美国「开源 AI 大模型」出口限制法案：43 票赞成、3 票反对，第一轮通过](https://mp.weixin.qq.com/s/GpaNCSL0rg9ocLxfyErPiA)
 append_entries: 2
 Finish: 2024-05-25 22:03:12.779108
+------------------------------------------------------
+Started: 2024-05-26 00:09:38.144143
+Existing_entries: 26
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3226363426
+append_entries: 0
+Finish: 2024-05-26 00:09:38.673342

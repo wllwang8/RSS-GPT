@@ -1033,3 +1033,18 @@ Existing_entries: 65
 Fetching from http://tw.wleilei.com:1200/zhihu/daily
 append_entries: 0
 Finish: 2024-05-25 22:02:25.801632
+------------------------------------------------------
+Started: 2024-05-26 00:08:49.699236
+Existing_entries: 65
+Fetching from http://tw.wleilei.com:1200/zhihu/daily
+Token length: 875
+Summarized using GPT-3.5-turbo
+Append: [小事 · 导师是否知道自己的学生其实「科研没什么进展」？](https://daily.zhihu.com/story/9772615)
+Token length: 2367
+Summarized using GPT-3.5-turbo
+Append: [为什么古巴比伦所在的两河流域平原「森林资源丰富」，而古巴比伦人建造建筑时却缺乏木料？](https://daily.zhihu.com/story/9772625)
+Append: [上古汉语里的「有穷国」、「有熊国」，现代汉语里的「有明一代」、「有清一代」，其中的「有」是什么意思？](https://daily.zhihu.com/story/9772633)
+Append: [有哪些外国的顶级文物被收藏在中国？](https://daily.zhihu.com/story/9772639)
+Append: [如何理解路径积分（path integral）？](https://daily.zhihu.com/story/9772645)
+append_entries: 5
+Finish: 2024-05-26 00:09:03.392706

@@ -1069,3 +1069,10 @@ Fetching from https://www.zhihu.com/people/mli65
 Feed error: <unknown>:2:66: mismatched tag
 append_entries: 0
 error when rendering xml, skip docs/limu
+------------------------------------------------------
+Started: 2024-05-26 00:09:06.050815
+Existing_entries: 0
+Fetching from https://www.zhihu.com/people/mli65
+Feed error: <unknown>:2:66: mismatched tag
+append_entries: 0
+error when rendering xml, skip docs/limu
