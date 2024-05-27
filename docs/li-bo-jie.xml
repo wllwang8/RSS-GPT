@@ -4,6 +4,19 @@
 <title>李博杰的知乎动态</title>
 <link>https://www.zhihu.com/people/li-bo-jie/activities</link>
 
+<item>
+<title>李博杰赞同了回答: 为什么程序员会有代码能跑就不要动的观点？</title>
+<link>https://www.zhihu.com/question/491132556/answer/2989469046</link>
+<guid>https://www.zhihu.com/question/491132556/answer/2989469046</guid>
+<content:encoded><![CDATA[
+<div> 关键词：代码示例 年轻人 fix 测试 提交 长大
+
+代码示例中，年轻人在解决其他问题并测试完毕后，不慎移除了一行代码并提交了修改。后来，这位年轻人成长了，在软件开发领域更加成熟和谨慎。总结: 代码示例展示了年轻人在软件开发中的成长过程，提醒我们在提交代码前应该仔细审核和测试，以避免不必要的错误，从而提高代码质量和开发效率。 <div>
+<p>看以下代码</p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic3.zhimg.com/v2-40d4d4634af5004a4f75a403e0e8efde_1440w.jpg" /><figcaption>示例代码</figcaption></figure><p>年轻人fix了其他issue，测试完毕，提交代码前顺手移除了line9，push！</p><p>然后年轻人长大了。</p>
+]]></content:encoded>
+<pubDate>Sat, 25 May 2024 10:08:00 GMT</pubDate>
+<pubDate>Sat, 25 May 2024 10:08:00 GMT</pubDate>
+</item>
 
 <item>
 <title>李博杰赞同了回答: 你见过的最差的程序员是怎样的？</title>
