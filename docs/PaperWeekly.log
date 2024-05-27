@@ -1051,3 +1051,9 @@ Fetching from http://tw.wleilei.com:1200/zhihu/zhuanlan/paperweekly
 Feed error: 503
 append_entries: 0
 error when rendering xml, skip docs/PaperWeekly
+------------------------------------------------------
+Started: 2024-05-27 18:03:12.615692
+Existing_entries: 10
+Fetching from http://tw.wleilei.com:1200/zhihu/zhuanlan/paperweekly
+append_entries: 0
+Finish: 2024-05-27 18:03:14.814972
