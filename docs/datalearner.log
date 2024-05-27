@@ -1079,3 +1079,10 @@ Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/datalearner
 Feed error: 503
 append_entries: 0
 error when rendering xml, skip docs/datalearner
+------------------------------------------------------
+Started: 2024-05-27 14:03:34.450258
+Existing_entries: 12
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/datalearner
+Feed error: 503
+append_entries: 0
+error when rendering xml, skip docs/datalearner
