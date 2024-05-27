@@ -1152,3 +1152,18 @@ Existing_entries: 60
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
 append_entries: 0
 Finish: 2024-05-27 20:03:34.675986
+------------------------------------------------------
+Started: 2024-05-27 22:03:04.386150
+Existing_entries: 60
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
+Token length: 7
+Summarized using GPT-3.5-turbo
+Append: [大模型微调十诫](https://mp.weixin.qq.com/s/wQUnhoFeN3gwkUNO_iaEPg)
+Token length: 22
+Summarized using GPT-3.5-turbo
+Append: [大模型与任务型对话的结合：Rasa CALM](https://mp.weixin.qq.com/s/qi1uOpZaucX3hZ8U21dHEQ)
+Append: [硕博申请 | 上海科技大学屠可伟老师招收自然语言处理方向2024级工程博士/2025级硕博](https://mp.weixin.qq.com/s/NhJ0dbKXFxWtdqUiVllpAg)
+Append: [RAG开源项目Qanything源码阅读3-在线推理](https://mp.weixin.qq.com/s/yiGSjXKo6nwsn2c4CFjf9A)
+Append: [重新回顾：BERT知识蒸馏](https://mp.weixin.qq.com/s/KSMxXoSMOYKS_XcqEKAcKA)
+append_entries: 5
+Finish: 2024-05-27 22:03:11.601298

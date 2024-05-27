@@ -1113,3 +1113,12 @@ Existing_entries: 27
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3226363426
 append_entries: 0
 Finish: 2024-05-27 20:03:35.282291
+------------------------------------------------------
+Started: 2024-05-27 22:03:11.614038
+Existing_entries: 27
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3226363426
+Token length: 20
+Summarized using GPT-3.5-turbo
+Append: [麻省理工学院 【长期科研项目】开放报名！](https://mp.weixin.qq.com/s/LGkto8dr4-3z9W8EC6jRng)
+append_entries: 1
+Finish: 2024-05-27 22:03:16.739219
