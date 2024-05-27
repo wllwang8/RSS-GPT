@@ -1114,3 +1114,18 @@ Existing_entries: 70
 Fetching from http://tw.wleilei.com:1200/zhihu/daily
 append_entries: 0
 Finish: 2024-05-26 22:02:32.850468
+------------------------------------------------------
+Started: 2024-05-27 00:08:41.402463
+Existing_entries: 70
+Fetching from http://tw.wleilei.com:1200/zhihu/daily
+Token length: 1889
+Summarized using GPT-3.5-turbo
+Append: [食草动物的眼睛/眼神看起来是不是比食肉动物「呆」？](https://daily.zhihu.com/story/9772668)
+Token length: 1323
+Summarized using GPT-3.5-turbo
+Append: [鸦片战争清朝为什么会被吊打？](https://daily.zhihu.com/story/9772655)
+Append: [双缝干涉实验恐怖吗？恐怖在哪？](https://daily.zhihu.com/story/9772658)
+Append: [人类把地下资源（金属矿和能源矿）慢慢掏空了以后，地质会发生什么变化？](https://daily.zhihu.com/story/9772672)
+Append: [瞎扯 · 如何正确地吐槽](https://daily.zhihu.com/story/9772673)
+append_entries: 5
+Finish: 2024-05-27 00:09:06.527204
