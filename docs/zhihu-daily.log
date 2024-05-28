@@ -1228,3 +1228,9 @@ Existing_entries: 80
 Fetching from http://tw.wleilei.com:1200/zhihu/daily
 append_entries: 0
 Finish: 2024-05-28 06:03:29.619150
+------------------------------------------------------
+Started: 2024-05-28 08:03:10.207788
+Existing_entries: 80
+Fetching from http://tw.wleilei.com:1200/zhihu/daily
+append_entries: 0
+Finish: 2024-05-28 08:03:22.537546
