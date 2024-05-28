@@ -4,6 +4,19 @@
 <title>强化学徒的知乎动态</title>
 <link>https://www.zhihu.com/people/heda-he-28/activities</link>
 
+<item>
+<title>强化学徒发表了文章: bert-vits合作者新作：突破开源天花板！ChatTTS：对话式高可控的语音合成模型</title>
+<link>https://zhuanlan.zhihu.com/p/700206083</link>
+<guid>https://zhuanlan.zhihu.com/p/700206083</guid>
+<content:encoded><![CDATA[
+<div> bert-vits, ChatTTS, 4w小时训练, 语音生成, 安全模型
+
+总结:<br><br>这篇文章介绍了一个名为ChatTTS的语音生成模型项目，作者与bert-vits合作，不会开源视频版本，但将在本周内开源一个经过4w小时训练的底模型。该模型专为对话场景设计，支持中英文，效果良好但尺寸较小，稳定性稍差。项目地址见开源地址，使用需遵守法律法规。作者期待该模型能满足自己的音频生成需求，提到OpenVoiceV2存在底噪较大的问题。期待4w小时训练的开源版本能解决这些问题。 <div>
+<p>今天早上刷到这个项目的视频，非常兴奋，速推到我的全平台： <a class=" wrap external" href="https://www.bilibili.com/video/BV1zn4y1o7iV/?share_source=copy_web&amp;vd_source=b46e7bb08585f8807381995d2896d2bc" rel="nofollow noreferrer" target="_blank">突破开源天花板！ChatTTS：对话式高可控的语音合成模型_哔哩哔哩_bilibili</a></p><p>作者是bert-vits的合作者，值得注意的是，目前不会开源视频中的版本，会在本周内开源一个</p><blockquote>4w小时训练出来的底模，同时至少保证生成的结果能被开源的安全模型或者resemble.ai检测出来。4w小时的版本效果已经很好，只是网络小一些，稳定性差一些。开源地址：<a class=" wrap external" href="https://github.com/2noise/ChatTTS/blob/main/infer.ipynb" rel="nofollow noreferrer" target="_blank">ChatTTS/infer.ipynb at main · 2noise/ChatTTS</a></blockquote><p><b>不知道这样的优质开源项目速推，对大家有没有帮助，反正我很喜欢，哈哈。</b></p><hr /><h3>项目介绍</h3><p>ChatTTS是专门为对话场景设计的语音生成模型，用于<b>LLM助手对话任务，对话语音，视频介绍等，支持中英文</b>。</p><p>视频中演示的模型是中等参数，使用了约<b>10万小时</b>的中英文数据进行训练。本音频中所生成的声音基于语音合成技术制作，旨在展示技术成果，无意冒犯或侵犯他人权益。使用本模型请严格遵守相应的法律法规。</p><p>项目地址：<a class=" wrap external" href="https://github.com/2noise/ChatTTS" rel="nofollow noreferrer" target="_blank">GitHub - 2noise/ChatTTS: TTS</a></p><p>感谢各位的关注和一键三连。交流QQ群：808364215；</p><p>技术咨询请发送邮件：open-source@2noise.com</p><p class="ztext-empty-paragraph"><br /></p><h3>我的感想：</h3><p>我一直在等4o的api开放，非常想有一个能高可控的音频生成的项目，这个对很多任务来说，都是如虎添翼的一环~</p><p>比如我们前段时间做的英文视频配音，我前几天还推过OpenVoiceV2，但朋友的反馈说，声音的底噪有点大，中文音频不太行，只期待这个4W的开源版本能满足我这个小需求~</p>
+]]></content:encoded>
+<pubDate>Tue, 28 May 2024 01:17:42 GMT</pubDate>
+<pubDate>Tue, 28 May 2024 01:17:42 GMT</pubDate>
+</item>
 
 <item>
 <title>强化学徒发布了想法: 分配更重要一些，还是锻炼更重要一些？或者直接把活儿交给别人？</title>
