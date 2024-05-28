@@ -1212,3 +1212,9 @@ Append: [【RAG论文】RAG中半结构化数据的解析和向量化方法](htt
 Append: [MIT最新力作：用GPT-3.5解决时间序列异常检测问题](https://mp.weixin.qq.com/s/h8-uJRLQV3P3ZzwSDEb92w)
 append_entries: 5
 Finish: 2024-05-28 10:04:21.669868
+------------------------------------------------------
+Started: 2024-05-28 12:04:32.090925
+Existing_entries: 70
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
+append_entries: 0
+Finish: 2024-05-28 12:04:32.778117
