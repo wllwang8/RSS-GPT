@@ -1197,3 +1197,18 @@ Existing_entries: 65
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
 append_entries: 0
 Finish: 2024-05-28 08:03:59.276151
+------------------------------------------------------
+Started: 2024-05-28 10:04:15.549540
+Existing_entries: 65
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
+Token length: 21
+Summarized using GPT-3.5-turbo
+Append: [GPT-4o炸裂登场！大模型仍是最大赢家！](https://mp.weixin.qq.com/s/dqH7ReBhl_DWaA35sa9fZw)
+Token length: 13
+Summarized using GPT-3.5-turbo
+Append: [群魔乱舞：MoE大模型详解](https://mp.weixin.qq.com/s/vlfOufo5IqYDi8vB6LW67w)
+Append: [美团大模型-日常算法实习生](https://mp.weixin.qq.com/s/3rRdbrLQE9hwELsdY9clTA)
+Append: [【RAG论文】RAG中半结构化数据的解析和向量化方法](https://mp.weixin.qq.com/s/8KkcAiUQvk-IH6t1-LxcBA)
+Append: [MIT最新力作：用GPT-3.5解决时间序列异常检测问题](https://mp.weixin.qq.com/s/h8-uJRLQV3P3ZzwSDEb92w)
+append_entries: 5
+Finish: 2024-05-28 10:04:21.669868
