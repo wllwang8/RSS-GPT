@@ -4,17 +4,17 @@
 <title>AINLP</title>
 <link>http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301.atom</link>
 
+
 <item>
 <title>大模型微调十诫</title>
 <link>https://mp.weixin.qq.com/s/wQUnhoFeN3gwkUNO_iaEPg</link>
 <guid>https://mp.weixin.qq.com/s/wQUnhoFeN3gwkUNO_iaEPg</guid>
 <content:encoded><![CDATA[
 <div> 微调、大模型、十诫、关键字、模型训练
-<br>
+<br />
 微调大模型需要注意模型训练的十个关键要点，包括数据清洗、调整学习率等。微调大模型时，要关注数据集的大小和质量，同时要选择恰当的迁移学习策略和优化器。在微调过程中，要注意不要过拟合，可以通过早停等方法来避免。总结：微调大模型时需要注意数据质量和大小，选择适当的迁移学习和优化器策略，避免过拟合。 <div>
 大模型微调十诫
 ]]></content:encoded>
-
 <pubDate>2024-05-27T11:36:06.000Z</pubDate>
 </item>
 <item>
@@ -24,11 +24,10 @@
 <content:encoded><![CDATA[
 <div> 关键词: 大模型、任务型对话、Rasa、CALM、结合
 
-总结:<br><br>
+总结:<br /><br />
 本文介绍了如何将大模型和任务型对话相结合，以提高聊天机器人的性能。作者提出了一种名为Rasa CALM的方法，通过将大型预训练模型与任务型对话系统相结合，使得机器人在处理复杂多轮对话时表现更好。Rasa CALM利用大模型的语言生成能力和任务型对话系统的对话管理能力相辅相成，有效提高了机器人的对话质量和自然度。通过实验验证，Rasa CALM在多个指标上均取得了较好的表现，展示出了很高的潜力。这种结合方法为聊天机器人的发展带来了新的思路和方向。 <div>
 大模型与任务型对话的结合：Rasa CALM
 ]]></content:encoded>
-
 <pubDate>2024-05-27T11:36:06.000Z</pubDate>
 </item>
 <item>
@@ -36,10 +35,8 @@
 <link>https://mp.weixin.qq.com/s/NhJ0dbKXFxWtdqUiVllpAg</link>
 <guid>https://mp.weixin.qq.com/s/NhJ0dbKXFxWtdqUiVllpAg</guid>
 <content:encoded><![CDATA[
-
 硕博申请 | 上海科技大学屠可伟老师招收自然语言处理方向2024级工程博士/2025级硕博
 ]]></content:encoded>
-
 <pubDate>2024-05-27T11:36:06.000Z</pubDate>
 </item>
 <item>
@@ -47,10 +44,8 @@
 <link>https://mp.weixin.qq.com/s/yiGSjXKo6nwsn2c4CFjf9A</link>
 <guid>https://mp.weixin.qq.com/s/yiGSjXKo6nwsn2c4CFjf9A</guid>
 <content:encoded><![CDATA[
-
 RAG开源项目Qanything源码阅读3-在线推理
 ]]></content:encoded>
-
 <pubDate>2024-05-27T11:36:06.000Z</pubDate>
 </item>
 <item>
@@ -58,13 +53,10 @@ RAG开源项目Qanything源码阅读3-在线推理
 <link>https://mp.weixin.qq.com/s/KSMxXoSMOYKS_XcqEKAcKA</link>
 <guid>https://mp.weixin.qq.com/s/KSMxXoSMOYKS_XcqEKAcKA</guid>
 <content:encoded><![CDATA[
-
 重新回顾：BERT知识蒸馏
 ]]></content:encoded>
-
 <pubDate>2024-05-27T11:36:06.000Z</pubDate>
 </item>
-
 <item>
 <title>微信官方回应：为什么不做已读功能</title>
 <link>https://mp.weixin.qq.com/s/FGBMYU7Utt2k77MIA42QCA</link>
