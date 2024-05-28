@@ -5,20 +5,79 @@
 <link>https://www.zhihu.com/people/li-bo-jie/activities</link>
 
 <item>
+<title>李博杰赞同了回答: 你遇到最离谱的事是什么？</title>
+<link>https://www.zhihu.com/question/580057823/answer/3351375614</link>
+<guid>https://www.zhihu.com/question/580057823/answer/3351375614</guid>
+<content:encoded><![CDATA[
+<div> 汽车、安全带、概念设计、20世纪60年代、汽车安全
+
+总结:<br><br>这篇文章讨论了20世纪60年代关于汽车安全带概念设计的历史。在这一时期，汽车安全逐渐引起人们的重视，安全带作为一种重要的安全设施被提出并设计出不同类型。这一概念的出现，标志着汽车行业开始注重乘客的安全，为后续安全技术的发展奠定了基础。在经过多年的发展和完善，如今安全带已成为几乎所有汽车上必备的配置，是保障驾驶者和乘客安全的重要装置。 <div>
+<p></p><p>20 世纪 60 年代汽车安全带的概念设计。</p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic1.zhimg.com/v2-7c675f203337296b73305bc2cb65f960_1440w.jpg" /></figure><p></p>
+]]></content:encoded>
+<pubDate>Tue, 28 May 2024 03:39:36 GMT</pubDate>
+<pubDate>Tue, 28 May 2024 03:39:36 GMT</pubDate>
+</item>
+<item>
+<title>李博杰赞同了回答: 一个程序员的水平能差到什么程度?</title>
+<link>https://www.zhihu.com/question/314644210/answer/1187413073</link>
+<guid>https://www.zhihu.com/question/314644210/answer/1187413073</guid>
+<content:encoded><![CDATA[
+<div> Flask, debug模式, 生产环境, 用户积分, 前端检测
+
+总结:<br>
+文章描述了逛小网站时发现其采用了Flask的debug模式在生产环境中的情况。另外，网站将用户积分的判断放在前端进行检测，导致只需给积分赋值大于200即可使用全部功能。这种做法存在安全风险，易被黑客利用。 <div>
+<p>有次百般无聊的逛了一个小网站，发现他是用get请求，我就直接改url搜了下，结果出现了这个界面。</p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic2.zhimg.com/v2-9c4184fe3bea16697f4f85ed5e1741e1_1440w.jpg" /></figure><p>当时看这个界面越看越眼熟，这不就是Flask的debug模式么。</p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic4.zhimg.com/v2-5f15bde207dc4fb89141d000917186f3_1440w.jpg" /></figure><p>原来还真的有人把debug模式用于生产环境中的。</p><p>更新：</p><p>很多人觉得这个网站没什么，其实他还有一个特别无语的地方。</p><p>他把用户积分的判断放在了前端进行检测。本来是根据用户的不同积分来判断用户的使用权限，积分不足时会限制使用部分功能。</p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic3.zhimg.com/v2-f57b945497ff6ca0d2a53c638f44de66_1440w.jpg" /></figure><p>但实际上，只需给 score 赋个值，只要大于200，就可以用全部的功能了。</p><p>我把敏感信息去掉了，防止这个小网站被大家黑掉，不然我还怎么用（狗头）</p>
+]]></content:encoded>
+<pubDate>Tue, 28 May 2024 03:38:44 GMT</pubDate>
+<pubDate>Tue, 28 May 2024 03:38:44 GMT</pubDate>
+</item>
+<item>
+<title>李博杰赞同了回答: 你见过的最差的程序员是怎样的？</title>
+<link>https://www.zhihu.com/question/31236086/answer/2968245927</link>
+<guid>https://www.zhihu.com/question/31236086/answer/2968245927</guid>
+<content:encoded><![CDATA[
+
+<p>有个需求，每半年提示一下通知（大致是这样的），java哥们，用了时间等于180天，360天，540天。。。。if了10年的，他说这个程序用不到10年的</p><hr /><p>补充：程序确实没有用10年，1年就凉了，尝试找了找当时他写的代码，没有找到，，，</p>
+]]></content:encoded>
+<pubDate>Mon, 27 May 2024 16:39:14 GMT</pubDate>
+<pubDate>Mon, 27 May 2024 16:39:14 GMT</pubDate>
+</item>
+<item>
+<title>李博杰赞同了回答: 你见过的最差的程序员是怎样的？</title>
+<link>https://www.zhihu.com/question/31236086/answer/2794153526</link>
+<guid>https://www.zhihu.com/question/31236086/answer/2794153526</guid>
+<content:encoded><![CDATA[
+
+<p>分享个震惊我一整年的：曾经一家小公司，老板买了套源码让我们改改就发布，其中一个功能是消耗用户的金币进某个付费直播间。</p><p>客户端判断相关逻辑在这个问题下是标配就不提了。精彩的在于，它的判断逻辑竟然是金币是否等于0！</p><p>也就是说如果你有17金币，你进了一个20金币的直播间，那你的金币就变成-3了。然后永远不会扣成0了，所有付费直播间畅通无阻……</p>
+]]></content:encoded>
+<pubDate>Mon, 27 May 2024 16:38:26 GMT</pubDate>
+<pubDate>Mon, 27 May 2024 16:38:26 GMT</pubDate>
+</item>
+<item>
+<title>李博杰赞同了回答: 你见过的最差的程序员是怎样的？</title>
+<link>https://www.zhihu.com/question/31236086/answer/2998769771</link>
+<guid>https://www.zhihu.com/question/31236086/answer/2998769771</guid>
+<content:encoded><![CDATA[
+
+<p>之前去一个XXX集团面试，一个号称CTO的人，来了之后鼻孔对着我，问我最近都看了些什么书，我说jvm之类的，他让我解释了一下jvm是啥，我说虚拟机巴拉巴拉巴。</p><p>然后他问了我一个震惊我一整年的问题：jvm虚拟机坏了怎么修？</p><p>给我镇住了，他看我没理解，补充说到：你刚才说的虚拟机，如果坏了的话，你是怎么修理的？</p><p>我说我不会。</p><p>他嗤笑了一下，说你这书也白看了。</p><p>我说您知道怎么修吗？</p><p>他说我一般都在做一些研发方向性指导，这种杂事都是让手下去做的。</p><p>我跟他把纸质简历要回来就离开了。</p>
+]]></content:encoded>
+<pubDate>Mon, 27 May 2024 16:36:53 GMT</pubDate>
+<pubDate>Mon, 27 May 2024 16:36:53 GMT</pubDate>
+</item>
+
+<item>
 <title>李博杰赞同了回答: 签发一张SSL证书的成本是0，为什么还卖那么贵？</title>
 <link>https://www.zhihu.com/question/618331956/answer/3184257138</link>
 <guid>https://www.zhihu.com/question/618331956/answer/3184257138</guid>
 <content:encoded><![CDATA[
-<div> EV证书、实体、核实、邮寄、国际快递<br>
-<br>
-总结：<br>
+<div> EV证书、实体、核实、邮寄、国际快递<br />
+<br />
+总结：<br />
 EV证书是有实体的，办理时需核实信息，颁发者免费邮寄证书和USB Key。发货地为欧洲，费用不便宜。 <div>
 <p>冷知识：EV证书是有实体的，长这个样</p><p class="ztext-empty-paragraph"><br /></p><figure><img class="origin_image zh-lightbox-thumb lazy" src="https://pic4.zhimg.com/v2-267d32fb6b1b433662fcf3f51e5deb93_1440w.jpg" /></figure><p>这俩发蓝光的就是</p><p>以及在办理的时候，是真的有人去核实你是不是自己所声明的公司的</p><p>另外一点就是，只要你掏了证书的钱，邮寄纸质证明和这个USB Key需要的国际快递的钱是证书颁发者掏的，我看了一下是从欧洲发货的，想必也不是特别便宜</p>
 ]]></content:encoded>
 <pubDate>Mon, 27 May 2024 08:59:22 GMT</pubDate>
-<pubDate>Mon, 27 May 2024 08:59:22 GMT</pubDate>
 </item>
-
 <item>
 <title>李博杰赞同了回答: 为什么程序员会有代码能跑就不要动的观点？</title>
 <link>https://www.zhihu.com/question/491132556/answer/2989469046</link>
