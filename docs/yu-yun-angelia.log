@@ -1236,3 +1236,15 @@ Existing_entries: 15
 Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/yu-yun-angelia
 append_entries: 0
 Finish: 2024-05-29 12:04:13.527408
+------------------------------------------------------
+Started: 2024-05-29 14:02:50.970861
+Existing_entries: 15
+Fetching from http://tw.wleilei.com:1200/zhihu/people/activities/yu-yun-angelia
+Token length: 250
+Summarized using GPT-3.5-turbo
+Append: [刘语丝Angela回答了问题: 人在最迷茫时该做什么？](https://www.zhihu.com/question/595521100/answer/3514110273)
+Token length: 204
+Summarized using GPT-3.5-turbo
+Append: [刘语丝Angela回答了问题: 一生中什么才是重要的？](https://www.zhihu.com/question/31126037/answer/3514099467)
+append_entries: 2
+Finish: 2024-05-29 14:02:58.822361
