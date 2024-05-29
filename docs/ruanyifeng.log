@@ -1157,3 +1157,9 @@ Summarized using GPT-3.5-turbo
 Append: [分布式数据库入门：以国产数据库 TDSQL 为例](http://www.ruanyifeng.com/blog/2024/05/tdsql.html)
 append_entries: 1
 Finish: 2024-05-29 02:15:50.016214
+------------------------------------------------------
+Started: 2024-05-29 04:04:59.215265
+Existing_entries: 9
+Fetching from https://feeds.feedburner.com/ruanyifeng
+append_entries: 0
+Finish: 2024-05-29 04:04:59.762412

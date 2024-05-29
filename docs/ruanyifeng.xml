@@ -4,12 +4,13 @@
 <title>阮一峰的网络日志</title>
 <link>http://www.ruanyifeng.com/blog/</link>
 
+
 <item>
 <title>分布式数据库入门：以国产数据库 TDSQL 为例</title>
 <link>http://www.ruanyifeng.com/blog/2024/05/tdsql.html</link>
 <guid>http://www.ruanyifeng.com/blog/2024/05/tdsql.html</guid>
 <content:encoded><![CDATA[
-<div> 分布式数据库 优点 难点 CAP 定理 产品 TDSQL<br>
+<div> 分布式数据库 优点 难点 CAP 定理 产品 TDSQL<br />
 分布式数据库是企业级互联网技术的重要组成部分，具有安全、高可用、性能更好和体验更好等优点。然而，成本高和复杂性是普及困难的难点，受到CAP定理的影响。市场上有许多开源和商业产品，其中国产数据库TDSQL是领先的分布式数据库之一。TDSQL提供强同步复制、自动拆分、高度可扩展、高度灵活和产品管控能力等功能，并通过DBbrain和AI智能问答系统帮助用户提高数据库管理效率。用户可以通过简单的步骤在腾讯云上开通和使用TDSQL，进行数据导入、分片和配置硬件等最佳实践操作。 <div>
 <h2>一、简介</h2>
 
@@ -263,9 +264,7 @@
 </ul></div><div></div>
 ]]></content:encoded>
 <pubDate>Wed, 29 May 2024 09:03:49 +0800</pubDate>
-<pubDate>Wed, 29 May 2024 09:03:49 +0800</pubDate>
 </item>
-
 <item>
 <title>科技爱好者周刊（第 301 期）：OpenAI 的图书馆工位</title>
 <link>http://www.ruanyifeng.com/blog/2024/05/weekly-issue-301.html</link>
