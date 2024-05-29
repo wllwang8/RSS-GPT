@@ -1186,3 +1186,12 @@ Existing_entries: 16
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3566232719
 append_entries: 0
 Finish: 2024-05-29 08:04:39.720200
+------------------------------------------------------
+Started: 2024-05-29 10:03:30.660317
+Existing_entries: 16
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3566232719
+Token length: 16
+Summarized using GPT-3.5-turbo
+Append: [血糖一小时内忽然减半是什么感受？](https://mp.weixin.qq.com/s/s-7lt2Ch_Jp3d7plAByeZw)
+append_entries: 1
+Finish: 2024-05-29 10:03:38.235362

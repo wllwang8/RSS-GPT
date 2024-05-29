@@ -1283,3 +1283,16 @@ Existing_entries: 59
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3089330056
 append_entries: 0
 Finish: 2024-05-29 08:04:38.071417
+------------------------------------------------------
+Started: 2024-05-29 10:03:21.543187
+Existing_entries: 59
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3089330056
+Token length: 11
+Summarized using GPT-3.5-turbo
+Append: [焦虑的京东，躺平的员工](https://mp.weixin.qq.com/s/KZAo8LC_HW1mYZckUEWfhQ)
+Token length: 17
+Summarized using GPT-3.5-turbo
+Append: [关于裁员，老板不会告诉你的1个真相](https://mp.weixin.qq.com/s/nFEBc8QfU8Vb3FJY1Nw-6g)
+Append: [精进日志457 | 5.29](https://mp.weixin.qq.com/s/Wg6L4QmecPvscuctWl9vpw)
+append_entries: 3
+Finish: 2024-05-29 10:03:30.652774

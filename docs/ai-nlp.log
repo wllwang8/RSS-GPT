@@ -1278,3 +1278,18 @@ Existing_entries: 70
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
 append_entries: 0
 Finish: 2024-05-29 08:04:40.299822
+------------------------------------------------------
+Started: 2024-05-29 10:03:38.263834
+Existing_entries: 70
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
+Token length: 36
+Summarized using GPT-3.5-turbo
+Append: [从啥也不会到DPO：大模型微调（Fine-Tuning）实践经验最全总结](https://mp.weixin.qq.com/s/kzoCU5Ph6ZRF2s7kVf1kjg)
+Token length: 16
+Summarized using GPT-3.5-turbo
+Append: [小样本学习只是一场学术界自嗨吗？](https://mp.weixin.qq.com/s/Q1WLUUIoWf1sE_e1BH_UQQ)
+Append: [大模型推理优化技术-KV Cache](https://mp.weixin.qq.com/s/2O-3bLPtaNnH-6HR6Wd_iw)
+Append: [LSVCR：从观看到评论，使用大模型联合完成视频与评论推荐](https://mp.weixin.qq.com/s/OwKuyp54EuVB1qI7VMpXzQ)
+Append: [Diffusion Model学习——DDPM原理解读](https://mp.weixin.qq.com/s/LJ8fRSKCJDovH6L3ABDEtQ)
+append_entries: 5
+Finish: 2024-05-29 10:03:49.010118
