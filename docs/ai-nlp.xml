@@ -4,18 +4,18 @@
 <title>AINLP</title>
 <link>http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301.atom</link>
 
+
 <item>
 <title>从啥也不会到DPO：大模型微调（Fine-Tuning）实践经验最全总结</title>
 <link>https://mp.weixin.qq.com/s/kzoCU5Ph6ZRF2s7kVf1kjg</link>
 <guid>https://mp.weixin.qq.com/s/kzoCU5Ph6ZRF2s7kVf1kjg</guid>
 <content:encoded><![CDATA[
 <div> DPO, 大模型微调, Fine-Tuning, 实践经验, 总结
-<br>
+<br />
 DPO：大模型微调（Fine-Tuning）实践经验最全总结包含了从啥也不会到DPO的过程，作者分享了自己的学习经验和实践心得。他建议首先了解基本概念和原理，然后通过实际操作和练习来提升技能。在实践中，需要不断尝试和调整参数，同时要保持耐心和毅力。作者还提到了模型选择、数据处理和结果评估等关键步骤，强调了实践的重要性。总的来说，这篇文章对于想要从零开始学习DPO的人提供了很好的指导和启发。
-<br><br>总结: 本文分享了作者从啥也不会到DPO的学习过程和实践经验，强调了对基本概念的理解和实际操作的重要性，同时提出了模型选择、数据处理和结果评估等关键步骤，对于想要学习DPO的人提供了很好的指导和启发。 <div>
+<br /><br />总结: 本文分享了作者从啥也不会到DPO的学习过程和实践经验，强调了对基本概念的理解和实际操作的重要性，同时提出了模型选择、数据处理和结果评估等关键步骤，对于想要学习DPO的人提供了很好的指导和启发。 <div>
 从啥也不会到DPO：大模型微调（Fine-Tuning）实践经验最全总结
 ]]></content:encoded>
-
 <pubDate>2024-05-29T01:52:42.000Z</pubDate>
 </item>
 <item>
@@ -25,11 +25,10 @@ DPO：大模型微调（Fine-Tuning）实践经验最全总结包含了从啥也
 <content:encoded><![CDATA[
 <div> 小样本学习，学术界，自嗨，关键词
 
-总结:<br>
+总结:<br />
 小样本学习在学术界中引发了热烈讨论，一些人认为它只是一场自我吹捧的学术风潮，但也有人坚信其价值和意义。小样本学习能够在数据量有限的情况下进行有效预测和建模，为解决现实问题提供了重要工具。然而，对于小样本学习的方法和应用还存在许多争议和挑战，需要进一步完善和探讨。因此，小样本学习虽然有其局限性，但仍然值得学术界深入探讨和研究。 <div>
 小样本学习只是一场学术界自嗨吗？
 ]]></content:encoded>
-
 <pubDate>2024-05-29T01:52:42.000Z</pubDate>
 </item>
 <item>
@@ -37,10 +36,8 @@ DPO：大模型微调（Fine-Tuning）实践经验最全总结包含了从啥也
 <link>https://mp.weixin.qq.com/s/2O-3bLPtaNnH-6HR6Wd_iw</link>
 <guid>https://mp.weixin.qq.com/s/2O-3bLPtaNnH-6HR6Wd_iw</guid>
 <content:encoded><![CDATA[
-
 大模型推理优化技术-KV Cache
 ]]></content:encoded>
-
 <pubDate>2024-05-29T01:52:42.000Z</pubDate>
 </item>
 <item>
@@ -48,10 +45,8 @@ DPO：大模型微调（Fine-Tuning）实践经验最全总结包含了从啥也
 <link>https://mp.weixin.qq.com/s/OwKuyp54EuVB1qI7VMpXzQ</link>
 <guid>https://mp.weixin.qq.com/s/OwKuyp54EuVB1qI7VMpXzQ</guid>
 <content:encoded><![CDATA[
-
 LSVCR：从观看到评论，使用大模型联合完成视频与评论推荐
 ]]></content:encoded>
-
 <pubDate>2024-05-29T01:52:42.000Z</pubDate>
 </item>
 <item>
@@ -59,13 +54,10 @@ LSVCR：从观看到评论，使用大模型联合完成视频与评论推荐
 <link>https://mp.weixin.qq.com/s/LJ8fRSKCJDovH6L3ABDEtQ</link>
 <guid>https://mp.weixin.qq.com/s/LJ8fRSKCJDovH6L3ABDEtQ</guid>
 <content:encoded><![CDATA[
-
 Diffusion Model学习——DDPM原理解读
 ]]></content:encoded>
-
 <pubDate>2024-05-29T01:52:42.000Z</pubDate>
 </item>
-
 <item>
 <title>GPT-4o炸裂登场！大模型仍是最大赢家！</title>
 <link>https://mp.weixin.qq.com/s/dqH7ReBhl_DWaA35sa9fZw</link>

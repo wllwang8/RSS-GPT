@@ -1195,3 +1195,9 @@ Summarized using GPT-3.5-turbo
 Append: [血糖一小时内忽然减半是什么感受？](https://mp.weixin.qq.com/s/s-7lt2Ch_Jp3d7plAByeZw)
 append_entries: 1
 Finish: 2024-05-29 10:03:38.235362
+------------------------------------------------------
+Started: 2024-05-29 12:04:18.649712
+Existing_entries: 17
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3566232719
+append_entries: 0
+Finish: 2024-05-29 12:04:19.185754
