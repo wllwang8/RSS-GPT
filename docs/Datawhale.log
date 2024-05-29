@@ -1263,3 +1263,15 @@ Existing_entries: 29
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3226363426
 append_entries: 0
 Finish: 2024-05-29 20:03:05.582013
+------------------------------------------------------
+Started: 2024-05-29 22:03:20.438025
+Existing_entries: 29
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_3226363426
+Token length: 21
+Summarized using GPT-3.5-turbo
+Append: [顶会ACL 2024专场：大模型多语言能力](https://mp.weixin.qq.com/s/d7Px8gi8JcyXTCc_y5tsmQ)
+Token length: 28
+Summarized using GPT-3.5-turbo
+Append: [「隐私保护机器学习」隐私计算实训营第2期，限时免费开启！](https://mp.weixin.qq.com/s/F2xbZl2FppcSG8WQF1F_WA)
+append_entries: 2
+Finish: 2024-05-29 22:03:30.280743
