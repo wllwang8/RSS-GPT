@@ -1357,3 +1357,18 @@ Existing_entries: 85
 Fetching from http://tw.wleilei.com:1200/zhihu/daily
 append_entries: 0
 Finish: 2024-05-29 22:02:48.759585
+------------------------------------------------------
+Started: 2024-05-30 00:09:07.673019
+Existing_entries: 85
+Fetching from http://tw.wleilei.com:1200/zhihu/daily
+Token length: 2441
+Summarized using GPT-3.5-turbo
+Append: [为什么空调房里没蚊子？](https://daily.zhihu.com/story/9772746)
+Token length: 13390
+Summarized using GPT-4-turbo-preview
+Append: [汉武帝统治相当折腾，为什么没有亡国？](https://daily.zhihu.com/story/9772751)
+Append: [只有江苏常州方言中把「带馅的」都叫做馒头吗？](https://daily.zhihu.com/story/9772760)
+Append: [为什么同一道光通过介质，有的光折射有的光反射？](https://daily.zhihu.com/story/9772762)
+Append: [瞎扯 · 如何正确地吐槽](https://daily.zhihu.com/story/9772763)
+append_entries: 5
+Finish: 2024-05-30 00:09:56.298348
