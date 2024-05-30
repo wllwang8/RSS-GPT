@@ -1359,3 +1359,18 @@ Existing_entries: 75
 Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
 append_entries: 0
 Finish: 2024-05-30 08:03:40.024340
+------------------------------------------------------
+Started: 2024-05-30 10:03:36.060291
+Existing_entries: 75
+Fetching from http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301
+Token length: 20
+Summarized using GPT-3.5-turbo
+Append: [LLM之王：多模态大模型的技术实践与思考](https://mp.weixin.qq.com/s/EAaojfUiGNF5c4VtamVfVw)
+Token length: 11
+Summarized using GPT-3.5-turbo
+Append: [面试通过，背调凉了。。](https://mp.weixin.qq.com/s/TNHRRAkJVR7fpq6NLr5jYw)
+Append: [大模型偏好对齐-DPO](https://mp.weixin.qq.com/s/-wUwacSz7D8E0sRdDqB2Pg)
+Append: [长文 | 大模型偏好对齐全家桶 - RL侧](https://mp.weixin.qq.com/s/1UykiAxUaIeI6gE_cjuzkg)
+Append: [【RAG论文】检索信息中的噪音是如何影响大模型生成的？](https://mp.weixin.qq.com/s/rDeLJwl9v5MU1PLXrdDl3Q)
+append_entries: 5
+Finish: 2024-05-30 10:03:45.780352
