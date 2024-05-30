@@ -4,18 +4,18 @@
 <title>AINLP</title>
 <link>http://tw.wleilei.com:4001/feeds/MP_WXS_2398933301.atom</link>
 
+
 <item>
 <title>LLM之王：多模态大模型的技术实践与思考</title>
 <link>https://mp.weixin.qq.com/s/EAaojfUiGNF5c4VtamVfVw</link>
 <guid>https://mp.weixin.qq.com/s/EAaojfUiGNF5c4VtamVfVw</guid>
 <content:encoded><![CDATA[
 <div> LLM之王、多模态、大模型、技术实践、思考
-<br>
-<br>
+<br />
+<br />
 总结：本文探讨了多模态大模型在实践中的技术应用和思考。文章指出，随着技术的发展，多模态大模型在自然语言处理领域发挥着越来越重要的作用，能够同时处理文本、图片等多种信息。作者强调了模型在不同任务上的表现和应用，认为多模态大模型在语义理解、视觉识别等方面具有广阔的应用前景。同时，文章还深入探讨了模型的训练和优化策略，指出了目前存在的挑战和问题，提出了未来研究的方向和思考。文章通过技术实践的案例和理论探讨，为多模态大模型的发展和应用提供了有益的参考。 <div>
 LLM之王：多模态大模型的技术实践与思考
 ]]></content:encoded>
-
 <pubDate>2024-05-30T02:37:48.000Z</pubDate>
 </item>
 <item>
@@ -24,10 +24,9 @@ LLM之王：多模态大模型的技术实践与思考
 <guid>https://mp.weixin.qq.com/s/TNHRRAkJVR7fpq6NLr5jYw</guid>
 <content:encoded><![CDATA[
 <div> 通过、面试、背调、冷了、关键词
-总结:<br><br>面试通过，背调出现了问题导致关系变得冷淡。整个过程中，表现出色的面试表现取得成功，但在背调环节却出现了一些不利因素，使得原本顺利的流程受阻。在面试中不仅要准备好自己的表现，也要注意自己的背景信息，确保所有方面都没有问题，以免影响最终的结果。要时刻保持专业和真诚，才能在整个求职过程中取得更好的结果。 <div>
+总结:<br /><br />面试通过，背调出现了问题导致关系变得冷淡。整个过程中，表现出色的面试表现取得成功，但在背调环节却出现了一些不利因素，使得原本顺利的流程受阻。在面试中不仅要准备好自己的表现，也要注意自己的背景信息，确保所有方面都没有问题，以免影响最终的结果。要时刻保持专业和真诚，才能在整个求职过程中取得更好的结果。 <div>
 面试通过，背调凉了。。
 ]]></content:encoded>
-
 <pubDate>2024-05-30T02:37:48.000Z</pubDate>
 </item>
 <item>
@@ -35,10 +34,8 @@ LLM之王：多模态大模型的技术实践与思考
 <link>https://mp.weixin.qq.com/s/-wUwacSz7D8E0sRdDqB2Pg</link>
 <guid>https://mp.weixin.qq.com/s/-wUwacSz7D8E0sRdDqB2Pg</guid>
 <content:encoded><![CDATA[
-
 大模型偏好对齐-DPO
 ]]></content:encoded>
-
 <pubDate>2024-05-30T02:37:48.000Z</pubDate>
 </item>
 <item>
@@ -46,10 +43,8 @@ LLM之王：多模态大模型的技术实践与思考
 <link>https://mp.weixin.qq.com/s/1UykiAxUaIeI6gE_cjuzkg</link>
 <guid>https://mp.weixin.qq.com/s/1UykiAxUaIeI6gE_cjuzkg</guid>
 <content:encoded><![CDATA[
-
 长文 | 大模型偏好对齐全家桶 - RL侧
 ]]></content:encoded>
-
 <pubDate>2024-05-30T02:37:48.000Z</pubDate>
 </item>
 <item>
@@ -57,13 +52,10 @@ LLM之王：多模态大模型的技术实践与思考
 <link>https://mp.weixin.qq.com/s/rDeLJwl9v5MU1PLXrdDl3Q</link>
 <guid>https://mp.weixin.qq.com/s/rDeLJwl9v5MU1PLXrdDl3Q</guid>
 <content:encoded><![CDATA[
-
 【RAG论文】检索信息中的噪音是如何影响大模型生成的？
 ]]></content:encoded>
-
 <pubDate>2024-05-30T02:37:48.000Z</pubDate>
 </item>
-
 <item>
 <title>从啥也不会到DPO：大模型微调（Fine-Tuning）实践经验最全总结</title>
 <link>https://mp.weixin.qq.com/s/kzoCU5Ph6ZRF2s7kVf1kjg</link>
