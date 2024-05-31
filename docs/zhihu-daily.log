@@ -1438,3 +1438,18 @@ Existing_entries: 90
 Fetching from http://tw.wleilei.com:1200/zhihu/daily
 append_entries: 0
 Finish: 2024-05-30 22:02:54.037365
+------------------------------------------------------
+Started: 2024-05-31 00:08:02.662376
+Existing_entries: 90
+Fetching from http://tw.wleilei.com:1200/zhihu/daily
+Token length: 7849
+Summarized using GPT-3.5-turbo
+Append: [有哪些反直觉的物理现象？](https://daily.zhihu.com/story/9772774)
+Token length: 2006
+Summarized using GPT-3.5-turbo
+Append: [光是粒子还是波？](https://daily.zhihu.com/story/9772770)
+Append: [唐朝灭亡以后为什么没有形成三国或者南北朝，而是更碎片的五代十国？](https://daily.zhihu.com/story/9772784)
+Append: [大自然的馈赠——天然染料](https://daily.zhihu.com/story/9772786)
+Append: [瞎扯 · 如何正确地吐槽](https://daily.zhihu.com/story/9772796)
+append_entries: 5
+Finish: 2024-05-31 00:08:19.666151
