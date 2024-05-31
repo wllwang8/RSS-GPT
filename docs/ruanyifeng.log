@@ -1295,3 +1295,12 @@ Existing_entries: 9
 Fetching from https://feeds.feedburner.com/ruanyifeng
 append_entries: 0
 Finish: 2024-05-31 00:08:45.812135
+------------------------------------------------------
+Started: 2024-05-31 02:15:08.269881
+Existing_entries: 9
+Fetching from https://feeds.feedburner.com/ruanyifeng
+Token length: 4793
+Summarized using GPT-3.5-turbo
+Append: [科技爱好者周刊（第 302 期）：创业虽然好，不敢推荐了](http://www.ruanyifeng.com/blog/2024/05/weekly-issue-302.html)
+append_entries: 1
+Finish: 2024-05-31 02:15:13.419061
